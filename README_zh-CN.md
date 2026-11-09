@@ -21,7 +21,7 @@
 
 **Claude Opus 5.5 视频提示词：54 条用代码做视频的提示词与做法，从单个 HTML 到 Remotion、Blender。**
 
-Claude Opus 5.5 视频提示词让模型写代码，视频由代码在你的电脑上渲染出来。可以直接复制提示词，也可以看创作者是怎么做的。
+Claude Opus 5.5 视频提示词让模型写代码，视频由代码在你的电脑上渲染出来。可以直接复制提示词，也可以看创作者是怎么做的。 所有成片都能在 GitHub 页面上直接播放。
 
 在线搜索和筛选： [apiko.app/claude-opus-5-5-video-prompts](https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=intro).
 
@@ -154,7 +154,7 @@ Claude 输出的是代码而不是视频：你运行代码，渲染器截取画�
 
 max 档一句话，用来检验渲染环境是否跑得通，而不是一个创意。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=motion-graphics-01#motion-graphics-01"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/motion-graphics-01.webp" width="560" alt="一句话做 15 秒动效作品集 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/4fa680de-c11d-444d-adba-ba7b3d083de2
 
 **提示词:**
 
@@ -169,7 +169,7 @@ make a dynamic 15-second motion graphics video that shows what an incredible mot
 
 把字效、粒子、遮罩、流体逐项列出，让 15 秒里同时出现 2D、3D 和着色器。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=motion-graphics-02#motion-graphics-02"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/motion-graphics-02.webp" width="560" alt="逐项点名技法的作品集简报 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/6350570e-d7cf-4ce7-86f4-aa27c9d40cbb
 
 **提示词:**
 
@@ -184,7 +184,7 @@ Create a bold, dynamic 15-second motion graphics showreel that feels like the ul
 
 先定节拍，再禁掉常见套路，并写明按时间驱动的 seek(t)、弹簧曲线和首尾相接。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=motion-graphics-03#motion-graphics-03"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/motion-graphics-03.webp" width="560" alt="一个图形连变十几种 UI 状态 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/b411c3df-917a-4fbe-8531-eb0ae334998e
 
 **提示词:**
 
@@ -224,7 +224,7 @@ Ask me for the inputs, then show me the state list on the beat grid before you w
 
 五千多字的导演稿，先向你要照片和配乐，再锁定一镜到底和按峰值对齐的音效。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=motion-graphics-04#motion-graphics-04"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/motion-graphics-04.webp" width="560" alt="苹果发布会风格的液态玻璃发布片 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/e7bde3a8-cfea-4093-9763-8269b63eb47a
 
 **提示词:**
 
@@ -270,7 +270,7 @@ Ask me for the inputs, then show me the beat map and 4 stills (open, glass, stag
 
 每镜一个想法、一种强调色、一款字体，再用你自己的竖屏素材刷过一面墙。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=motion-graphics-05#motion-graphics-05"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/motion-graphics-05.webp" width="560" alt="踩着鼓点切的极简产品发布片 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/0676b75d-adf7-4702-b3af-b72e6517a359
 
 **提示词:**
 
@@ -312,7 +312,7 @@ Ask me for the inputs, then show me a storyboard with every timing on the beat g
 
 可填空的模板：等级配色、卡通着色 3D，外加一长串禁止事项。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=motion-graphics-06#motion-graphics-06"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/motion-graphics-06.webp" width="560" alt="手游开箱奖励演出，真 3D 渲染 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/dcfa9d92-a889-4c60-9a6c-8391d0438307
 
 **提示词:**
 
@@ -390,7 +390,7 @@ Ask me for the inputs, then show me a storyboard with every timing on the beat g
 
 固定逻辑分辨率、调色板、状态机和粒子池，让像素动画代码保持整洁。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=motion-graphics-07#motion-graphics-07"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/motion-graphics-07.webp" width="560" alt="纯 Canvas 像素风法师施法 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/1d707e18-89ad-4c80-ac4a-4aa6c3538f39
 
 **提示词:**
 
@@ -421,7 +421,7 @@ QUALITY BAR
 
 同一套模板只加一句要更多色彩，作者借此看到了模型自选的渲染流程。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=motion-graphics-08#motion-graphics-08"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/motion-graphics-08.webp" width="560" alt="UI 变形模板的缤纷重混版 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/73cf26b5-bb0b-4713-9aee-e90a580a2bc0
 
 **做法（作者没有公开提示词）:**
 
@@ -439,7 +439,7 @@ QUALITY BAR
 
 一句话交代产品类型和语气，场景、文案和节奏交给模型。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=product-launch-01#product-launch-01"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/product-launch-01.webp" width="560" alt="一句话生成推理创业公司发布片 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/e9c9bc7a-4785-4a78-8718-3ae61f5330e5
 
 **提示词:**
 
@@ -454,7 +454,7 @@ make a modern slick and punchy video for a modern startup that works on inferenc
 
 沿用作品集那句话，再把项目目录指给模型，让它取真实素材。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=product-launch-02#product-launch-02"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/product-launch-02.webp" width="560" alt="HyperFrames 三步做宣传片 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/1f65db0e-ed59-4ab9-b074-bbc9b1435b29
 
 **提示词:**
 
@@ -469,7 +469,7 @@ make a dynamic 15-second motion graphics video that shows what an incredible mot
 
 限定角色、时长、分场和品牌色，只留一处括号填你的业务。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=product-launch-03#product-launch-03"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/product-launch-03.webp" width="560" alt="可复用的 30 秒业务讲解模板 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/fe995a4e-4904-45b8-93dd-4d12f7ceb41a
 
 **提示词:**
 
@@ -484,7 +484,7 @@ Adopt the role of an expert motion designer. Build a 30-second animated explaine
 
 用 Remotion 加合成配音做的 56 秒竖屏宣传片。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=product-launch-04#product-launch-04"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/product-launch-04.webp" width="320" alt="阿拉伯语竖屏编程辅导 App 宣传片 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/ea43a1ca-aa74-4686-b704-5217af2e46fa
 
 **做法（作者没有公开提示词）:**
 
@@ -497,7 +497,7 @@ Adopt the role of an expert motion designer. Build a 30-second animated explaine
 
 给模型一个网址和 HyperFrames 技能，就能出 35 秒宣传片。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=product-launch-05#product-launch-05"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/product-launch-05.webp" width="560" alt="从官网直接生成的 Kotlin 宣传片 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/4384deb5-1edc-4ac4-872c-f446cbc2f0b9
 
 **做法（作者没有公开提示词）:**
 
@@ -510,7 +510,7 @@ JetBrains 的工程师把 HyperFrames 技能交给 Claude Opus 5.5，再指向 k
 
 模型先设计外壳，再为它做 10 秒宣传动画，全在 Claude Code 里完成。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=product-launch-06#product-launch-06"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/product-launch-06.webp" width="560" alt="为自己设计的导轨外壳做宣传动画 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/8a7f67f6-f39c-4d14-9868-fc5ac3b860d6
 
 **做法（作者没有公开提示词）:**
 
@@ -523,7 +523,7 @@ JetBrains 的工程师把 HyperFrames 技能交给 Claude Opus 5.5，再指向 k
 
 一支预告片做了两天、改了 33 版才定稿。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=product-launch-07#product-launch-07"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/product-launch-07.webp" width="560" alt="Remotion 做 Notion 功能预告片 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/16b5489f-039a-490f-9419-d1fbf53ae8a8
 
 **做法（作者没有公开提示词）:**
 
@@ -536,7 +536,7 @@ JetBrains 的工程师把 HyperFrames 技能交给 Claude Opus 5.5，再指向 k
 
 为真实 App 一次生成的发布视频，用到 HyperFrames 技能。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=product-launch-08#product-launch-08"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/product-launch-08.webp" width="560" alt="20 分钟做出的 App 发布片 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/b7bff036-6b23-4ce6-8f8a-5cb2b04035d7
 
 **做法（作者没有公开提示词）:**
 
@@ -549,7 +549,7 @@ JetBrains 的工程师把 HyperFrames 技能交给 Claude Opus 5.5，再指向 k
 
 在 HyperFrames 里用两条提示词、没有任何参考做出的 40 秒宣传片。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=product-launch-09#product-launch-09"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/product-launch-09.webp" width="560" alt="两条提示词做出 Cosmos 宣传片 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/c70459c7-be6a-44be-86a4-6e2e237eef9b
 
 **做法（作者没有公开提示词）:**
 
@@ -562,7 +562,7 @@ JetBrains 的工程师把 HyperFrames 技能交给 Claude Opus 5.5，再指向 k
 
 4:3 画幅的设计案例动画，为面试讲解而做。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=product-launch-10#product-launch-10"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/product-launch-10.webp" width="560" alt="用动画讲清 UX 设计决策 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/1a29ce3c-bf9d-4122-8e10-8c1af0d63734
 
 **做法（作者没有公开提示词）:**
 
@@ -580,7 +580,7 @@ JetBrains 的工程师把 HyperFrames 技能交给 Claude Opus 5.5，再指向 k
 
 点名工具 Manim 和配音 edge-tts，要求有例子；没给时长，它排了 7.6 分钟。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=explainer-01#explainer-01"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/explainer-01.webp" width="560" alt="Manim 导数课，edge-tts 配音 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/06ee4703-b1d8-4b89-9806-6ccfcc04e775
 
 **提示词:**
 
@@ -595,7 +595,9 @@ JetBrains 的工程师把 HyperFrames 技能交给 Claude Opus 5.5，再指向 k
 
 说明受众是高中生、要有细节，并给足工具自由，时长和结构由模型定。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=explainer-02#explainer-02"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/explainer-02.webp" width="560" alt="12 分钟讲透 Transformer – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/313fdcf3-12cc-4970-b641-6582f3e24cc1
+
+<sub>这里只放前 4 分钟，完整视频见 [apiko.app](https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=explainer-02#explainer-02)</sub>
 
 **提示词:**
 
@@ -615,7 +617,7 @@ JetBrains 的工程师把 HyperFrames 技能交给 Claude Opus 5.5，再指向 k
 
 导演式简报：配乐当时钟，先定拍点和分镜表再渲染，年代先核对。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=explainer-03#explainer-03"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/explainer-03.webp" width="560" alt="逐帧渲染的中华文明史诗编年片 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/9beec9a4-7735-4d36-9639-0bd007dfe4f0
 
 **提示词:**
 
@@ -635,7 +637,7 @@ JetBrains 的工程师把 HyperFrames 技能交给 Claude Opus 5.5，再指向 k
 
 一个概念加一条结构规则：每一段换一种画风。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=explainer-04#explainer-04"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/explainer-04.webp" width="560" alt="用九种迥异画风讲递归 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/4bc7e2c6-51f1-49da-be45-a9c38c69ca4c
 
 **提示词:**
 
@@ -650,7 +652,7 @@ A video explaining recursion, where every explanation about recursion has a radi
 
 直白的请求：输入一张照片，输出 30 秒 HTML 食谱动画。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=explainer-05#explainer-05"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/explainer-05.webp" width="560" alt="一张照片生成内格罗尼食谱动画 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/c3f7b71d-0a82-42db-8b20-b4babda1ed6e
 
 **提示词:**
 
@@ -665,7 +667,7 @@ We're going to try a little test. Do you think you could render a recipe motion 
 
 浏览器里能剖开、追踪流路、调节推力的页面，录屏成 35 秒讲解。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=explainer-06#explainer-06"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/explainer-06.webp" width="560" alt="可拆解的 Raptor 3 火箭发动机 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/6f9b3002-f4d6-4e27-8d99-e205813de824
 
 **做法（作者没有公开提示词）:**
 
@@ -678,7 +680,7 @@ We're going to try a little test. Do you think you could render a recipe motion 
 
 全程 Canvas 绘制、约两分钟渲染完的日语相对论讲解。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=explainer-07#explainer-07"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/explainer-07.webp" width="560" alt="剪纸风双生子佯谬，1395 帧 Canvas – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/f79740bb-eb2c-4372-9b7d-fd24a53ca882
 
 **做法（作者没有公开提示词）:**
 
@@ -691,7 +693,7 @@ We're going to try a little test. Do you think you could render a recipe motion 
 
 Manim 动画、真训练的 MNIST 模型和克隆旁白，约五分半钟。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=explainer-08#explainer-08"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/explainer-08.webp" width="560" alt="3Blue1Brown 风格的自编码器讲解 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/028010a1-7874-44ad-a3a2-e88605d180c4
 
 **做法（作者没有公开提示词）:**
 
@@ -704,7 +706,7 @@ Manim 动画、真训练的 MNIST 模型和克隆旁白，约五分半钟。
 
 约 7400 行 React/TypeScript，图像全部用 SVG 与 Canvas 绘制，配开源语音。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=explainer-09#explainer-09"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/explainer-09.webp" width="560" alt="全用代码做的 3 分钟 AI 简史 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/644e1b2a-c2b0-45d1-8782-67055943c599
 
 **做法（作者没有公开提示词）:**
 
@@ -717,7 +719,7 @@ Manim 动画、真训练的 MNIST 模型和克隆旁白，约五分半钟。
 
 三轮评审加修复在作者睡觉时跑完：评审排优先级，修复者动手。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=explainer-10#explainer-10"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/explainer-10.webp" width="560" alt="智能体通宵打磨的黑洞透镜实验室 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/da053832-0663-4fa0-be0c-2ca1cd5bbf7a
 
 **做法（作者没有公开提示词）:**
 
@@ -735,7 +737,7 @@ Manim 动画、真训练的 MNIST 模型和克隆旁白，约五分半钟。
 
 生成的图片和片段在代码里合成，并设有费用关卡：先列清单等你确认。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=storyboard-to-video-01#storyboard-to-video-01"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/storyboard-to-video-01.webp" width="560" alt="穿过复古拼贴世界的无限缩放 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/68b77d3b-130e-4ff9-aefd-069d9e88ad22
 
 **提示词:**
 
@@ -776,7 +778,7 @@ Show me screenshots before each expensive step.
 
 模型驱动图像与视频 MCP，一次做出 30 秒短片。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=storyboard-to-video-02#storyboard-to-video-02"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/storyboard-to-video-02.webp" width="560" alt="10 分钟用 Krea MCP 拍出的短片 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/a95a6bb8-3940-4533-a5bf-af2226380d13
 
 **做法（作者没有公开提示词）:**
 
@@ -789,7 +791,7 @@ Show me screenshots before each expensive step.
 
 三个工具分工：Opus 做图解动画，语音模型配音，Seedance 做开场人脸。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=storyboard-to-video-03#storyboard-to-video-03"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/storyboard-to-video-03.webp" width="320" alt="日语竖屏评测短视频：图解、配音、开场 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/6a30d473-9d1c-44fb-9c00-b47a0ef18f56
 
 **做法（作者没有公开提示词）:**
 
@@ -802,7 +804,7 @@ Show me screenshots before each expensive step.
 
 Opus 写游戏，视频模型生成预告片镜头。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=storyboard-to-video-04#storyboard-to-video-04"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/storyboard-to-video-04.webp" width="560" alt="两小时八关攻城游戏和 60 秒预告片 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/7d1a0114-a5da-4dc9-91d1-95ba0e9af13d
 
 **做法（作者没有公开提示词）:**
 
@@ -820,7 +822,7 @@ Opus 写游戏，视频模型生成预告片镜头。
 
 口述的长简报加完整环境：参考资料、图像接口、视频模型和花费上限。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=music-video-01#music-video-01"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/music-video-01.webp" width="560" alt="《Claude Pop》MV：12 小时自主运行 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/f41a5796-7258-412e-a0f2-96073aca6ff7
 
 **提示词:**
 
@@ -842,7 +844,9 @@ make no mistakes.
 
 先要求调研和分析音乐，再写出与 S3M 曲目同步的原生 OpenGL 演示。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=music-video-02#music-video-02"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/music-video-02.webp" width="560" alt="90 年代风 OpenGL 演示作品 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/8d769efe-1956-4dce-8458-fcb11386df05
+
+<sub>这里只放前 4 分钟，完整视频见 [apiko.app](https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=music-video-02#music-video-02)</sub>
 
 **提示词:**
 
@@ -857,7 +861,7 @@ I would like you to create a kickass, impressive 1990s style demoscene demo usin
 
 一份分镜文件、一份动画指南、九章九个文件，再用无头 Chrome 渲染。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=music-video-03#music-video-03"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/music-video-03.webp" width="560" alt="p5.brush 手绘、多智能体并行的 MV – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/19ac1237-6adb-4482-ac44-5e96bab89bfd
 
 **做法（作者没有公开提示词）:**
 
@@ -870,7 +874,7 @@ Claude 先写出给并行子智能体的动画指南和分镜，把整支 MV 拆
 
 简报不变，参考素材一换，出来完全不同的 5 分钟片子。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=music-video-04#music-video-04"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/music-video-04.webp" width="560" alt="同一份简报换成 Midjourney 与情绪板 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/f0162d5f-c9cc-40f0-ae40-f4cd1c5a7176
 
 **做法（作者没有公开提示词）:**
 
@@ -883,7 +887,7 @@ Claude 先写出给并行子智能体的动画指南和分镜，把整支 MV 拆
 
 约 75 个踩点镜头，返工两次才把火柴人修成像样的角色。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=music-video-05#music-video-05"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/music-video-05.webp" width="320" alt="《一笔之间》：智能体群做的竖屏 MV – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/94e93850-505e-475c-b6d8-9d8a1f04dc3d
 
 **做法（作者没有公开提示词）:**
 
@@ -896,7 +900,7 @@ Claude 先写出给并行子智能体的动画指南和分镜，把整支 MV 拆
 
 脚本和音乐由人提供，每一帧由模型用 JavaScript 画出。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=music-video-06#music-video-06"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/music-video-06.webp" width="560" alt="p5.brush 画的中秋拼贴动画 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/57dcf36e-2875-4533-83e5-f3329420c4d2
 
 **做法（作者没有公开提示词）:**
 
@@ -914,7 +918,7 @@ Claude 先写出给并行子智能体的动画指南和分镜，把整支 MV 拆
 
 一句话交代时长、故事和声音；没有用 Blender 或 Three.js。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=short-film-01#short-film-01"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/short-film-01.webp" width="560" alt="两分钟沙画讲美国 250 年 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/a5c86a65-2423-4b9b-89f6-bd50dc954906
 
 **提示词:**
 
@@ -929,7 +933,7 @@ Make a 2-minute sand animation that tells the story of 250 years of U.S. history
 
 要求最精细的版本、不限技术、时间随便用。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=short-film-02#short-film-02"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/short-film-02.webp" width="560" alt="自研 GPU 光线步进的鹈鹕骑车影片 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/97793470-430e-4132-840e-fa590babcded
 
 **提示词:**
 
@@ -944,7 +948,7 @@ Make a 2-minute sand animation that tells the story of 250 years of U.S. history
 
 题材由模型自选，每个像素出自一个着色器，声音来自 Web Audio。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=short-film-03#short-film-03"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/short-film-03.webp" width="560" alt="滕王阁中秋夜，单个 WebGL2 着色器 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/f066e58e-c1a1-455d-a24e-436e72145c5d
 
 **提示词:**
 
@@ -959,7 +963,7 @@ Make a 2-minute sand animation that tells the story of 250 years of U.S. history
 
 一句话写清场景、战机涂装、天空和气氛，属于同人致敬。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=short-film-04#short-film-04"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/short-film-04.webp" width="560" alt="Three.js 复刻《红猪》日落空战 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/7159116d-018b-43d7-8975-8adf4c4fc0e8
 
 **提示词:**
 
@@ -974,7 +978,7 @@ Make a 2-minute sand animation that tells the story of 250 years of U.S. history
 
 真实地形和太阳位置，自写引擎、配乐与旁白。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=short-film-05#short-film-05"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/short-film-05.webp" width="560" alt="奥斯特里茨 1805：全代码 5 分钟片 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/1c0e28d6-23a9-473c-9e5d-4f4b14624b8e
 
 **做法（作者没有公开提示词）:**
 
@@ -987,7 +991,7 @@ Make a 2-minute sand animation that tells the story of 250 years of U.S. history
 
 不写分镜，不套现成视频技能，只提供克隆声音。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=short-film-06#short-film-06"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/short-film-06.webp" width="560" alt="低多边形 3D 版《崂山道士》 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/e385a9b4-ab11-46d2-acfd-e08ee0a62990
 
 **做法（作者没有公开提示词）:**
 
@@ -1005,7 +1009,7 @@ Make a 2-minute sand animation that tells the story of 250 years of U.S. history
 
 先建带出处的数据文件，再写 Blender 生成器，每栋楼都能追溯到来源。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=3d-blender-01#3d-blender-01"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/3d-blender-01.webp" width="560" alt="1906 年地震前一天的旧金山市场街 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/c9b677e6-2f2b-4ff3-b3a9-9ada3865005b
 
 **提示词:**
 
@@ -1024,7 +1028,7 @@ Provide a 10 second video up the street.
 
 一条提示词，只用 Blender，渲染 10 秒镜头并录建模延时。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=3d-blender-02#3d-blender-02"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/3d-blender-02.webp" width="560" alt="同题程序化 Blender 对比测试 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/52f1dedf-18d3-4dc3-8ba6-3539154e35bc
 
 **做法（作者没有公开提示词）:**
 
@@ -1037,7 +1041,7 @@ Provide a 10 second video up the street.
 
 用 JavaScript 写真实火焰模拟，带渲染、评审的循环。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=3d-blender-04#3d-blender-04"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/3d-blender-04.webp" width="560" alt="GPU 流体模拟篝火，自我评审约 40 次 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/a3613517-128c-46eb-8cc2-4139b731e710
 
 **做法（作者没有公开提示词）:**
 
@@ -1050,7 +1054,7 @@ Provide a 10 second video up the street.
 
 通过 MCP 连接驱动 Blender，做出竖屏短片。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=3d-blender-06#3d-blender-06"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/3d-blender-06.webp" width="320" alt="15 分钟做好的风车：建模、绑定、动画 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/76e7d3fa-0892-4d73-8007-f710bccaa3f9
 
 **做法（作者没有公开提示词）:**
 
@@ -1068,7 +1072,7 @@ Provide a 10 second video up the street.
 
 一句话的剪辑简报：字幕、图形和配乐。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=video-editing-01#video-editing-01"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/video-editing-01.webp" width="560" alt="把原始口播素材剪成有节奏的成片 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/47a6a27f-677a-4fe6-b4ca-5e3026a69301
 
 **提示词:**
 
@@ -1083,7 +1087,7 @@ Cut a raw talking-head clip into a punchy, fun edit with subtitles, graphics and
 
 用舞蹈视频的骨骼数据驱动文字、光线和镜头。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=video-editing-02#video-editing-02"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/video-editing-02.webp" width="560" alt="让 Opus 操作 After Effects 后期 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/b73b7c64-9b33-478f-adfc-74c279a7d01e
 
 **做法（作者没有公开提示词）:**
 
@@ -1096,7 +1100,7 @@ Cut a raw talking-head clip into a punchy, fun edit with subtitles, graphics and
 
 Claude 当剪辑师，Resolve 经 MCP 驱动，HyperFrames 做转场素材。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=video-editing-03#video-editing-03"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/video-editing-03.webp" width="560" alt="整支 YouTube 视频交给它剪 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/05ff9091-c704-4686-a40b-baf8f4c1a09b
 
 **做法（作者没有公开提示词）:**
 
@@ -1109,7 +1113,7 @@ Claude 当剪辑师，Resolve 经 MCP 驱动，HyperFrames 做转场素材。
 
 原始生成片与重剪版并排对比。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=video-editing-04#video-editing-04"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/video-editing-04.webp" width="560" alt="Opus 5.5 重剪 Grok 生成的舞蹈片 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/bea453e6-d1d3-4ddd-98b6-77beee2f5718
 
 **做法（作者没有公开提示词）:**
 
@@ -1122,7 +1126,7 @@ Claude 当剪辑师，Resolve 经 MCP 驱动，HyperFrames 做转场素材。
 
 Unity 游戏、通关录像和 30 秒集锦，全由模型完成。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=video-editing-05#video-editing-05"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/video-editing-05.webp" width="560" alt="Opus 自己玩游戏并剪出精彩集锦 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/096b166c-7f68-4f0f-800b-26d2ef99d838
 
 **做法（作者没有公开提示词）:**
 
@@ -1135,7 +1139,7 @@ Unity 游戏、通关录像和 30 秒集锦，全由模型完成。
 
 求解器和演示片都由模型从一条提示词做出。
 
-<a href="https://apiko.app/zh/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=video-editing-06#video-editing-06"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/video-editing-06.webp" width="560" alt="11 万刚体 WebGPU 物理求解器的演示片 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/77298e62-d2b7-4ffd-80a3-eda1314366c0
 
 **做法（作者没有公开提示词）:**
 

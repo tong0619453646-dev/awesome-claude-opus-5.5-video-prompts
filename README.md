@@ -21,7 +21,7 @@
 
 **Claude Opus 5.5 video prompts: 54 prompts and methods that turn code into video, from one HTML file to Remotion, Three.js and Blender.**
 
-Claude Opus 5.5 video prompts make the model write code, and the code renders the video on your machine. Copy a prompt, or read how each creator built theirs.
+Claude Opus 5.5 video prompts make the model write code, and the code renders the video on your machine. Copy a prompt, or read how each creator built theirs. Every result video plays right here on GitHub.
 
 Search and filter them on [apiko.app/claude-opus-5-5-video-prompts](https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=intro).
 
@@ -154,7 +154,7 @@ by [@stephanlivera](https://x.com/stephanlivera) · 15s · 16:9 · **[▶ Run on
 
 A single sentence at max effort; it tests whether your render setup works rather than an idea.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=motion-graphics-01#motion-graphics-01"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/motion-graphics-01.webp" width="560" alt="One-line 15-second motion designer showreel – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/4fa680de-c11d-444d-adba-ba7b3d083de2
 
 **Prompt:**
 
@@ -169,7 +169,7 @@ by [@lukasersil](https://x.com/lukasersil) · 15s · 16:9 · **[▶ Run on APIKO
 
 Listing the techniques (typography, particles, masking, fluids) steers the model across 2D, 3D and shader work in one 15 s cut.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=motion-graphics-02#motion-graphics-02"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/motion-graphics-02.webp" width="560" alt="Showreel brief that names every technique – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/6350570e-d7cf-4ce7-86f4-aa27c9d40cbb
 
 **Prompt:**
 
@@ -184,7 +184,7 @@ by [@twoclipping](https://x.com/twoclipping) · 14s · 1:1 · **[▶ Run on APIK
 
 Fixes the beat grid, bans the usual tells and gives a build recipe: time-driven seek(t), springs, a looping last frame.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=motion-graphics-03#motion-graphics-03"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/motion-graphics-03.webp" width="560" alt="One shape morphing through a dozen UI states – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/b411c3df-917a-4fbe-8531-eb0ae334998e
 
 **Prompt:**
 
@@ -224,7 +224,7 @@ by [@twoclipping](https://x.com/twoclipping) · 29s · 1:1 · **[▶ Run on APIK
 
 A 5,000-character direction block asks for your photos and track first, then locks one continuous take with a measured sound sync.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=motion-graphics-04#motion-graphics-04"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/motion-graphics-04.webp" width="560" alt="Keynote-style launch film with liquid glass – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/e7bde3a8-cfea-4093-9763-8269b63eb47a
 
 **Prompt:**
 
@@ -270,7 +270,7 @@ by [@twoclipping](https://x.com/twoclipping) · 20s · 16:9 · **[▶ Run on API
 
 One idea per shot, one accent colour, one font, and your own vertical clips scanned across a wall.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=motion-graphics-05#motion-graphics-05"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/motion-graphics-05.webp" width="560" alt="Minimal product launch cut on the beat – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/0676b75d-adf7-4702-b3af-b72e6517a359
 
 **Prompt:**
 
@@ -312,7 +312,7 @@ by [@op7418](https://x.com/op7418) · 18s · 16:9 · **[▶ Run on APIKO](https:
 
 A fill-in template with tier colours, toon-shaded 3D and a long list of things not to do.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=motion-graphics-06#motion-graphics-06"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/motion-graphics-06.webp" width="560" alt="Mobile-game reward reveal in real 3D – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/dcfa9d92-a889-4c60-9a6c-8391d0438307
 
 **Prompt:**
 
@@ -390,7 +390,7 @@ by [@majidmanzarpour](https://x.com/majidmanzarpour) · 11s · 5:4 · **[▶ Run
 
 Pins the logical resolution, palette, state machine and particle pool so the sprite code stays tidy.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=motion-graphics-07#motion-graphics-07"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/motion-graphics-07.webp" width="560" alt="Pixel-art wizard casting a spell in pure Canvas – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/1d707e18-89ad-4c80-ac4a-4aa6c3538f39
 
 **Prompt:**
 
@@ -421,7 +421,7 @@ by [@__morse](https://x.com/__morse) · 15s · 1:1 · **[▶ Run on APIKO](https
 
 The same template with a colour request; the author watched the model pick its own render pipeline.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=motion-graphics-08#motion-graphics-08"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/motion-graphics-08.webp" width="560" alt="Colourful remix of the UI-morph template – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/73cf26b5-bb0b-4713-9aee-e90a580a2bc0
 
 **How it was made (no prompt was shared):**
 
@@ -439,7 +439,7 @@ by [@deedydas](https://x.com/deedydas) · 26s · 16:9 · **[▶ Run on APIKO](ht
 
 One line gives the product type and the tone; the model fills in scenes, copy and timing.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=product-launch-01#product-launch-01"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/product-launch-01.webp" width="560" alt="Punchy launch video for an inference startup – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/e9c9bc7a-4785-4a78-8718-3ae61f5330e5
 
 **Prompt:**
 
@@ -454,7 +454,7 @@ by [@thayto_dev](https://x.com/thayto_dev) · 15s · 16:9 · **[▶ Run on APIKO
 
 Reuses the showreel sentence and points the model at your project folder so it pulls real material.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=product-launch-02#product-launch-02"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/product-launch-02.webp" width="560" alt="HyperFrames recipe: skill, showreel line, your project – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/1f65db0e-ed59-4ab9-b074-bbc9b1435b29
 
 **Prompt:**
 
@@ -469,7 +469,7 @@ by [@alex_prompter](https://x.com/alex_prompter) · 35s · 16:9 · **[▶ Run on
 
 Fixes role, length, scene list and brand colours, then leaves one bracket for your business.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=product-launch-03#product-launch-03"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/product-launch-03.webp" width="560" alt="Reusable 30-second business explainer – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/fe995a4e-4904-45b8-93dd-4d12f7ceb41a
 
 **Prompt:**
 
@@ -484,7 +484,7 @@ by [@YarHmm](https://x.com/YarHmm) · 56s · 9:16 · **[▶ Run on APIKO](https:
 
 A 56-second vertical promo built in Remotion with a synthetic voice.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=product-launch-04#product-launch-04"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/product-launch-04.webp" width="320" alt="Arabic vertical promo for a coding-tutor app – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/ea43a1ca-aa74-4686-b704-5217af2e46fa
 
 **How it was made (no prompt was shared):**
 
@@ -497,7 +497,7 @@ by [@JetBrains](https://x.com/jetbrains) · 35s · 16:9 · **[▶ Run on APIKO](
 
 Pointing the model at a site URL and a HyperFrames skill is enough to get a 35-second promo.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=product-launch-05#product-launch-05"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/product-launch-05.webp" width="560" alt="Kotlin promo generated from the language's website – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/4384deb5-1edc-4ac4-872c-f446cbc2f0b9
 
 **How it was made (no prompt was shared):**
 
@@ -510,7 +510,7 @@ by [@VectorCrossProd](https://x.com/VectorCrossProd) · 10s · 16:9 · **[▶ Ru
 
 The model designed the enclosure and then animated a 10-second promo for it, all from prompts in Claude Code.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=product-launch-06#product-launch-06"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/product-launch-06.webp" width="560" alt="Promo animation for a 3D-printed DIN-rail enclosure – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/8a7f67f6-f39c-4d14-9868-fc5ac3b860d6
 
 **How it was made (no prompt was shared):**
 
@@ -523,7 +523,7 @@ by [@wustep](https://x.com/wustep) · 32s · 16:9 · **[▶ Run on APIKO](https:
 
 A product trailer that took two days and 33 versions to sign off.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=product-launch-07#product-launch-07"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/product-launch-07.webp" width="560" alt="Notion column-permissions trailer in Remotion – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/16b5489f-039a-490f-9419-d1fbf53ae8a8
 
 **How it was made (no prompt was shared):**
 
@@ -536,7 +536,7 @@ by [@Miguel07Code](https://x.com/Miguel07Code) · 58s · 16:9 · **[▶ Run on A
 
 A launch video for a real app, produced in one pass with the HyperFrames skill.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=product-launch-08#product-launch-08"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/product-launch-08.webp" width="560" alt="Shotbase launch video in HyperFrames in under 20 minutes – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/b7bff036-6b23-4ce6-8f8a-5cb2b04035d7
 
 **How it was made (no prompt was shared):**
 
@@ -549,7 +549,7 @@ by [@kaolti](https://x.com/kaolti) · 40s · 16:9 · **[▶ Run on APIKO](https:
 
 A 40-second promo built in HyperFrames from two prompts and no visual references.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=product-launch-09#product-launch-09"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/product-launch-09.webp" width="560" alt="Cosmos moodboard-app promo from two prompts – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/c70459c7-be6a-44be-86a4-6e2e237eef9b
 
 **How it was made (no prompt was shared):**
 
@@ -562,7 +562,7 @@ by [@moguzbulbul](https://x.com/moguzbulbul) · 42s · 4:3 · **[▶ Run on APIK
 
 A 4:3 animated walkthrough of design choices, made for job interviews.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=product-launch-10#product-launch-10"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/product-launch-10.webp" width="560" alt="UX case-study animation explaining design decisions – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/1a29ce3c-bf9d-4122-8e10-8c1af0d63734
 
 **How it was made (no prompt was shared):**
 
@@ -580,7 +580,7 @@ by [@LinearUncle](https://x.com/LinearUncle) · 457s · 16:9 · **[▶ Run on AP
 
 Names the tool (Manim) and the voice (edge-tts), asks for examples; no length given, so it planned 7.6 minutes.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=explainer-01#explainer-01"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/explainer-01.webp" width="560" alt="Manim lesson on derivatives with spoken narration – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/06ee4703-b1d8-4b89-9806-6ccfcc04e775
 
 **Prompt:**
 
@@ -595,7 +595,9 @@ by [@dotey](https://x.com/dotey) · 732s · 16:9 · **[▶ Run on APIKO](https:/
 
 Gives the audience (high schoolers), the depth wanted and full tool freedom, and lets the model set length and structure.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=explainer-02#explainer-02"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/explainer-02.webp" width="560" alt="12-minute explainer &quot;What is a Transformer&quot; – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/313fdcf3-12cc-4970-b641-6582f3e24cc1
+
+<sub>First 4 minutes only; the full video is on [apiko.app](https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=explainer-02#explainer-02)</sub>
 
 **Prompt:**
 
@@ -615,7 +617,7 @@ by [@dotey](https://x.com/dotey) · 217s · 16:9 · **[▶ Run on APIKO](https:/
 
 A director's brief: score as clock, beat grid and shot table before rendering, dated facts checked.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=explainer-03#explainer-03"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/explainer-03.webp" width="560" alt="Epic chronicle of Chinese civilization, frame-rendered – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/9beec9a4-7735-4d36-9639-0bd007dfe4f0
 
 **Prompt:**
 
@@ -635,7 +637,7 @@ by [@emollick](https://x.com/emollick) · 75s · 16:9 · **[▶ Run on APIKO](ht
 
 A concept plus one structural rule: every section changes style.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=explainer-04#explainer-04"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/explainer-04.webp" width="560" alt="Explaining recursion in nine different video styles – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/4bc7e2c6-51f1-49da-be45-a9c38c69ca4c
 
 **Prompt:**
 
@@ -650,7 +652,7 @@ by [@Ror_Fly](https://x.com/Ror_Fly) · 30s · 1:1 · **[▶ Run on APIKO](https
 
 Plain request: one photo in, a 30-second recipe animation in HTML out.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=explainer-05#explainer-05"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/explainer-05.webp" width="560" alt="Negroni recipe motion graphic from one photo – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/c3f7b71d-0a82-42db-8b20-b4babda1ed6e
 
 **Prompt:**
 
@@ -665,7 +667,7 @@ by [@konstantinsaifo](https://x.com/konstantinsaifo) · 35s · 16:9 · **[▶ Ru
 
 A browser page with a cutaway, flow paths and throttle, screen-recorded as a 35-second explainer.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=explainer-06#explainer-06"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/explainer-06.webp" width="560" alt="Interactive Raptor 3 engine you can take apart – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/6f9b3002-f4d6-4e27-8d99-e205813de824
 
 **How it was made (no prompt was shared):**
 
@@ -678,7 +680,7 @@ by [@masahirochaen](https://x.com/masahirochaen) · 47s · 1:1 · **[▶ Run on 
 
 A Japanese-language relativity explainer drawn entirely in Canvas and rendered to MP4 in about two minutes.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=explainer-07#explainer-07"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/explainer-07.webp" width="560" alt="Twin paradox in paper-cutout style, 1,395 Canvas frames – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/f79740bb-eb2c-4372-9b7d-fd24a53ca882
 
 **How it was made (no prompt was shared):**
 
@@ -691,7 +693,7 @@ by [@ng169onX](https://x.com/ng169onX) · 335s · 16:9 · **[▶ Run on APIKO](h
 
 Manim animations, a model really trained on MNIST and cloned narration in a roughly five-minute video.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=explainer-08#explainer-08"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/explainer-08.webp" width="560" alt="3Blue1Brown-style explainer on autoencoders – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/028010a1-7874-44ad-a3a2-e88605d180c4
 
 **How it was made (no prompt was shared):**
 
@@ -704,7 +706,7 @@ by [@kimmonismus](https://x.com/kimmonismus) · 180s · 16:9 · **[▶ Run on AP
 
 About 7,400 lines of React and TypeScript, drawn in SVG and Canvas, with a synthetic voice.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=explainer-09#explainer-09"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/explainer-09.webp" width="560" alt="Three-minute history of AI, all in Remotion code – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/644e1b2a-c2b0-45d1-8782-67055943c599
 
 **How it was made (no prompt was shared):**
 
@@ -717,7 +719,7 @@ by [@Voxyz_ai](https://x.com/Voxyz_ai) · 22s · 16:9 · **[▶ Run on APIKO](ht
 
 Three review-and-fix rounds ran while the author slept, with reviewers ranking issues and a fixer applying them.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=explainer-10#explainer-10"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/explainer-10.webp" width="560" alt="Black-hole lensing lab polished overnight by agents – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/da053832-0663-4fa0-be0c-2ca1cd5bbf7a
 
 **How it was made (no prompt was shared):**
 
@@ -735,7 +737,7 @@ by [@koldo2k](https://x.com/koldo2k) · 20s · 16:9 · **[▶ Run on APIKO](http
 
 Generated images and clips composited in code, with a cost gate: list generations and wait for approval.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=storyboard-to-video-01#storyboard-to-video-01"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/storyboard-to-video-01.webp" width="560" alt="Infinite zoom through vintage collage worlds – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/68b77d3b-130e-4ff9-aefd-069d9e88ad22
 
 **Prompt:**
 
@@ -776,7 +778,7 @@ by [@angrypenguinPNG](https://x.com/angrypenguinPNG) · 30s · 16:9 · **[▶ Ru
 
 The model drove an image and video MCP to make a 30-second film in one pass.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=storyboard-to-video-02#storyboard-to-video-02"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/storyboard-to-video-02.webp" width="560" alt="Short film through the Krea MCP in 10 minutes – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/a95a6bb8-3940-4533-a5bf-af2226380d13
 
 **How it was made (no prompt was shared):**
 
@@ -789,7 +791,7 @@ by [@masahirochaen](https://x.com/masahirochaen) · 57s · 9:16 · **[▶ Run on
 
 Three tools split the work: Opus for the diagram animation, a TTS model for the voice, Seedance for the face.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=storyboard-to-video-03#storyboard-to-video-03"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/storyboard-to-video-03.webp" width="320" alt="Vertical review short: diagrams, TTS voice, Seedance opening – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/6a30d473-9d1c-44fb-9c00-b47a0ef18f56
 
 **How it was made (no prompt was shared):**
 
@@ -802,7 +804,7 @@ by [@KanaWorks_AI](https://x.com/KanaWorks_AI) · 60s · 16:9 · **[▶ Run on A
 
 Opus built the game; video models made the trailer shots.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=storyboard-to-video-04#storyboard-to-video-04"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/storyboard-to-video-04.webp" width="560" alt="Eight-stage siege game, then a 60-second trailer – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/7d1a0114-a5da-4dc9-91d1-95ba0e9af13d
 
 **How it was made (no prompt was shared):**
 
@@ -820,7 +822,7 @@ by [@donaldjewkes](https://x.com/donaldjewkes) · 142s · 16:9 · **[▶ Run on 
 
 A long dictated brief plus a full environment: reference files, image API, video models and a spending cap.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=music-video-01#music-video-01"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/music-video-01.webp" width="560" alt="&quot;Claude Pop&quot; music video from a 12-hour autonomous run – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/f41a5796-7258-412e-a0f2-96073aca6ff7
 
 **Prompt:**
 
@@ -842,7 +844,9 @@ by [@gandamu_ml](https://x.com/gandamu_ml) · 383s · 16:9 · **[▶ Run on APIK
 
 Asks for research and music analysis first, then a native OpenGL demo synced to an S3M track.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=music-video-02#music-video-02"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/music-video-02.webp" width="560" alt="1990s demoscene demo in C/C++ and OpenGL – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/8d769efe-1956-4dce-8458-fcb11386df05
+
+<sub>First 4 minutes only; the full video is on [apiko.app](https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=music-video-02#music-video-02)</sub>
 
 **Prompt:**
 
@@ -857,7 +861,7 @@ by [@other__reality](https://x.com/other__reality) · 157s · 16:9 · **[▶ Run
 
 A storyboard file, an animation guide, nine chapters in nine files and a headless Chrome render.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=music-video-03#music-video-03"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/music-video-03.webp" width="560" alt="Music video painted with p5.brush and parallel agents – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/19ac1237-6adb-4482-ac44-5e96bab89bfd
 
 **How it was made (no prompt was shared):**
 
@@ -870,7 +874,7 @@ by [@anabology](https://x.com/anabology) · 307s · 16:9 · **[▶ Run on APIKO]
 
 Same long brief, new reference material, a completely different 5-minute film.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=music-video-04#music-video-04"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/music-video-04.webp" width="560" alt="The same brief re-run with Midjourney and a moodboard – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/f0162d5f-c9cc-40f0-ae40-f4cd1c5a7176
 
 **How it was made (no prompt was shared):**
 
@@ -883,7 +887,7 @@ by [@bradmillscan](https://x.com/bradmillscan) · 203s · 9:16 · **[▶ Run on 
 
 About 75 shots cut on the beat, with two revisions to fix stick-figure characters.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=music-video-05#music-video-05"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/music-video-05.webp" width="320" alt="&quot;Stroke of a Pen&quot;: a vertical music video by an agent swarm – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/94e93850-505e-475c-b6d8-9d8a1f04dc3d
 
 **How it was made (no prompt was shared):**
 
@@ -896,7 +900,7 @@ by [@ring_hyacinth](https://x.com/ring_hyacinth) · 40s · 16:9 · **[▶ Run on
 
 The person supplied script and music; the model drew every frame in JavaScript.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=music-video-06#music-video-06"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/music-video-06.webp" width="560" alt="Mid-Autumn paper-collage short in p5.brush – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/57dcf36e-2875-4533-83e5-f3329420c4d2
 
 **How it was made (no prompt was shared):**
 
@@ -914,7 +918,7 @@ by [@Michaelzsguo](https://x.com/Michaelzsguo) · 120s · 16:9 · **[▶ Run on 
 
 One sentence with the length, the story and the sound; neither Blender nor Three.js was used.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=short-film-01#short-film-01"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/short-film-01.webp" width="560" alt="Two-minute sand animation of 250 years of US history – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/a5c86a65-2423-4b9b-89f6-bd50dc954906
 
 **Prompt:**
 
@@ -929,7 +933,7 @@ by [@AxtonLiu](https://x.com/AxtonLiu) · 38s · 16:9 · **[▶ Run on APIKO](ht
 
 Asks for the most refined version with any technique and unlimited time.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=short-film-02#short-film-02"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/short-film-02.webp" width="560" alt="Pelican on a bicycle with a custom GPU ray-marcher – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/97793470-430e-4132-840e-fa590babcded
 
 **Prompt:**
 
@@ -944,7 +948,7 @@ by [@DemitiyaGeekzen](https://x.com/DemitiyaGeekzen) · 30s · 16:9 · **[▶ Ru
 
 The model chose the topic; every pixel comes from one shader, the sound from Web Audio.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=short-film-03#short-film-03"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/short-film-03.webp" width="560" alt="Tengwang Pavilion at Mid-Autumn, one WebGL2 shader – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/f066e58e-c1a1-455d-a24e-436e72145c5d
 
 **Prompt:**
 
@@ -959,7 +963,7 @@ by [@NFT_Chen](https://x.com/NFT_Chen) · 14s · 16:9 · **[▶ Run on APIKO](ht
 
 One line names the scene, the aircraft livery, the sky and the mood; a fan tribute.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=short-film-04#short-film-04"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/short-film-04.webp" width="560" alt="Porco Rosso-style sunset dogfight in Three.js – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/7159116d-018b-43d7-8975-8adf4c4fc0e8
 
 **Prompt:**
 
@@ -974,7 +978,7 @@ by [@WinterArc2125](https://x.com/WinterArc2125) · 301s · 16:9 · **[▶ Run o
 
 Real terrain and sun position, a written engine, score and voice.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=short-film-05#short-film-05"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/short-film-05.webp" width="560" alt="Austerlitz, 2 December 1805: a five-minute film in code – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/1c0e28d6-23a9-473c-9e5d-4f4b14624b8e
 
 **How it was made (no prompt was shared):**
 
@@ -987,7 +991,7 @@ by [@wshuyi](https://x.com/wshuyi) · 359s · 16:9 · **[▶ Run on APIKO](https
 
 No storyboard and no ready-made video skill; only a cloned voice was supplied.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=short-film-06#short-film-06"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/short-film-06.webp" width="560" alt="Low-poly 3D retelling of &quot;The Taoist of Laoshan&quot; – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/e385a9b4-ab11-46d2-acfd-e08ee0a62990
 
 **How it was made (no prompt was shared):**
 
@@ -1005,7 +1009,7 @@ by [@alexalbert__](https://x.com/alexalbert__) · 8s · 4:3 · **[▶ Run on API
 
 Builds a sourced data file first, then Blender generators, so every building traces to a source.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=3d-blender-01#3d-blender-01"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/3d-blender-01.webp" width="560" alt="Market Street, San Francisco, the day before 1906 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/c9b677e6-2f2b-4ff3-b3a9-9ada3865005b
 
 **Prompt:**
 
@@ -1024,7 +1028,7 @@ by [@Stefan_3D_AI](https://x.com/Stefan_3D_AI) · 46s · 16:9 · **[▶ Run on A
 
 One prompt, Blender only, a 10-second render plus a build timelapse.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=3d-blender-02#3d-blender-02"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/3d-blender-02.webp" width="560" alt="Same procedural Blender shot: Opus 5.5 vs GPT-6 Astra – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/52f1dedf-18d3-4dc3-8ba6-3539154e35bc
 
 **How it was made (no prompt was shared):**
 
@@ -1037,7 +1041,7 @@ by [@NathanWilbanks_](https://x.com/NathanWilbanks_) · 38s · 16:9 · **[▶ Ru
 
 A real fire simulation in JavaScript with a render-and-critique loop.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=3d-blender-04#3d-blender-04"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/3d-blender-04.webp" width="560" alt="GPU fluid-simulated campfire, self-critiqued 40 times – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/a3613517-128c-46eb-8cc2-4139b731e710
 
 **How it was made (no prompt was shared):**
 
@@ -1050,7 +1054,7 @@ by [@Higgsfield](https://x.com/higgsfield_ai) · 21s · 9:16 · **[▶ Run on AP
 
 Blender driven over an MCP connection for a short vertical clip.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=3d-blender-06#3d-blender-06"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/3d-blender-06.webp" width="320" alt="Windmill modelled, rigged and animated in 15 minutes – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/76e7d3fa-0892-4d73-8007-f710bccaa3f9
 
 **How it was made (no prompt was shared):**
 
@@ -1068,7 +1072,7 @@ by [@sab8a](https://x.com/sab8a) · 37s · 16:9 · **[▶ Run on APIKO](https://
 
 A one-line editing brief: subtitles, graphics and music.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=video-editing-01#video-editing-01"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/video-editing-01.webp" width="560" alt="Raw talking-head clip cut into a punchy edit – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/47a6a27f-677a-4fe6-b4ca-5e3026a69301
 
 **Prompt:**
 
@@ -1083,7 +1087,7 @@ by [@aicreataro](https://x.com/aicreataro) · 32s · 16:9 · **[▶ Run on APIKO
 
 Skeleton data from the dance video moves text, light and camera in After Effects.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=video-editing-02#video-editing-02"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/video-editing-02.webp" width="560" alt="Opus 5.5 driving After Effects on generated clips – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/b73b7c64-9b33-478f-adfc-74c279a7d01e
 
 **How it was made (no prompt was shared):**
 
@@ -1096,7 +1100,7 @@ by [@NickSpisak_](https://x.com/NickSpisak_) · 539s · 16:9 · **[▶ Run on AP
 
 Claude as the editor, Resolve driven over MCP, HyperFrames for B-roll.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=video-editing-03#video-editing-03"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/video-editing-03.webp" width="560" alt="A full YouTube video edited through DaVinci Resolve – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/05ff9091-c704-4686-a40b-baf8f4c1a09b
 
 **How it was made (no prompt was shared):**
 
@@ -1109,7 +1113,7 @@ by [@Gorden_Sun](https://x.com/Gorden_Sun) · 15s · 16:9 · **[▶ Run on APIKO
 
 The raw generated clip is shown next to the edited version.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=video-editing-04#video-editing-04"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/video-editing-04.webp" width="560" alt="Grok-generated dance clip recut by Opus 5.5 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/bea453e6-d1d3-4ddd-98b6-77beee2f5718
 
 **How it was made (no prompt was shared):**
 
@@ -1122,7 +1126,7 @@ by [@rehan_shei](https://x.com/rehan_shei) · 30s · 16:9 · **[▶ Run on APIKO
 
 A Unity game, a playthrough and a 30-second demo reel, all by the model.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=video-editing-05#video-editing-05"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/video-editing-05.webp" width="560" alt="Opus played its own game and cut the best moments – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/096b166c-7f68-4f0f-800b-26d2ef99d838
 
 **How it was made (no prompt was shared):**
 
@@ -1135,7 +1139,7 @@ by [@nybobs](https://x.com/nybobs) · 26s · 16:9 · **[▶ Run on APIKO](https:
 
 The model built the solver and put the demo reel together from one prompt.
 
-<a href="https://apiko.app/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=video-editing-06#video-editing-06"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/video-editing-06.webp" width="560" alt="Demo reel for a 110K-body WebGPU physics solver – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/77298e62-d2b7-4ffd-80a3-eda1314366c0
 
 **How it was made (no prompt was shared):**
 

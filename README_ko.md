@@ -21,7 +21,7 @@
 
 **Claude Opus 5.5 영상 프롬프트 54개. HTML 한 파일부터 Remotion, Three.js, Blender까지 코드로 영상을 만드는 프롬프트와 제작 방법.**
 
-Claude Opus 5.5 영상 프롬프트로 모델이 코드를 쓰고, 영상은 그 코드가 내 컴퓨터에서 렌더링합니다. 프롬프트를 복사하거나 제작 과정을 읽어 보세요.
+Claude Opus 5.5 영상 프롬프트로 모델이 코드를 쓰고, 영상은 그 코드가 내 컴퓨터에서 렌더링합니다. 프롬프트를 복사하거나 제작 과정을 읽어 보세요. 결과 영상은 모두 GitHub에서 바로 재생됩니다.
 
 검색과 필터는 [apiko.app/claude-opus-5-5-video-prompts](https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=intro).
 
@@ -154,7 +154,7 @@ Claude가 내놓는 것은 영상이 아니라 코드입니다. 코드를 실행
 
 max 단계에서 한 문장만 쓴 프롬프트로, 아이디어보다 렌더링 환경이 도는지 확인하는 용도입니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=motion-graphics-01#motion-graphics-01"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/motion-graphics-01.webp" width="560" alt="한 줄로 만든 15초 모션 디자이너 쇼릴 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/4fa680de-c11d-444d-adba-ba7b3d083de2
 
 **프롬프트:**
 
@@ -169,7 +169,7 @@ make a dynamic 15-second motion graphics video that shows what an incredible mot
 
 타이포, 파티클, 마스킹, 유체를 나열해 15초 안에 2D, 3D, 셰이더가 함께 나오게 합니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=motion-graphics-02#motion-graphics-02"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/motion-graphics-02.webp" width="560" alt="기법을 하나씩 짚은 쇼릴 브리프 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/6350570e-d7cf-4ce7-86f4-aa27c9d40cbb
 
 **프롬프트:**
 
@@ -184,7 +184,7 @@ Create a bold, dynamic 15-second motion graphics showreel that feels like the ul
 
 비트를 먼저 정하고 흔한 연출을 금지한 뒤, 시간 기반 seek(t)와 스프링, 루프 구조를 적었습니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=motion-graphics-03#motion-graphics-03"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/motion-graphics-03.webp" width="560" alt="도형 하나가 UI 열두 가지로 변하는 영상 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/b411c3df-917a-4fbe-8531-eb0ae334998e
 
 **프롬프트:**
 
@@ -224,7 +224,7 @@ Ask me for the inputs, then show me the state list on the beat grid before you w
 
 5천 자 넘는 연출서가 사진과 음악을 먼저 요청하고, 원테이크와 측정된 효과음 싱크를 고정합니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=motion-graphics-04#motion-graphics-04"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/motion-graphics-04.webp" width="560" alt="리퀴드 글래스 키노트풍 런칭 필름 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/e7bde3a8-cfea-4093-9763-8269b63eb47a
 
 **프롬프트:**
 
@@ -270,7 +270,7 @@ Ask me for the inputs, then show me the beat map and 4 stills (open, glass, stag
 
 샷마다 아이디어 하나, 강조색 하나, 서체 하나, 그리고 내 세로 영상이 벽을 훑습니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=motion-graphics-05#motion-graphics-05"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/motion-graphics-05.webp" width="560" alt="비트에 맞춰 자르는 미니멀 제품 런칭 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/0676b75d-adf7-4702-b3af-b72e6517a359
 
 **프롬프트:**
 
@@ -312,7 +312,7 @@ Ask me for the inputs, then show me a storyboard with every timing on the beat g
 
 등급별 색, 툰 셰이딩 3D, 긴 금지 목록이 들어간 채워 쓰는 템플릿입니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=motion-graphics-06#motion-graphics-06"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/motion-graphics-06.webp" width="560" alt="모바일 게임 보상 연출을 진짜 3D로 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/dcfa9d92-a889-4c60-9a6c-8391d0438307
 
 **프롬프트:**
 
@@ -390,7 +390,7 @@ Ask me for the inputs, then show me a storyboard with every timing on the beat g
 
 논리 해상도, 팔레트, 상태 머신, 파티클 풀을 고정해 픽셀 애니메이션 코드를 깔끔하게 유지합니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=motion-graphics-07#motion-graphics-07"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/motion-graphics-07.webp" width="560" alt="순수 Canvas로 그린 픽셀 마법사 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/1d707e18-89ad-4c80-ac4a-4aa6c3538f39
 
 **프롬프트:**
 
@@ -421,7 +421,7 @@ QUALITY BAR
 
 같은 템플릿에 색을 더 달라는 한 줄만 더해, 모델이 스스로 고른 렌더링 방식이 드러났습니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=motion-graphics-08#motion-graphics-08"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/motion-graphics-08.webp" width="560" alt="UI 변형 템플릿의 컬러풀 리믹스 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/73cf26b5-bb0b-4713-9aee-e90a580a2bc0
 
 **만든 방법(작성자가 프롬프트를 공개하지 않음):**
 
@@ -439,7 +439,7 @@ QUALITY BAR
 
 한 문장으로 제품 유형과 톤을 알리면 장면, 문구, 속도는 모델이 채웁니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=product-launch-01#product-launch-01"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/product-launch-01.webp" width="560" alt="한 줄로 만든 추론 스타트업 런칭 영상 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/e9c9bc7a-4785-4a78-8718-3ae61f5330e5
 
 **프롬프트:**
 
@@ -454,7 +454,7 @@ make a modern slick and punchy video for a modern startup that works on inferenc
 
 쇼릴 문장을 그대로 쓰고 프로젝트 폴더를 알려 줘 실제 자료를 가져오게 합니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=product-launch-02#product-launch-02"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/product-launch-02.webp" width="560" alt="HyperFrames로 만드는 3단계 홍보 영상 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/1f65db0e-ed59-4ab9-b074-bbc9b1435b29
 
 **프롬프트:**
 
@@ -469,7 +469,7 @@ make a dynamic 15-second motion graphics video that shows what an incredible mot
 
 역할, 길이, 장면 구성, 브랜드 색을 정하고 내 사업을 넣을 괄호 하나만 남깁니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=product-launch-03#product-launch-03"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/product-launch-03.webp" width="560" alt="재사용하는 30초 비즈니스 설명 템플릿 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/fe995a4e-4904-45b8-93dd-4d12f7ceb41a
 
 **프롬프트:**
 
@@ -484,7 +484,7 @@ Adopt the role of an expert motion designer. Build a 30-second animated explaine
 
 Remotion과 합성 음성으로 만든 56초 세로 홍보 영상입니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=product-launch-04#product-launch-04"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/product-launch-04.webp" width="320" alt="아랍어 세로형 코딩 튜터 앱 홍보 영상 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/ea43a1ca-aa74-4686-b704-5217af2e46fa
 
 **만든 방법(작성자가 프롬프트를 공개하지 않음):**
 
@@ -497,7 +497,7 @@ Remotion과 합성 음성으로 만든 56초 세로 홍보 영상입니다.
 
 사이트 주소와 HyperFrames 스킬만 주면 35초짜리 홍보 영상이 나옵니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=product-launch-05#product-launch-05"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/product-launch-05.webp" width="560" alt="웹사이트만 보고 만든 Kotlin 홍보 영상 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/4384deb5-1edc-4ac4-872c-f446cbc2f0b9
 
 **만든 방법(작성자가 프롬프트를 공개하지 않음):**
 
@@ -510,7 +510,7 @@ JetBrains 엔지니어가 Claude Opus 5.5에 HyperFrames 스킬을 주고 kotlin
 
 모델이 케이스를 설계한 다음 10초 홍보 애니메이션까지 만들었습니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=product-launch-06#product-launch-06"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/product-launch-06.webp" width="560" alt="직접 설계한 DIN 레일 케이스 홍보 애니메이션 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/8a7f67f6-f39c-4d14-9868-fc5ac3b860d6
 
 **만든 방법(작성자가 프롬프트를 공개하지 않음):**
 
@@ -523,7 +523,7 @@ JetBrains 엔지니어가 Claude Opus 5.5에 HyperFrames 스킬을 주고 kotlin
 
 트레일러 하나에 이틀, 33번의 수정이 들어갔습니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=product-launch-07#product-launch-07"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/product-launch-07.webp" width="560" alt="Remotion으로 만든 Notion 기능 트레일러 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/16b5489f-039a-490f-9419-d1fbf53ae8a8
 
 **만든 방법(작성자가 프롬프트를 공개하지 않음):**
 
@@ -536,7 +536,7 @@ Notion 직원이 주말 동안 Claude Opus 5.5(xhigh 단계)와 Remotion으로 �
 
 HyperFrames 스킬로 실제 앱의 런칭 영상을 한 번에 만들었습니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=product-launch-08#product-launch-08"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/product-launch-08.webp" width="560" alt="20분 안에 만든 앱 런칭 영상 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/b7bff036-6b23-4ce6-8f8a-5cb2b04035d7
 
 **만든 방법(작성자가 프롬프트를 공개하지 않음):**
 
@@ -549,7 +549,7 @@ HyperFrames 스킬로 실제 앱의 런칭 영상을 한 번에 만들었습니�
 
 HyperFrames에서 참고 자료 없이 프롬프트 두 개로 만든 40초 영상입니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=product-launch-09#product-launch-09"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/product-launch-09.webp" width="560" alt="프롬프트 두 개로 만든 Cosmos 홍보 영상 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/c70459c7-be6a-44be-86a4-6e2e237eef9b
 
 **만든 방법(작성자가 프롬프트를 공개하지 않음):**
 
@@ -562,7 +562,7 @@ HyperFrames에서 참고 자료 없이 프롬프트 두 개로 만든 40초 영�
 
 면접에서 설명하려고 만든 4:3 디자인 사례 애니메이션입니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=product-launch-10#product-launch-10"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/product-launch-10.webp" width="560" alt="UX 설계 결정을 설명하는 애니메이션 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/1a29ce3c-bf9d-4122-8e10-8c1af0d63734
 
 **만든 방법(작성자가 프롬프트를 공개하지 않음):**
 
@@ -580,7 +580,7 @@ HyperFrames에서 참고 자료 없이 프롬프트 두 개로 만든 40초 영�
 
 도구(Manim)와 음성(edge-tts)을 지정하고 예시를 요구했으며, 길이를 안 줘서 7.6분으로 짰습니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=explainer-01#explainer-01"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/explainer-01.webp" width="560" alt="Manim 미분 강의와 edge-tts 내레이션 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/06ee4703-b1d8-4b89-9806-6ccfcc04e775
 
 **프롬프트:**
 
@@ -595,7 +595,9 @@ HyperFrames에서 참고 자료 없이 프롬프트 두 개로 만든 40초 영�
 
 대상(고등학생)과 깊이를 알리고 도구를 자유롭게 허용해 길이와 구성을 모델이 정했습니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=explainer-02#explainer-02"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/explainer-02.webp" width="560" alt="12분짜리 Transformer 해설 영상 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/313fdcf3-12cc-4970-b641-6582f3e24cc1
+
+<sub>앞 4분만 담았습니다. 전체 영상: [apiko.app](https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=explainer-02#explainer-02)</sub>
 
 **프롬프트:**
 
@@ -615,7 +617,7 @@ HyperFrames에서 참고 자료 없이 프롬프트 두 개로 만든 40초 영�
 
 감독 브리프식 요청: 음악이 시계, 박자 격자와 샷 표를 먼저, 연대는 검증 후 납품.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=explainer-03#explainer-03"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/explainer-03.webp" width="560" alt="프레임 렌더링으로 만든 중국 문명사 대서사 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/9beec9a4-7735-4d36-9639-0bd007dfe4f0
 
 **프롬프트:**
 
@@ -635,7 +637,7 @@ HyperFrames에서 참고 자료 없이 프롬프트 두 개로 만든 40초 영�
 
 개념 하나와 구조 규칙 하나: 구간마다 화풍을 바꿉니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=explainer-04#explainer-04"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/explainer-04.webp" width="560" alt="서로 다른 아홉 화풍으로 설명하는 재귀 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/4bc7e2c6-51f1-49da-be45-a9c38c69ca4c
 
 **프롬프트:**
 
@@ -650,7 +652,7 @@ A video explaining recursion, where every explanation about recursion has a radi
 
 사진 한 장을 주고 30초짜리 HTML 레시피 애니메이션을 받는 평이한 요청입니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=explainer-05#explainer-05"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/explainer-05.webp" width="560" alt="사진 한 장으로 만든 네그로니 레시피 영상 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/c3f7b71d-0a82-42db-8b20-b4babda1ed6e
 
 **프롬프트:**
 
@@ -665,7 +667,7 @@ We're going to try a little test. Do you think you could render a recipe motion 
 
 단면을 열고 흐름을 따라가고 추력을 조절하는 웹 페이지를 35초로 화면 녹화했습니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=explainer-06#explainer-06"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/explainer-06.webp" width="560" alt="분해해 볼 수 있는 래프터 3 로켓 엔진 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/6f9b3002-f4d6-4e27-8d99-e205813de824
 
 **만든 방법(작성자가 프롬프트를 공개하지 않음):**
 
@@ -678,7 +680,7 @@ We're going to try a little test. Do you think you could render a recipe motion 
 
 전부 Canvas로 그려 약 2분 만에 렌더링한 일본어 상대성이론 해설입니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=explainer-07#explainer-07"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/explainer-07.webp" width="560" alt="종이 오리기풍 쌍둥이 역설, Canvas 1395프레임 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/f79740bb-eb2c-4372-9b7d-fd24a53ca882
 
 **만든 방법(작성자가 프롬프트를 공개하지 않음):**
 
@@ -691,7 +693,7 @@ We're going to try a little test. Do you think you could render a recipe motion 
 
 Manim 애니메이션, 실제로 학습시킨 MNIST 모델, 복제한 내레이션이 든 약 5분 반짜리 영상입니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=explainer-08#explainer-08"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/explainer-08.webp" width="560" alt="3Blue1Brown 스타일 오토인코더 해설 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/028010a1-7874-44ad-a3a2-e88605d180c4
 
 **만든 방법(작성자가 프롬프트를 공개하지 않음):**
 
@@ -704,7 +706,7 @@ Manim 애니메이션, 실제로 학습시킨 MNIST 모델, 복제한 내레이�
 
 React/TypeScript 약 7,400줄, 이미지는 모두 SVG와 Canvas, 오픈소스 음성을 썼습니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=explainer-09#explainer-09"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/explainer-09.webp" width="560" alt="코드만으로 만든 3분짜리 AI 역사 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/644e1b2a-c2b0-45d1-8782-67055943c599
 
 **만든 방법(작성자가 프롬프트를 공개하지 않음):**
 
@@ -717,7 +719,7 @@ React/TypeScript 약 7,400줄, 이미지는 모두 SVG와 Canvas, 오픈소스 �
 
 작성자가 자는 동안 세 번의 검토와 수정이 돌았고, 검토자가 우선순위를 매기고 수정자가 고쳤습니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=explainer-10#explainer-10"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/explainer-10.webp" width="560" alt="에이전트가 밤새 다듬은 블랙홀 렌즈 실험실 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/da053832-0663-4fa0-be0c-2ca1cd5bbf7a
 
 **만든 방법(작성자가 프롬프트를 공개하지 않음):**
 
@@ -735,7 +737,7 @@ React/TypeScript 약 7,400줄, 이미지는 모두 SVG와 Canvas, 오픈소스 �
 
 생성한 이미지와 클립을 코드로 합성하고, 비용 관문(목록 제시 후 승인 대기)을 둡니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=storyboard-to-video-01#storyboard-to-video-01"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/storyboard-to-video-01.webp" width="560" alt="빈티지 콜라주 세계를 통과하는 무한 줌 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/68b77d3b-130e-4ff9-aefd-069d9e88ad22
 
 **프롬프트:**
 
@@ -776,7 +778,7 @@ Show me screenshots before each expensive step.
 
 모델이 이미지와 영상 MCP를 직접 다뤄 30초 영상을 한 번에 만들었습니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=storyboard-to-video-02#storyboard-to-video-02"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/storyboard-to-video-02.webp" width="560" alt="Krea MCP로 10분 만에 만든 단편 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/a95a6bb8-3940-4533-a5bf-af2226380d13
 
 **만든 방법(작성자가 프롬프트를 공개하지 않음):**
 
@@ -789,7 +791,7 @@ Show me screenshots before each expensive step.
 
 세 도구의 분업: Opus는 도해 애니메이션, TTS는 음성, Seedance는 얼굴.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=storyboard-to-video-03#storyboard-to-video-03"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/storyboard-to-video-03.webp" width="320" alt="일본어 세로 리뷰 쇼츠: 도해, 음성, 오프닝 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/6a30d473-9d1c-44fb-9c00-b47a0ef18f56
 
 **만든 방법(작성자가 프롬프트를 공개하지 않음):**
 
@@ -802,7 +804,7 @@ Show me screenshots before each expensive step.
 
 게임은 Opus가 만들고 예고편 샷은 영상 모델이 만들었습니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=storyboard-to-video-04#storyboard-to-video-04"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/storyboard-to-video-04.webp" width="560" alt="두 시간 만에 만든 8스테이지 공성 게임과 예고편 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/7d1a0114-a5da-4dc9-91d1-95ba0e9af13d
 
 **만든 방법(작성자가 프롬프트를 공개하지 않음):**
 
@@ -820,7 +822,7 @@ Show me screenshots before each expensive step.
 
 구술한 긴 브리프에 참고 파일, 이미지 API, 영상 모델, 지출 상한까지 갖춘 환경이 더해졌습니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=music-video-01#music-video-01"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/music-video-01.webp" width="560" alt="&quot;Claude Pop&quot; 뮤직비디오: 12시간 자율 실행 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/f41a5796-7258-412e-a0f2-96073aca6ff7
 
 **프롬프트:**
 
@@ -842,7 +844,9 @@ make no mistakes.
 
 조사와 음악 분석을 먼저 시키고, S3M 곡에 맞춘 네이티브 OpenGL 데모를 요청합니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=music-video-02#music-video-02"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/music-video-02.webp" width="560" alt="C/C++와 OpenGL로 만든 90년대 데모씬 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/8d769efe-1956-4dce-8458-fcb11386df05
+
+<sub>앞 4분만 담았습니다. 전체 영상: [apiko.app](https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=music-video-02#music-video-02)</sub>
 
 **프롬프트:**
 
@@ -857,7 +861,7 @@ I would like you to create a kickass, impressive 1990s style demoscene demo usin
 
 스토리보드 파일, 애니메이션 가이드, 챕터 아홉 개를 파일 아홉 개로 나눠 헤드리스 Chrome으로 렌더링.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=music-video-03#music-video-03"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/music-video-03.webp" width="560" alt="p5.brush와 병렬 에이전트로 그린 뮤직비디오 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/19ac1237-6adb-4482-ac44-5e96bab89bfd
 
 **만든 방법(작성자가 프롬프트를 공개하지 않음):**
 
@@ -870,7 +874,7 @@ Claude는 병렬 서브에이전트용 애니메이션 가이드와 스토리보
 
 브리프는 같고 참고 자료만 바꿨는데 완전히 다른 5분짜리 영상이 나왔습니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=music-video-04#music-video-04"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/music-video-04.webp" width="560" alt="같은 브리프를 Midjourney와 무드보드로 다시 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/f0162d5f-c9cc-40f0-ae40-f4cd1c5a7176
 
 **만든 방법(작성자가 프롬프트를 공개하지 않음):**
 
@@ -883,7 +887,7 @@ Claude는 병렬 서브에이전트용 애니메이션 가이드와 스토리보
 
 비트에 맞춘 약 75개 샷, 막대 인간을 고치느라 두 번 수정했습니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=music-video-05#music-video-05"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/music-video-05.webp" width="320" alt="&quot;Stroke of a Pen&quot; 에이전트 세로 MV – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/94e93850-505e-475c-b6d8-9d8a1f04dc3d
 
 **만든 방법(작성자가 프롬프트를 공개하지 않음):**
 
@@ -896,7 +900,7 @@ Claude는 병렬 서브에이전트용 애니메이션 가이드와 스토리보
 
 대본과 음악은 사람이, 모든 프레임은 모델이 JavaScript로 그렸습니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=music-video-06#music-video-06"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/music-video-06.webp" width="560" alt="p5.brush로 그린 추석 종이 콜라주 애니메이션 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/57dcf36e-2875-4533-83e5-f3329420c4d2
 
 **만든 방법(작성자가 프롬프트를 공개하지 않음):**
 
@@ -914,7 +918,7 @@ Claude는 병렬 서브에이전트용 애니메이션 가이드와 스토리보
 
 한 문장에 길이, 이야기, 소리를 담았고 Blender와 Three.js는 쓰지 않았습니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=short-film-01#short-film-01"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/short-film-01.webp" width="560" alt="미국 250년을 담은 2분짜리 샌드 애니메이션 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/a5c86a65-2423-4b9b-89f6-bd50dc954906
 
 **프롬프트:**
 
@@ -929,7 +933,7 @@ Make a 2-minute sand animation that tells the story of 250 years of U.S. history
 
 어떤 기술이든 좋고 시간 제한 없이 가장 정교한 결과를 요구합니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=short-film-02#short-film-02"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/short-film-02.webp" width="560" alt="직접 만든 GPU 레이마처의 자전거 타는 펠리컨 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/97793470-430e-4132-840e-fa590babcded
 
 **프롬프트:**
 
@@ -944,7 +948,7 @@ Make a 2-minute sand animation that tells the story of 250 years of U.S. history
 
 주제는 모델이 직접 골랐고 모든 픽셀은 셰이더 하나, 소리는 Web Audio에서 나옵니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=short-film-03#short-film-03"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/short-film-03.webp" width="560" alt="추석 밤의 등왕각, 셰이더 하나로 그린 영상 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/f066e58e-c1a1-455d-a24e-436e72145c5d
 
 **프롬프트:**
 
@@ -959,7 +963,7 @@ Make a 2-minute sand animation that tells the story of 250 years of U.S. history
 
 한 줄에 장면, 기체 도색, 하늘, 분위기를 담은 팬 오마주입니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=short-film-04#short-film-04"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/short-film-04.webp" width="560" alt="Three.js로 재현한 붉은 돼지풍 석양 공중전 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/7159116d-018b-43d7-8975-8adf4c4fc0e8
 
 **프롬프트:**
 
@@ -974,7 +978,7 @@ Make a 2-minute sand animation that tells the story of 250 years of U.S. history
 
 실제 지형과 태양 위치, 직접 쓴 엔진과 음악, 내레이션.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=short-film-05#short-film-05"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/short-film-05.webp" width="560" alt="아우스터리츠 1805: 코드로 만든 5분 영화 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/1c0e28d6-23a9-473c-9e5d-4f4b14624b8e
 
 **만든 방법(작성자가 프롬프트를 공개하지 않음):**
 
@@ -987,7 +991,7 @@ Make a 2-minute sand animation that tells the story of 250 years of U.S. history
 
 콘티도 기존 영상 스킬도 없이, 복제한 목소리만 제공했습니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=short-film-06#short-film-06"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/short-film-06.webp" width="560" alt="로우폴리 3D로 다시 쓴 &quot;노산도사&quot; – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/e385a9b4-ab11-46d2-acfd-e08ee0a62990
 
 **만든 방법(작성자가 프롬프트를 공개하지 않음):**
 
@@ -1005,7 +1009,7 @@ Make a 2-minute sand animation that tells the story of 250 years of U.S. history
 
 출처가 붙은 데이터 파일을 먼저 만들고 Blender 생성기를 짜서 모든 건물이 출처로 이어집니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=3d-blender-01#3d-blender-01"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/3d-blender-01.webp" width="560" alt="1906년 지진 전날의 샌프란시스코 마켓 스트리트 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/c9b677e6-2f2b-4ff3-b3a9-9ada3865005b
 
 **프롬프트:**
 
@@ -1024,7 +1028,7 @@ Provide a 10 second video up the street.
 
 프롬프트 하나, Blender만, 10초 샷 렌더와 제작 타임랩스.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=3d-blender-02#3d-blender-02"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/3d-blender-02.webp" width="560" alt="같은 절차적 Blender 장면 비교 테스트 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/52f1dedf-18d3-4dc3-8ba6-3539154e35bc
 
 **만든 방법(작성자가 프롬프트를 공개하지 않음):**
 
@@ -1037,7 +1041,7 @@ Provide a 10 second video up the street.
 
 JavaScript로 만든 진짜 불 시뮬레이션과 렌더, 비평 루프.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=3d-blender-04#3d-blender-04"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/3d-blender-04.webp" width="560" alt="GPU 유체 시뮬레이션 모닥불, 40번의 자기 검토 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/a3613517-128c-46eb-8cc2-4139b731e710
 
 **만든 방법(작성자가 프롬프트를 공개하지 않음):**
 
@@ -1050,7 +1054,7 @@ JavaScript로 만든 진짜 불 시뮬레이션과 렌더, 비평 루프.
 
 MCP 연결로 Blender를 조작해 만든 세로형 클립입니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=3d-blender-06#3d-blender-06"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/3d-blender-06.webp" width="320" alt="15분 만에 만든 풍차: 모델링, 리깅, 애니메이션 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/76e7d3fa-0892-4d73-8007-f710bccaa3f9
 
 **만든 방법(작성자가 프롬프트를 공개하지 않음):**
 
@@ -1068,7 +1072,7 @@ MCP 연결로 Blender를 조작해 만든 세로형 클립입니다.
 
 자막, 그래픽, 음악을 요청한 한 줄짜리 편집 브리프입니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=video-editing-01#video-editing-01"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/video-editing-01.webp" width="560" alt="원본 토킹헤드 영상을 경쾌하게 편집 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/47a6a27f-677a-4fe6-b4ca-5e3026a69301
 
 **프롬프트:**
 
@@ -1083,7 +1087,7 @@ Cut a raw talking-head clip into a punchy, fun edit with subtitles, graphics and
 
 댄스 영상의 스켈레톤 데이터로 글자, 빛, 카메라를 움직였습니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=video-editing-02#video-editing-02"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/video-editing-02.webp" width="560" alt="Opus가 After Effects를 조작한 후반 작업 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/b73b7c64-9b33-478f-adfc-74c279a7d01e
 
 **만든 방법(작성자가 프롬프트를 공개하지 않음):**
 
@@ -1096,7 +1100,7 @@ Cut a raw talking-head clip into a punchy, fun edit with subtitles, graphics and
 
 Claude가 편집자, Resolve는 MCP로 조작, B-roll은 HyperFrames.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=video-editing-03#video-editing-03"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/video-editing-03.webp" width="560" alt="유튜브 영상 한 편을 통째로 편집 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/05ff9091-c704-4686-a40b-baf8f4c1a09b
 
 **만든 방법(작성자가 프롬프트를 공개하지 않음):**
 
@@ -1109,7 +1113,7 @@ Claude가 편집자, Resolve는 MCP로 조작, B-roll은 HyperFrames.
 
 생성 원본과 재편집본을 나란히 보여 줍니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=video-editing-04#video-editing-04"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/video-editing-04.webp" width="560" alt="Opus 5.5가 다시 편집한 Grok 댄스 영상 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/bea453e6-d1d3-4ddd-98b6-77beee2f5718
 
 **만든 방법(작성자가 프롬프트를 공개하지 않음):**
 
@@ -1122,7 +1126,7 @@ Claude가 편집자, Resolve는 MCP로 조작, B-roll은 HyperFrames.
 
 Unity 게임, 플레이 영상, 30초 데모 릴을 모델이 모두 처리했습니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=video-editing-05#video-editing-05"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/video-editing-05.webp" width="560" alt="Opus가 직접 게임을 하고 하이라이트를 편집 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/096b166c-7f68-4f0f-800b-26d2ef99d838
 
 **만든 방법(작성자가 프롬프트를 공개하지 않음):**
 
@@ -1135,7 +1139,7 @@ Unity 게임, 플레이 영상, 30초 데모 릴을 모델이 모두 처리했�
 
 솔버도 데모 릴도 모델이 프롬프트 하나로 만들었습니다.
 
-<a href="https://apiko.app/ko/claude-opus-5-5-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-opus-5.5-video-prompts&utm_content=video-editing-06#video-editing-06"><img src="https://media.apiko.app/prompts/claude-opus-5-5-video-prompts/video-editing-06.webp" width="560" alt="강체 11만 개 WebGPU 물리 솔버 데모 릴 – Claude Opus 5.5"></a>
+https://github.com/user-attachments/assets/77298e62-d2b7-4ffd-80a3-eda1314366c0
 
 **만든 방법(작성자가 프롬프트를 공개하지 않음):**
 
