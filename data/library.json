@@ -211,6 +211,10 @@
      {
       "label": "Seedance 2.5 prompts",
       "href": "/seedance-2-5-prompts"
+     },
+     {
+      "label": "Claude Opus 5.5 video prompts on GitHub",
+      "href": "https://github.com/tong0619453646-dev/awesome-claude-opus-5.5-video-prompts"
      }
     ]
    }
@@ -398,6 +402,10 @@
      {
       "label": "Seedance 2.5 提示词",
       "href": "/seedance-2-5-prompts"
+     },
+     {
+      "label": "GitHub 上的 Claude Opus 5.5 视频提示词合集",
+      "href": "https://github.com/tong0619453646-dev/awesome-claude-opus-5.5-video-prompts/blob/main/README_zh-CN.md"
      }
     ]
    }
@@ -585,6 +593,10 @@
      {
       "label": "Seedance 2.5 提示詞",
       "href": "/seedance-2-5-prompts"
+     },
+     {
+      "label": "GitHub 上的 Claude Opus 5.5 影片提示詞合集",
+      "href": "https://github.com/tong0619453646-dev/awesome-claude-opus-5.5-video-prompts/blob/main/README_zh-TW.md"
      }
     ]
    }
@@ -772,6 +784,10 @@
      {
       "label": "Seedance 2.5 프롬프트",
       "href": "/seedance-2-5-prompts"
+     },
+     {
+      "label": "GitHub의 Claude Opus 5.5 영상 프롬프트 모음",
+      "href": "https://github.com/tong0619453646-dev/awesome-claude-opus-5.5-video-prompts/blob/main/README_ko.md"
      }
     ]
    }
