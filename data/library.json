@@ -1,0 +1,4088 @@
+{
+ "config": {
+  "slug": "claude-opus-5-5-video-prompts",
+  "path": "/claude-opus-5-5-video-prompts",
+  "model": "claude-opus-5-5",
+  "modelLabel": "Claude Opus 5.5",
+  "media": "video",
+  "playground": "text",
+  "categories": [
+   "motion-graphics",
+   "product-launch",
+   "explainer",
+   "storyboard-to-video",
+   "music-video",
+   "short-film",
+   "3d-blender",
+   "video-editing"
+  ],
+  "updatedAt": "2026-10-30",
+  "cover": "/imgs/prompts/claude-opus-5-5-video-prompts.jpg"
+ },
+ "featured": [
+  "motion-graphics-03",
+  "motion-graphics-04",
+  "motion-graphics-06",
+  "explainer-03",
+  "short-film-02",
+  "3d-blender-01"
+ ],
+ "page": {
+  "en": {
+   "metaTitle": "Claude Opus 5.5 Video Prompts — {n} Code-to-Video Examples",
+   "h1": "Claude Opus 5.5 Video Prompts",
+   "description": "Claude Opus 5.5 video prompts: {n} prompts and methods that turn code into video, from one HTML file to Remotion, Three.js and Blender.",
+   "eyebrow": "Code-to-video · {n}",
+   "subtitle": "Claude Opus 5.5 video prompts make the model write code, and the code renders the video on your machine. Copy a prompt, or read how each creator built theirs.",
+   "ctaPrimary": {
+    "label": "Try Claude Opus 5.5",
+    "href": "/models/claude-opus-5-5"
+   },
+   "ctaSecondary": {
+    "label": "Claude API docs",
+    "href": "/docs/api-manual/text-series/claude"
+   },
+   "credit": "Prompts and videos belong to the creators credited on each card, and every card links to the original post.",
+   "featured": "Featured Claude Opus 5.5 video prompts",
+   "badge": "Claude Opus 5.5 video prompt",
+   "imageAlt": "{title} – Claude Opus 5.5 video prompt result",
+   "categories": {
+    "motion-graphics": {
+     "name": "Motion graphics",
+     "intro": "Showreels, UI morphs and launch films drawn frame by frame in HTML, Canvas and shaders."
+    },
+    "product-launch": {
+     "name": "Product launch",
+     "intro": "Promo and trailer videos for apps and products, mostly built in Remotion or HyperFrames."
+    },
+    "explainer": {
+     "name": "Explainer",
+     "intro": "Lessons and science explainers, from a 30-second recipe to a 12-minute talk."
+    },
+    "storyboard-to-video": {
+     "name": "Storyboard to video",
+     "intro": "Claude plans the shots and drives image and video tools through MCP or scripts."
+    },
+    "music-video": {
+     "name": "Music video",
+     "intro": "Long autonomous runs and beat-synced films, some with agents drawing one chapter each."
+    },
+    "short-film": {
+     "name": "Short film",
+     "intro": "Stories and scenes written as code, from sand animation to ray-marched shaders."
+    },
+    "3d-blender": {
+     "name": "3D and Blender",
+     "intro": "Scenes built through Blender Python or MCP, plus simulations written in JavaScript."
+    },
+    "video-editing": {
+     "name": "Video editing",
+     "intro": "Claude as editor: cutting footage, driving After Effects or Resolve, assembling demo reels."
+    }
+   },
+   "guide": {
+    "title": "How to write Claude Opus 5.5 video prompts",
+    "intro": "Claude outputs code, not video. You run that code, a renderer captures the frames, and FFmpeg joins them. Pick the route first and name it in the prompt.",
+    "items": [
+     {
+      "h": "Single HTML file, headless browser, FFmpeg",
+      "formula": "One HTML file + seek(t) + headless browser + FFmpeg + size, fps, length",
+      "t": "The default route in these cards: one index.html where every style is computed from time, rendered frame by frame by a headless browser such as Playwright, then joined by FFmpeg. It works well for Canvas, CSS and SVG animation."
+     },
+     {
+      "h": "Remotion or HyperFrames",
+      "formula": "Framework name + length + script + brand colours + project folder or URL",
+      "t": "If you want a React-based video project, say Remotion or HyperFrames, because otherwise the model picks zero-dependency HTML. Several cards point the model at a site or a project folder and let it pull its own material."
+     },
+     {
+      "h": "Three.js and shaders",
+      "formula": "Scene + camera + palette + sound source + how frames are captured",
+      "t": "For 3D looks without a 3D app, cards ask for Three.js or WebGL shaders and keep every pixel computed in code. Say whether you want a live recording or offline frame rendering."
+     },
+     {
+      "h": "Blender Python",
+      "formula": "Subject + sources first + reusable generators + render length",
+      "t": "The Blender cards have the model build data or generators first, then assemble the scene in Blender Python, and render a short shot. They need Blender installed locally."
+     },
+     {
+      "h": "What to state every time",
+      "formula": "Length + resolution + frame rate + framework + assets you supply",
+      "t": "Cards that give a length and size got that length; one that did not got a lesson of 7.6 minutes. Say which assets you supply (photos, music, clips) and let the prompt ask you for them."
+     }
+    ]
+   },
+   "tips": {
+    "title": "What the Claude Opus 5.5 examples show",
+    "items": [
+     {
+      "h": "A one-liner tests the setup",
+      "t": "The 15-second showreel sentence was run thousands of times and the results look alike. Use it to check that your renderer works, then write your own idea."
+     },
+     {
+      "h": "Ban list and gotchas beat adjectives",
+      "t": "The longest prompts list what not to do: bouncy easing, glows, CSS transitions, flattened 3D flips. Each ban comes from a failed render."
+     },
+     {
+      "h": "Check one frame before the full render",
+      "t": "The beat-synced templates probe a frame per beat or a set of frames before the long render, which saves hours when something is off."
+     },
+     {
+      "h": "Long films need layers",
+      "t": "Five-minute and longer cards plan narration beats, then shot timing, then sound, and use agents or review rounds. Character animation took extra rounds to look right."
+     },
+     {
+      "h": "Mind music and likeness rights",
+      "t": "Cards that use a licensed or royalty-free track say so. A few cards use someone else's song or fan homage; read the credit before reusing."
+     },
+     {
+      "h": "Method cards are notes, not prompts",
+      "t": "Where the creator shared no prompt, the card describes the toolchain in our own words and ends with a sentence you can adapt."
+     }
+    ]
+   },
+   "faq": {
+    "title": "Claude Opus 5.5 video prompts: questions",
+    "items": [
+     {
+      "question": "Can Claude Opus 5.5 make a video?",
+      "answer": "It writes the code, such as an HTML file, a Remotion project or a Blender script. The video is rendered on your machine by a browser, Remotion or Blender and joined with FFmpeg."
+     },
+     {
+      "question": "What do I need installed to run Claude Opus 5.5 video prompts?",
+      "answer": "It depends on the card: Node with Playwright and FFmpeg for the HTML route, Remotion or HyperFrames for those cards, Blender for the Blender cards. Several creators ran Claude Opus 5.5 inside Claude Code so the model could install tools itself."
+     },
+     {
+      "question": "Are these Claude Opus 5.5 prompts free to use, and who owns the results?",
+      "answer": "The prompts and videos belong to the creators credited on each card, and every card links to the post. Use them as a starting point and check the creator's terms before republishing."
+     },
+     {
+      "question": "Which language should I write Claude Opus 5.5 prompts in?",
+      "answer": "Prompts here are in the author's original language, and Claude Opus 5.5 takes English and Chinese. Write the brief in the language you think in and keep on-screen text in the language the video needs."
+     },
+     {
+      "question": "How do I run one of these with the Claude Opus 5.5 API?",
+      "answer": "Send the prompt to the claude-opus-5-5 model through the Messages API and save the code it returns. The API docs list the endpoints and headers."
+     },
+     {
+      "question": "What does the Use button do for a Claude Opus 5.5 prompt?",
+      "answer": "It opens the Claude Opus 5.5 model page with the prompt filled in. Reference files are not attached, so upload your own photos, music or clips."
+     },
+     {
+      "question": "Why is my Claude Opus 5.5 result different from the video?",
+      "answer": "Models are not deterministic, and creators may have used other effort levels, tools, music or many revisions. The Notion trailer, for example, took 33 versions."
+     },
+     {
+      "question": "Which effort level should I use with Claude Opus 5.5?",
+      "answer": "The creators who named one used max, xhigh, or medium to high. The API accepts low, medium, high, xhigh and max; thinking counts toward max_tokens, so leave room for the code."
+     },
+     {
+      "question": "How long a video can Claude Opus 5.5 make?",
+      "answer": "No cap is stated; the cards run from about 8 seconds to over 12 minutes. State the length in the prompt, because a lesson with no length became 7.6 minutes."
+     },
+     {
+      "question": "Does Claude Opus 5.5 make the music and voice too?",
+      "answer": "Some cards synthesise sound in code, and others bring in text-to-speech, music generators or licensed tracks. The card notes say which."
+     },
+     {
+      "question": "Should I use Claude Opus 5.5 or Opus 5 for these?",
+      "answer": "The examples here are from Opus 5.5. APIKO has a comparison of the two models if you are deciding."
+     }
+    ]
+   },
+   "links": {
+    "title": "More from APIKO",
+    "items": [
+     {
+      "label": "Claude Opus 5.5 model page",
+      "href": "/models/claude-opus-5-5"
+     },
+     {
+      "label": "Claude API docs",
+      "href": "/docs/api-manual/text-series/claude"
+     },
+     {
+      "label": "Claude Opus 5.5 vs Opus 5",
+      "href": "/blog/claude-opus-5-5-vs-claude-opus-5"
+     },
+     {
+      "label": "APIKO chat",
+      "href": "/chat"
+     },
+     {
+      "label": "Seedance 2.5 prompts",
+      "href": "/seedance-2-5-prompts"
+     }
+    ]
+   }
+  },
+  "zh": {
+   "metaTitle": "Claude Opus 5.5 视频提示词 — {n} 条，用代码做视频",
+   "h1": "Claude Opus 5.5 视频提示词",
+   "description": "Claude Opus 5.5 视频提示词：{n} 条用代码做视频的提示词与做法，从单个 HTML 到 Remotion、Blender。",
+   "eyebrow": "代码做视频 · {n}",
+   "subtitle": "Claude Opus 5.5 视频提示词让模型写代码，视频由代码在你的电脑上渲染出来。可以直接复制提示词，也可以看创作者是怎么做的。",
+   "ctaPrimary": {
+    "label": "试用 Claude Opus 5.5",
+    "href": "/models/claude-opus-5-5"
+   },
+   "ctaSecondary": {
+    "label": "Claude API 文档",
+    "href": "/docs/api-manual/text-series/claude"
+   },
+   "credit": "提示词与视频归各卡片署名的创作者所有，每张卡片都链接到原帖。",
+   "featured": "精选 Claude Opus 5.5 视频提示词",
+   "badge": "Claude Opus 5.5 视频提示词",
+   "imageAlt": "{title} – Claude Opus 5.5 视频提示词成片",
+   "categories": {
+    "motion-graphics": {
+     "name": "动态图形",
+     "intro": "作品集、UI 变形和发布片，用 HTML、Canvas 和着色器逐帧画出来。"
+    },
+    "product-launch": {
+     "name": "产品发布",
+     "intro": "App 和产品的宣传片、预告片，多数用 Remotion 或 HyperFrames 制作。"
+    },
+    "explainer": {
+     "name": "讲解视频",
+     "intro": "从 30 秒的食谱到 12 分钟的讲座，各类课程与科普讲解。"
+    },
+    "storyboard-to-video": {
+     "name": "分镜成片",
+     "intro": "Claude 规划镜头，并通过 MCP 或脚本调用图像、视频工具。"
+    },
+    "music-video": {
+     "name": "音乐视频",
+     "intro": "长时间自主运行和踩点成片，有的让智能体各画一章。"
+    },
+    "short-film": {
+     "name": "短片",
+     "intro": "用代码写成的故事和场景，从沙画动画到光线步进着色器。"
+    },
+    "3d-blender": {
+     "name": "3D 与 Blender",
+     "intro": "用 Blender Python 或 MCP 搭建的场景，以及 JavaScript 写的模拟。"
+    },
+    "video-editing": {
+     "name": "视频剪辑",
+     "intro": "让 Claude 当剪辑师：剪素材、操作 After Effects 或 Resolve、拼接集锦。"
+    }
+   },
+   "guide": {
+    "title": "怎样写 Claude Opus 5.5 视频提示词",
+    "intro": "Claude 输出的是代码而不是视频：你运行代码，渲染器截取画面，再由 FFmpeg 合成。先选好路线，并在提示词里点名。",
+    "items": [
+     {
+      "h": "单个 HTML、无头浏览器、FFmpeg",
+      "formula": "单个 HTML + seek(t) + 无头浏览器 + FFmpeg + 尺寸、帧率、时长",
+      "t": "这批卡片里最常见的路线：一个 index.html，所有样式都由时间算出，用 Playwright 之类的无头浏览器逐帧渲染，再由 FFmpeg 合成。适合 Canvas、CSS 和 SVG 动画。"
+     },
+     {
+      "h": "Remotion 或 HyperFrames",
+      "formula": "框架名 + 时长 + 脚本 + 品牌色 + 项目目录或网址",
+      "t": "想要基于 React 的视频工程，就在提示词里写明 Remotion 或 HyperFrames，否则模型会选零依赖的 HTML。好几张卡片把网址或项目目录交给模型，让它自己取素材。"
+     },
+     {
+      "h": "Three.js 与着色器",
+      "formula": "场景 + 镜头 + 色调 + 声音来源 + 取帧方式",
+      "t": "不用 3D 软件也想要立体效果，卡片会要求 Three.js 或 WebGL 着色器，让每个像素都由代码算出。要说明是实时录屏还是离线逐帧渲染。"
+     },
+     {
+      "h": "Blender Python",
+      "formula": "主题 + 先建资料 + 可复用生成器 + 渲染时长",
+      "t": "Blender 类卡片先让模型建资料或生成器，再用 Blender Python 搭场景，最后渲染一段短镜头。需要本机装有 Blender。"
+     },
+     {
+      "h": "每次都要写明的内容",
+      "formula": "时长 + 分辨率 + 帧率 + 框架 + 你提供的素材",
+      "t": "写了时长和尺寸的卡片就得到对应长度；没写的那张自己排出了 7.6 分钟的课。说明你会提供哪些素材（照片、音乐、片段），并让提示词来向你索取。"
+     }
+    ]
+   },
+   "tips": {
+    "title": "Claude Opus 5.5 示例给出的经验",
+    "items": [
+     {
+      "h": "一句话用来测环境",
+      "t": "那句 15 秒作品集提示词被跑了成千上万次，结果彼此相似。先用它确认渲染环境能跑，再写自己的创意。"
+     },
+     {
+      "h": "禁止清单比形容词有用",
+      "t": "最长的提示词都在列不要做什么：弹跳缓动、发光、CSS 过渡、被压扁的 3D 翻转。每条禁令都来自一次失败的渲染。"
+     },
+     {
+      "h": "整片渲染前先验一帧",
+      "t": "踩点模板会在长时间渲染前，按每拍一帧或抽查若干帧，出问题时能省下数小时。"
+     },
+     {
+      "h": "长片要分层",
+      "t": "五分钟以上的卡片先排旁白节拍，再排镜头时间，最后做声音，并借助智能体或评审轮次。角色动画多改了几轮才像样。"
+     },
+     {
+      "h": "留意音乐与肖像权",
+      "t": "用授权或免版税曲目的卡片都有说明。少数卡片用了他人的歌曲或同人致敬，复用前请先看署名。"
+     },
+     {
+      "h": "方法卡是说明，不是提示词",
+      "t": "创作者没有公开提示词的，卡片用我们自己的话描述工具链，并以一句可改写的起手句收尾。"
+     }
+    ]
+   },
+   "faq": {
+    "title": "Claude Opus 5.5 视频提示词常见问题",
+    "items": [
+     {
+      "question": "Claude Opus 5.5 能直接做视频吗？",
+      "answer": "它写的是代码，比如 HTML 文件、Remotion 工程或 Blender 脚本。视频由你电脑上的浏览器、Remotion 或 Blender 渲染，再用 FFmpeg 合成。"
+     },
+     {
+      "question": "运行 Claude Opus 5.5 视频提示词需要装什么？",
+      "answer": "看卡片而定：HTML 路线需要 Node、Playwright 和 FFmpeg，Remotion 与 HyperFrames 卡片要装对应框架，Blender 卡片要装 Blender。不少创作者在 Claude Code 里运行 Claude Opus 5.5，让模型自己安装工具。"
+     },
+     {
+      "question": "这些 Claude Opus 5.5 提示词可以免费用吗？结果归谁？",
+      "answer": "提示词和视频归各卡片署名的创作者，每张卡片都链接到原帖。可以当作起点，转发前请先确认创作者的使用条款。"
+     },
+     {
+      "question": "用什么语言给 Claude Opus 5.5 写提示词？",
+      "answer": "这里的提示词保留作者的原语言，Claude Opus 5.5 能读英文和中文。用你最顺手的语言写需求，画面文字则按视频需要的语言写。"
+     },
+     {
+      "question": "怎样用 API 运行这些 Claude Opus 5.5 提示词？",
+      "answer": "把提示词发给 claude-opus-5-5 模型的 Messages 接口，保存返回的代码即可。接口地址和请求头见 API 文档。"
+     },
+     {
+      "question": "Claude Opus 5.5 提示词的「使用」按钮做什么？",
+      "answer": "它会打开 Claude Opus 5.5 模型页并填入提示词。参考文件不会带上，需要自己上传照片、音乐或片段。"
+     },
+     {
+      "question": "为什么我用 Claude Opus 5.5 做出来的和视频不一样？",
+      "answer": "模型输出并不固定，创作者也可能用了别的推理档位、工具、音乐或改了很多版。比如 Notion 预告片就改了 33 版。"
+     },
+     {
+      "question": "用 Claude Opus 5.5 该选哪个推理档位？",
+      "answer": "写明档位的创作者用的是 max、xhigh，或中到高档。API 接受 low、medium、high、xhigh、max；思考也计入 max_tokens，要给代码留足余量。"
+     },
+     {
+      "question": "Claude Opus 5.5 能做多长的视频？",
+      "answer": "没有说明上限；这些卡片从约 8 秒到 12 分钟以上都有。请在提示词里写明时长，因为没写时长的那堂课被排成了 7.6 分钟。"
+     },
+     {
+      "question": "Claude Opus 5.5 连配乐和配音也一起做吗？",
+      "answer": "有的卡片用代码合成声音，有的接入语音合成、音乐生成器或授权曲目，具体见各卡片说明。"
+     },
+     {
+      "question": "做这些该选 Claude Opus 5.5 还是 Opus 5？",
+      "answer": "这里的示例都出自 Opus 5.5。想比较两个模型，可以看 APIKO 的对比文章。"
+     }
+    ]
+   },
+   "links": {
+    "title": "APIKO 相关页面",
+    "items": [
+     {
+      "label": "Claude Opus 5.5 模型页",
+      "href": "/models/claude-opus-5-5"
+     },
+     {
+      "label": "Claude API 文档",
+      "href": "/docs/api-manual/text-series/claude"
+     },
+     {
+      "label": "Claude Opus 5.5 与 Opus 5 对比",
+      "href": "/blog/claude-opus-5-5-vs-claude-opus-5"
+     },
+     {
+      "label": "APIKO 对话",
+      "href": "/chat"
+     },
+     {
+      "label": "Seedance 2.5 提示词",
+      "href": "/seedance-2-5-prompts"
+     }
+    ]
+   }
+  },
+  "zh-TW": {
+   "metaTitle": "Claude Opus 5.5 影片提示詞 — {n} 條",
+   "h1": "Claude Opus 5.5 影片提示詞",
+   "description": "Claude Opus 5.5 影片提示詞：{n} 條用程式碼做影片的提示詞與做法，從單一 HTML 到 Remotion、Blender。",
+   "eyebrow": "用程式碼做影片 · {n}",
+   "subtitle": "Claude Opus 5.5 影片提示詞讓模型寫程式碼，影片由程式碼在你的電腦上算圖而成。可以直接複製提示詞，也可以看創作者怎麼做。",
+   "ctaPrimary": {
+    "label": "試用 Claude Opus 5.5",
+    "href": "/models/claude-opus-5-5"
+   },
+   "ctaSecondary": {
+    "label": "Claude API 文件",
+    "href": "/docs/api-manual/text-series/claude"
+   },
+   "credit": "提示詞與影片屬於各卡片標示的創作者，每張卡片都連到原始貼文。",
+   "featured": "精選 Claude Opus 5.5 影片提示詞",
+   "badge": "Claude Opus 5.5 影片提示詞",
+   "imageAlt": "{title} – Claude Opus 5.5 影片提示詞成品",
+   "categories": {
+    "motion-graphics": {
+     "name": "動態圖像",
+     "intro": "作品集、UI 變形與發表片，用 HTML、Canvas 與著色器逐格畫出來。"
+    },
+    "product-launch": {
+     "name": "產品發表",
+     "intro": "App 與產品的宣傳片、預告片，多半用 Remotion 或 HyperFrames 製作。"
+    },
+    "explainer": {
+     "name": "解說影片",
+     "intro": "從 30 秒的食譜到 12 分鐘的講座，各種課程與科普解說。"
+    },
+    "storyboard-to-video": {
+     "name": "分鏡成片",
+     "intro": "Claude 規劃鏡頭，並透過 MCP 或腳本呼叫圖像與影片工具。"
+    },
+    "music-video": {
+     "name": "音樂影片",
+     "intro": "長時間自主執行與踩拍成片，有的讓代理人各畫一章。"
+    },
+    "short-film": {
+     "name": "短片",
+     "intro": "用程式碼寫成的故事與場景，從沙畫動畫到光線步進著色器。"
+    },
+    "3d-blender": {
+     "name": "3D 與 Blender",
+     "intro": "以 Blender Python 或 MCP 搭建的場景，以及用 JavaScript 寫的模擬。"
+    },
+    "video-editing": {
+     "name": "影片剪輯",
+     "intro": "讓 Claude 當剪輯師：剪素材、操作 After Effects 或 Resolve、組合精華集錦。"
+    }
+   },
+   "guide": {
+    "title": "如何撰寫 Claude Opus 5.5 影片提示詞",
+    "intro": "Claude 輸出的是程式碼而不是影片：你執行程式碼，算圖器擷取畫面，再由 FFmpeg 合成。先選好路線，並在提示詞裡點名。",
+    "items": [
+     {
+      "h": "單一 HTML、無頭瀏覽器、FFmpeg",
+      "formula": "單一 HTML + seek(t) + 無頭瀏覽器 + FFmpeg + 尺寸、幀率、長度",
+      "t": "這批卡片最常見的路線：一個 index.html，所有樣式都由時間算出，用 Playwright 之類的無頭瀏覽器逐格算圖，再交給 FFmpeg 合成。適合 Canvas、CSS 與 SVG 動畫。"
+     },
+     {
+      "h": "Remotion 或 HyperFrames",
+      "formula": "框架名稱 + 長度 + 腳本 + 品牌色 + 專案資料夾或網址",
+      "t": "想要以 React 為基礎的影片專案，就在提示詞中寫明 Remotion 或 HyperFrames，否則模型會選零相依的 HTML。好幾張卡片把網址或專案資料夾交給模型，讓它自己取素材。"
+     },
+     {
+      "h": "Three.js 與著色器",
+      "formula": "場景 + 鏡頭 + 色調 + 聲音來源 + 取畫面的方式",
+      "t": "不用 3D 軟體也想要立體效果時，卡片會要求 Three.js 或 WebGL 著色器，讓每個像素都由程式碼算出。要說明是即時錄影還是離線逐格算圖。"
+     },
+     {
+      "h": "Blender Python",
+      "formula": "主題 + 先建資料 + 可重複使用的生成器 + 算圖長度",
+      "t": "Blender 類卡片先讓模型建立資料或生成器，再用 Blender Python 搭場景，最後算出一段短鏡頭。需要本機安裝 Blender。"
+     },
+     {
+      "h": "每次都要寫明的項目",
+      "formula": "長度 + 解析度 + 幀率 + 框架 + 你提供的素材",
+      "t": "寫了長度與尺寸的卡片就得到對應長度；沒寫的那張自己排出了 7.6 分鐘的課。請說明你會提供哪些素材（照片、音樂、片段），並讓提示詞來向你索取。"
+     }
+    ]
+   },
+   "tips": {
+    "title": "Claude Opus 5.5 範例帶來的經驗",
+    "items": [
+     {
+      "h": "一句話拿來測環境",
+      "t": "那句 15 秒作品集提示詞被跑了成千上萬次，結果彼此相似。先用它確認算圖環境可以運作，再寫自己的點子。"
+     },
+     {
+      "h": "禁止清單比形容詞有用",
+      "t": "最長的提示詞都在列出不要做什麼：彈跳緩動、發光、CSS 轉場、被壓扁的 3D 翻轉。每一條禁令都來自一次失敗的算圖。"
+     },
+     {
+      "h": "整片算圖前先驗一格",
+      "t": "踩拍範本會在長時間算圖前，每拍抽一格或檢查若干格，出問題時能省下好幾個小時。"
+     },
+     {
+      "h": "長片要分層",
+      "t": "五分鐘以上的卡片先排旁白節奏，再排鏡頭時間，最後做聲音，並借助代理人或審查輪次。角色動畫多改了幾輪才像樣。"
+     },
+     {
+      "h": "留意音樂與肖像權",
+      "t": "使用授權或免版稅曲目的卡片都有註明。少數卡片用了他人的歌曲或同人致敬，轉用前請先看署名。"
+     },
+     {
+      "h": "方法卡是說明，不是提示詞",
+      "t": "創作者沒公開提示詞的，卡片用我們自己的話描述工具鏈，並以一句可改寫的起手句收尾。"
+     }
+    ]
+   },
+   "faq": {
+    "title": "Claude Opus 5.5 影片提示詞常見問題",
+    "items": [
+     {
+      "question": "Claude Opus 5.5 可以直接做影片嗎？",
+      "answer": "它寫的是程式碼，例如 HTML 檔、Remotion 專案或 Blender 腳本。影片由你電腦上的瀏覽器、Remotion 或 Blender 算圖，再用 FFmpeg 合成。"
+     },
+     {
+      "question": "執行 Claude Opus 5.5 影片提示詞需要安裝什麼？",
+      "answer": "依卡片而定：HTML 路線需要 Node、Playwright 與 FFmpeg，Remotion 與 HyperFrames 卡片要裝對應框架，Blender 卡片要裝 Blender。不少創作者在 Claude Code 裡執行 Claude Opus 5.5，讓模型自己安裝工具。"
+     },
+     {
+      "question": "這些 Claude Opus 5.5 提示詞可以免費使用嗎？成果歸誰？",
+      "answer": "提示詞與影片屬於各卡片標示的創作者，每張卡片都連到原始貼文。可以當作起點，轉發前請先確認創作者的使用條款。"
+     },
+     {
+      "question": "要用什麼語言對 Claude Opus 5.5 寫提示詞？",
+      "answer": "這裡的提示詞保留作者原本的語言，Claude Opus 5.5 可以讀英文與中文。用你最順手的語言寫需求，畫面上的文字則依影片需要的語言撰寫。"
+     },
+     {
+      "question": "如何用 API 執行這些 Claude Opus 5.5 提示詞？",
+      "answer": "把提示詞送到 claude-opus-5-5 模型的 Messages 介面，再儲存回傳的程式碼即可。端點與標頭請見 API 文件。"
+     },
+     {
+      "question": "Claude Opus 5.5 提示詞的「使用」按鈕會做什麼？",
+      "answer": "它會開啟 Claude Opus 5.5 模型頁並帶入提示詞。參考檔案不會一併附上，需要自己上傳照片、音樂或片段。"
+     },
+     {
+      "question": "為什麼我用 Claude Opus 5.5 做出的結果和影片不同？",
+      "answer": "模型輸出並不固定，創作者也可能用了別的推理檔位、工具、音樂，或修改了很多版。例如 Notion 預告片就改了 33 版。"
+     },
+     {
+      "question": "使用 Claude Opus 5.5 該選哪個推理檔位？",
+      "answer": "有註明檔位的創作者用的是 max、xhigh，或中到高檔。API 接受 low、medium、high、xhigh、max；思考也計入 max_tokens，要替程式碼留足空間。"
+     },
+     {
+      "question": "Claude Opus 5.5 能做多長的影片？",
+      "answer": "沒有說明上限；這些卡片從約 8 秒到 12 分鐘以上都有。請在提示詞中寫明長度，因為沒寫長度的那堂課被排成了 7.6 分鐘。"
+     },
+     {
+      "question": "Claude Opus 5.5 連配樂與配音也一併處理嗎？",
+      "answer": "有的卡片用程式碼合成聲音，有的接入語音合成、音樂生成器或授權曲目，詳見各卡片說明。"
+     },
+     {
+      "question": "做這些該選 Claude Opus 5.5 還是 Opus 5？",
+      "answer": "這裡的範例都出自 Opus 5.5。想比較兩個模型，可以看 APIKO 的對照文章。"
+     }
+    ]
+   },
+   "links": {
+    "title": "APIKO 相關頁面",
+    "items": [
+     {
+      "label": "Claude Opus 5.5 模型頁",
+      "href": "/models/claude-opus-5-5"
+     },
+     {
+      "label": "Claude API 文件",
+      "href": "/docs/api-manual/text-series/claude"
+     },
+     {
+      "label": "Claude Opus 5.5 與 Opus 5 比較",
+      "href": "/blog/claude-opus-5-5-vs-claude-opus-5"
+     },
+     {
+      "label": "APIKO 對話",
+      "href": "/chat"
+     },
+     {
+      "label": "Seedance 2.5 提示詞",
+      "href": "/seedance-2-5-prompts"
+     }
+    ]
+   }
+  },
+  "ko": {
+   "metaTitle": "Claude Opus 5.5 영상 프롬프트 {n}개",
+   "h1": "Claude Opus 5.5 영상 프롬프트",
+   "description": "Claude Opus 5.5 영상 프롬프트 {n}개. HTML 한 파일부터 Remotion, Three.js, Blender까지 코드로 영상을 만드는 프롬프트와 제작 방법.",
+   "eyebrow": "코드로 영상 만들기 · {n}",
+   "subtitle": "Claude Opus 5.5 영상 프롬프트로 모델이 코드를 쓰고, 영상은 그 코드가 내 컴퓨터에서 렌더링합니다. 프롬프트를 복사하거나 제작 과정을 읽어 보세요.",
+   "ctaPrimary": {
+    "label": "Claude Opus 5.5 사용해 보기",
+    "href": "/models/claude-opus-5-5"
+   },
+   "ctaSecondary": {
+    "label": "Claude API 문서",
+    "href": "/docs/api-manual/text-series/claude"
+   },
+   "credit": "프롬프트와 영상은 각 카드에 표시된 제작자의 것이며, 모든 카드는 원 게시물로 연결됩니다.",
+   "featured": "추천 Claude Opus 5.5 영상 프롬프트",
+   "badge": "Claude Opus 5.5 영상 프롬프트",
+   "imageAlt": "{title} – Claude Opus 5.5 영상 프롬프트 결과",
+   "categories": {
+    "motion-graphics": {
+     "name": "모션 그래픽",
+     "intro": "쇼릴, UI 변형, 런칭 필름을 HTML, Canvas, 셰이더로 프레임마다 그립니다."
+    },
+    "product-launch": {
+     "name": "제품 런칭",
+     "intro": "앱과 제품의 홍보 영상과 트레일러로, 대부분 Remotion이나 HyperFrames로 만들었습니다."
+    },
+    "explainer": {
+     "name": "설명 영상",
+     "intro": "30초 레시피부터 12분 강의까지 다양한 강의와 과학 해설입니다."
+    },
+    "storyboard-to-video": {
+     "name": "스토리보드에서 영상으로",
+     "intro": "Claude가 샷을 기획하고 MCP나 스크립트로 이미지와 영상 도구를 조작합니다."
+    },
+    "music-video": {
+     "name": "뮤직비디오",
+     "intro": "긴 자율 실행과 비트 싱크 영상으로, 에이전트가 챕터를 나눠 그리기도 합니다."
+    },
+    "short-film": {
+     "name": "단편 영화",
+     "intro": "샌드 애니메이션부터 레이마칭 셰이더까지, 코드로 쓴 이야기와 장면입니다."
+    },
+    "3d-blender": {
+     "name": "3D와 Blender",
+     "intro": "Blender Python이나 MCP로 만든 장면과 JavaScript로 짠 시뮬레이션입니다."
+    },
+    "video-editing": {
+     "name": "영상 편집",
+     "intro": "Claude를 편집자로 쓰는 사례: 컷 편집, After Effects와 Resolve 조작, 데모 릴 제작."
+    }
+   },
+   "guide": {
+    "title": "Claude Opus 5.5 영상 프롬프트 쓰는 법",
+    "intro": "Claude가 내놓는 것은 영상이 아니라 코드입니다. 코드를 실행하면 렌더러가 프레임을 캡처하고 FFmpeg이 이어 붙입니다. 먼저 경로를 고르고 프롬프트에 이름을 적으세요.",
+    "items": [
+     {
+      "h": "HTML 한 파일, 헤드리스 브라우저, FFmpeg",
+      "formula": "HTML 한 파일 + seek(t) + 헤드리스 브라우저 + FFmpeg + 크기, 프레임레이트, 길이",
+      "t": "이 카드들에서 가장 흔한 경로입니다. 모든 스타일을 시간으로 계산하는 index.html 하나를 Playwright 같은 헤드리스 브라우저로 프레임별 렌더링하고 FFmpeg으로 합칩니다. Canvas, CSS, SVG 애니메이션에 잘 맞습니다."
+     },
+     {
+      "h": "Remotion 또는 HyperFrames",
+      "formula": "프레임워크 이름 + 길이 + 대본 + 브랜드 색 + 프로젝트 폴더나 주소",
+      "t": "React 기반 영상 프로젝트를 원하면 Remotion이나 HyperFrames를 적어야 합니다. 안 적으면 모델은 의존성 없는 HTML을 고릅니다. 여러 카드가 주소나 프로젝트 폴더를 알려 주고 자료는 모델이 직접 가져오게 합니다."
+     },
+     {
+      "h": "Three.js와 셰이더",
+      "formula": "장면 + 카메라 + 색감 + 소리의 출처 + 프레임을 얻는 방식",
+      "t": "3D 앱 없이 입체감을 내려고 Three.js나 WebGL 셰이더를 요청하고, 모든 픽셀을 코드로 계산합니다. 실시간 녹화인지 오프라인 프레임 렌더링인지 밝히세요."
+     },
+     {
+      "h": "Blender Python",
+      "formula": "주제 + 자료 먼저 + 재사용 생성기 + 렌더 길이",
+      "t": "Blender 카드는 모델이 자료나 생성기를 먼저 만들고, Blender Python으로 장면을 조립해 짧은 샷을 렌더링하게 합니다. 로컬에 Blender가 필요합니다."
+     },
+     {
+      "h": "매번 적어야 할 것",
+      "formula": "길이 + 해상도 + 프레임레이트 + 프레임워크 + 내가 줄 에셋",
+      "t": "길이와 크기를 적은 카드는 그 길이로 나왔고, 안 적은 강의는 스스로 7.6분으로 짰습니다. 사진, 음악, 클립 등 내가 줄 에셋을 밝히고 프롬프트가 먼저 요청하게 하세요."
+     }
+    ]
+   },
+   "tips": {
+    "title": "Claude Opus 5.5 예시가 보여 주는 것",
+    "items": [
+     {
+      "h": "한 줄 프롬프트는 환경 점검용",
+      "t": "15초 쇼릴 문장은 수천 번 실행되어 결과가 서로 닮았습니다. 렌더링 환경이 도는지 확인하는 데 쓰고, 그다음 내 아이디어를 쓰세요."
+     },
+     {
+      "h": "형용사보다 금지 목록과 주의점",
+      "t": "가장 긴 프롬프트들은 하지 말 것을 나열합니다. 튀는 이징, 글로우, CSS 트랜지션, 납작해지는 3D 플립 등이며, 각 금지는 실패한 렌더링에서 나왔습니다."
+     },
+     {
+      "h": "전체 렌더 전에 한 프레임 확인",
+      "t": "비트 싱크 템플릿은 긴 렌더링 전에 비트마다 한 프레임이나 여러 프레임을 점검해, 문제가 있을 때 몇 시간을 아낍니다."
+     },
+     {
+      "h": "긴 영상은 층으로 쌓기",
+      "t": "5분 이상 카드는 내레이션 박자, 샷 타이밍, 소리 순으로 계획하고 에이전트나 검토 라운드를 씁니다. 캐릭터 애니메이션은 몇 번 더 고쳐야 했습니다."
+     },
+     {
+      "h": "음악과 초상 권리 확인",
+      "t": "라이선스나 로열티 프리 곡을 쓴 카드는 그렇게 밝혀 둡니다. 일부 카드는 남의 노래나 팬 오마주를 쓰므로, 재사용 전에 표기를 읽으세요."
+     },
+     {
+      "h": "방법 카드는 프롬프트가 아닌 설명",
+      "t": "제작자가 프롬프트를 공개하지 않은 경우 카드는 도구 구성을 우리 말로 설명하고, 바꿔 쓸 수 있는 시작 문장으로 끝납니다."
+     }
+    ]
+   },
+   "faq": {
+    "title": "Claude Opus 5.5 영상 프롬프트 자주 묻는 질문",
+    "items": [
+     {
+      "question": "Claude Opus 5.5가 영상을 직접 만들 수 있나요?",
+      "answer": "HTML 파일, Remotion 프로젝트, Blender 스크립트 같은 코드를 씁니다. 영상은 내 컴퓨터의 브라우저, Remotion, Blender가 렌더링하고 FFmpeg으로 합칩니다."
+     },
+     {
+      "question": "Claude Opus 5.5 영상 프롬프트를 실행하려면 무엇을 설치해야 하나요?",
+      "answer": "카드마다 다릅니다. HTML 경로는 Node, Playwright, FFmpeg, Remotion과 HyperFrames 카드는 각 프레임워크, Blender 카드는 Blender가 필요합니다. 여러 제작자가 Claude Code에서 Claude Opus 5.5를 실행해 모델이 도구를 직접 설치하게 했습니다."
+     },
+     {
+      "question": "Claude Opus 5.5 프롬프트는 무료로 쓸 수 있나요? 결과물은 누구 것인가요?",
+      "answer": "프롬프트와 영상은 각 카드에 표시된 제작자의 것이며 모든 카드가 원 게시물로 연결됩니다. 출발점으로 쓰되, 다시 게시하기 전에 제작자의 조건을 확인하세요."
+     },
+     {
+      "question": "Claude Opus 5.5에는 어떤 언어로 프롬프트를 써야 하나요?",
+      "answer": "여기 프롬프트는 작성자의 원래 언어이고, Claude Opus 5.5는 영어와 중국어를 받습니다. 편한 언어로 요청을 쓰고, 화면에 나올 글자는 영상에 필요한 언어로 적으세요."
+     },
+     {
+      "question": "API로 이 Claude Opus 5.5 프롬프트를 실행하려면요?",
+      "answer": "프롬프트를 claude-opus-5-5 모델의 Messages 엔드포인트로 보내고 돌아온 코드를 저장하면 됩니다. 엔드포인트와 헤더는 API 문서에 있습니다."
+     },
+     {
+      "question": "Claude Opus 5.5 프롬프트의 \"사용\" 버튼은 무엇을 하나요?",
+      "answer": "프롬프트가 채워진 Claude Opus 5.5 모델 페이지가 열립니다. 참고 파일은 첨부되지 않으므로 사진, 음악, 클립은 직접 올려야 합니다."
+     },
+     {
+      "question": "내 Claude Opus 5.5 결과가 영상과 다른 이유는요?",
+      "answer": "모델 출력은 매번 같지 않고, 제작자가 다른 추론 단계, 도구, 음악을 쓰거나 여러 번 수정했을 수 있습니다. 예컨대 Notion 트레일러는 33번 수정했습니다."
+     },
+     {
+      "question": "Claude Opus 5.5는 어떤 추론 단계를 써야 하나요?",
+      "answer": "단계를 밝힌 제작자는 max, xhigh, 또는 중간에서 높음을 썼습니다. API는 low, medium, high, xhigh, max를 받으며 사고 토큰도 max_tokens에 포함되니 코드를 위한 여유를 두세요."
+     },
+     {
+      "question": "Claude Opus 5.5로 얼마나 긴 영상을 만들 수 있나요?",
+      "answer": "상한은 명시되지 않았고, 카드에는 약 8초부터 12분이 넘는 것까지 있습니다. 길이를 적지 않은 강의가 7.6분이 되었으니 프롬프트에 길이를 쓰세요."
+     },
+     {
+      "question": "Claude Opus 5.5가 음악과 음성도 만들어 주나요?",
+      "answer": "코드로 소리를 합성한 카드도 있고, 음성 합성, 음악 생성기, 라이선스 곡을 가져온 카드도 있습니다. 각 카드 설명에 나와 있습니다."
+     },
+     {
+      "question": "이런 작업에는 Claude Opus 5.5와 Opus 5 중 무엇이 좋나요?",
+      "answer": "여기 예시는 모두 Opus 5.5로 만든 것입니다. 두 모델을 비교하려면 APIKO의 비교 글을 보세요."
+     }
+    ]
+   },
+   "links": {
+    "title": "APIKO 관련 페이지",
+    "items": [
+     {
+      "label": "Claude Opus 5.5 모델 페이지",
+      "href": "/models/claude-opus-5-5"
+     },
+     {
+      "label": "Claude API 문서",
+      "href": "/docs/api-manual/text-series/claude"
+     },
+     {
+      "label": "Claude Opus 5.5 vs Opus 5",
+      "href": "/blog/claude-opus-5-5-vs-claude-opus-5"
+     },
+     {
+      "label": "APIKO 채팅",
+      "href": "/chat"
+     },
+     {
+      "label": "Seedance 2.5 프롬프트",
+      "href": "/seedance-2-5-prompts"
+     }
+    ]
+   }
+  }
+ },
+ "cards": [
+  {
+   "id": "motion-graphics-01",
+   "category": "motion-graphics",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "motion-graphics-01.mp4"
+    ],
+    "poster": "motion-graphics-01.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 15,
+   "ratio": "16:9",
+   "author": {
+    "name": "stephanlivera",
+    "url": "https://x.com/stephanlivera"
+   },
+   "sourceUrl": "https://x.com/stephanlivera/status/2103315922098470926",
+   "needsReference": false,
+   "preview": "make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out.",
+   "complete": true,
+   "prompt": "make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out.",
+   "text": {
+    "en": {
+     "title": "One-line 15-second motion designer showreel",
+     "summary": "A single sentence at max effort; it tests whether your render setup works rather than an idea.",
+     "tags": [
+      "One-liner",
+      "Showreel"
+     ]
+    },
+    "zh": {
+     "title": "一句话做 15 秒动效作品集",
+     "summary": "max 档一句话，用来检验渲染环境是否跑得通，而不是一个创意。",
+     "tags": [
+      "一句话",
+      "作品集短片"
+     ]
+    },
+    "zh-TW": {
+     "title": "一句話做 15 秒動態設計作品集",
+     "summary": "max 檔位的一句話，用來確認算圖環境跑得起來，而不是一個點子。",
+     "tags": [
+      "一句話",
+      "作品集短片"
+     ]
+    },
+    "ko": {
+     "title": "한 줄로 만든 15초 모션 디자이너 쇼릴",
+     "summary": "max 단계에서 한 문장만 쓴 프롬프트로, 아이디어보다 렌더링 환경이 도는지 확인하는 용도입니다.",
+     "tags": [
+      "한 줄 프롬프트",
+      "쇼릴"
+     ]
+    }
+   }
+  },
+  {
+   "id": "motion-graphics-02",
+   "category": "motion-graphics",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "motion-graphics-02.mp4"
+    ],
+    "poster": "motion-graphics-02.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 15,
+   "ratio": "16:9",
+   "author": {
+    "name": "lukasersil",
+    "url": "https://x.com/lukasersil"
+   },
+   "sourceUrl": "https://x.com/lukasersil/status/2103742861971726495",
+   "needsReference": false,
+   "preview": "Create a bold, dynamic 15-second motion graphics showreel that feels like the ultimate portfolio piece of an exceptionally talented motion designer. Showcase a wide range of advanced techniques: kinetic typography, smooth transitions, 2D and 3D animation, abstract geometry",
+   "complete": false,
+   "prompt": "Create a bold, dynamic 15-second motion graphics showreel that feels like the ultimate portfolio piece of an exceptionally talented motion designer. Showcase a wide range of advanced techniques: kinetic typography, smooth transitions, 2D and 3D animation, abstract geometry, fluid simulations, particles, distortion, creative masking, compositing, lighting, depth, and seamless camera movement. Keep the pacing fast, confident, and visually surprising, with every shot transitioning naturally into the next. Make it feel meticulously art-directed rather than like a random collection of effects. Push the creativity, polish, timing, and visual impact as far as possible. This should feel like the opening reel that gets a motion designer hired.",
+   "text": {
+    "en": {
+     "title": "Showreel brief that names every technique",
+     "summary": "Listing the techniques (typography, particles, masking, fluids) steers the model across 2D, 3D and shader work in one 15 s cut.",
+     "tags": [
+      "Showreel",
+      "Shader"
+     ]
+    },
+    "zh": {
+     "title": "逐项点名技法的作品集简报",
+     "summary": "把字效、粒子、遮罩、流体逐项列出，让 15 秒里同时出现 2D、3D 和着色器。",
+     "tags": [
+      "作品集短片",
+      "着色器"
+     ]
+    },
+    "zh-TW": {
+     "title": "逐項點名技法的作品集需求",
+     "summary": "把文字動態、粒子、遮罩、流體一一列出，讓 15 秒內同時有 2D、3D 與著色器。",
+     "tags": [
+      "作品集短片",
+      "著色器"
+     ]
+    },
+    "ko": {
+     "title": "기법을 하나씩 짚은 쇼릴 브리프",
+     "summary": "타이포, 파티클, 마스킹, 유체를 나열해 15초 안에 2D, 3D, 셰이더가 함께 나오게 합니다.",
+     "tags": [
+      "쇼릴",
+      "셰이더"
+     ]
+    }
+   }
+  },
+  {
+   "id": "motion-graphics-03",
+   "category": "motion-graphics",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "motion-graphics-03.mp4"
+    ],
+    "poster": "motion-graphics-03.webp",
+    "width": 1280,
+    "height": 1280
+   },
+   "seconds": 14,
+   "ratio": "1:1",
+   "author": {
+    "name": "twoclipping",
+    "url": "https://x.com/twoclipping"
+   },
+   "sourceUrl": "https://x.com/twoclipping/status/2103273003555402193",
+   "needsReference": false,
+   "preview": "<inputs> Ask me for: 8 to 12 UI states I want the shape to become (e.g. button, loader, player, slider, toggle, tabs, chart, command palette, toast), pure black and white or one accent color, and a royalty-free song around 120 BPM (e.g. Mixkit, free for commercial use).",
+   "complete": false,
+   "prompt": "<inputs>\nAsk me for: 8 to 12 UI states I want the shape to become (e.g. button, loader, player, slider, toggle, tabs, chart, command palette, toast), pure black and white or one accent color, and a royalty-free song around 120 BPM (e.g. Mixkit, free for commercial use).\n</inputs>\n<direction>\nDribbble-level UI motion. One shape, never cut: every state is the same element morphing its size, radius and color while its content swaps with a short blur. A cursor drives every change with real clicks and drags. Light warm-gray canvas, black and white components, one clean UI font (Geist). Springs everywhere, a tiny overshoot at most. The camera zooms so each state fills the frame. The last frame is the first frame, so it loops.\nBanned: bouncy easing, particle bursts, glows, gradients on UI chrome, mismatched icon strokes, dead time, anything that looks like a template.\n</direction>\n<structure>\n120 BPM, 7 bars, something happens on every beat.\nButton → loader → check → dynamic island → music player with a play/pause morph → scrub the progress bar → it becomes a volume slider that stretches when dragged past max → a toggle flips on the beat → the knob becomes a liquid tab indicator → the tabs open into a chart that draws itself, with a tooltip on hover → it collapses into ⌘K → type to filter → enter → toast → back to the button.\n</structure>\n<build>\n1. One HTML file, square 1440x1440. Every style is computed from time inside seek(t): no CSS transitions, no timers, no state carried between frames.\n2. Springs are closed-form step responses. A value that changes target many times is the sum of one spring per change, so it stays a pure function of time.\n3. The tab indicator's two edges ride different springs, so the leading edge stretches ahead of the trailing one. Same trick for the toggle knob.\n4. Drags are direct manipulation: while the cursor is held, the value is computed from its position. On release it springs back from wherever it was.\n5. Analyze the song with numpy for the beat grid and start on a downbeat. Place every UI sound by its measured peak.\n6. Render with Playwright: 4 subframes per frame, blended with ffmpeg tmix for motion blur at 60fps.\n7. Render one frame per beat before the full render. Fix anything off the grid, cramped or hard to read.\n</build>\n<gotchas>\nNever put will-change on anything the camera scales or the text renders blurry. Text that swaps inside a morphing container needs its own enter and exit timing or it overlaps. Make the last frame identical to the first, cursor position and speed included, or the loop stutters.\n</gotchas>\n<start>\nAsk me for the inputs, then show me the state list on the beat grid before you write any code.\n</start>",
+   "text": {
+    "en": {
+     "title": "One shape morphing through a dozen UI states",
+     "summary": "Fixes the beat grid, bans the usual tells and gives a build recipe: time-driven seek(t), springs, a looping last frame.",
+     "tags": [
+      "Template",
+      "Beat sync"
+     ]
+    },
+    "zh": {
+     "title": "一个图形连变十几种 UI 状态",
+     "summary": "先定节拍，再禁掉常见套路，并写明按时间驱动的 seek(t)、弹簧曲线和首尾相接。",
+     "tags": [
+      "模板",
+      "卡点"
+     ]
+    },
+    "zh-TW": {
+     "title": "一個圖形連變十幾種 UI 狀態",
+     "summary": "先定節拍、禁掉常見套路，再寫明依時間驅動的 seek(t)、彈簧曲線與首尾相接。",
+     "tags": [
+      "範本",
+      "卡點"
+     ]
+    },
+    "ko": {
+     "title": "도형 하나가 UI 열두 가지로 변하는 영상",
+     "summary": "비트를 먼저 정하고 흔한 연출을 금지한 뒤, 시간 기반 seek(t)와 스프링, 루프 구조를 적었습니다.",
+     "tags": [
+      "템플릿",
+      "비트 싱크"
+     ]
+    }
+   }
+  },
+  {
+   "id": "motion-graphics-04",
+   "category": "motion-graphics",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "motion-graphics-04.mp4"
+    ],
+    "poster": "motion-graphics-04.webp",
+    "width": 1280,
+    "height": 1280
+   },
+   "seconds": 29,
+   "ratio": "1:1",
+   "author": {
+    "name": "twoclipping",
+    "url": "https://x.com/twoclipping"
+   },
+   "sourceUrl": "https://x.com/twoclipping/status/2103835273813496100",
+   "needsReference": false,
+   "preview": "<inputs> Ask me for: a one-word brand name for the wordmark (a verb works best), 9 to 12 high-res photos, a royalty-free song around 120 BPM with a drop and a quiet breakdown (Mixkit, free for commercial use), and a free stock clip of a plain wall with moving plant shadows",
+   "complete": false,
+   "prompt": "<inputs>\nAsk me for: a one-word brand name for the wordmark (a verb works best), 9 to 12 high-res photos, a royalty-free song around 120 BPM with a drop and a quiet breakdown (Mixkit, free for commercial use), and a free stock clip of a plain wall with moving plant shadows (Pexels).\n</inputs>\n<direction>\nAn Apple-keynote launch film, 2D only, one continuous take. Every scene is made out of the previous one: nothing fades, blurs or cuts. Objects change shape instead: text rises out of a mask line, icons pop from zero on a spring, bars draw across, pages push, and a black shape floods the whole frame and contracts into the next scene. Warm off-white canvas, black UI, iOS 26 liquid glass over the photos. Archivo (wdth 125, weight 800) for the wordmark, Geist for UI. A cursor drives every change with real clicks, drags and long-presses. The camera zooms screen-studio style so each moment fills the square, and the cursor scales with it.\nBanned: crossfades, blur-ins, brightness \"developing\", 3D flips, particles, glows, holds longer than 1s, anything that looks like a template.\n</direction>\n<structure>\n120 BPM, 54 beats, something happens on every beat.\nOpen: the wordmark squeezes into its own period like an accordion, the dot grows into a black pill, a label rises inside it. Click: six iris blades close over the label and snap open onto a photo. The circle becomes a square, shrinks, the grid unfolds from behind it like a paper map (center, plus, corners), reflows into a bento, and a click zooms into one tile, landing exactly on the drop.\nGlass: a glass word pops in letter by letter, melts into a droplet that stretches into a glass toolbar. The adjust icon turns it into a slider. Dragging relights the photo from day to golden hour (two aligned shots), and the knob turns into a glass lens while held. It lifts into a glass orb, the next photo opens inside it as a circle, and the orb expands into a lock screen: glass clock digits, date, and a home bar that stretches into a glass music player.\nStage: the lock screen pulls back into a phone (the bezel grows out of the screen edge). The Dynamic Island stretches like liquid, pinches off, flies over and grows into a Mac window that rolls up like a blind. Long-press the wallpaper, drag it onto a Safari tab, the page pushes in, drop it and it becomes the hero of a landing page. Scroll: the hero morphs into a framed print on a product card, with the mat and molding growing out of the photo's edge. Pick a frame color (it paints across) and a size, then the nav button flies down into \"Order print\".\nOrder: one black shape keeps morphing: Ordered ✓ → Printing % → On its way (a van on a route) → Delivered ✓.\nWall: the delivered circle floods the frame edge to edge, holds black for a beat, and contracts into the framed print hanging on the real wall footage. The same iris opens onto the print, closes again, the frame floods the screen and contracts into the pill → the dot → the letters spring back out, landing on the beat return. Last frame = first frame.\n</structure>\n<build>\n1. One HTML file, square 1440x1440. Every style is computed from time inside an async seek(t): no CSS transitions, no timers, no state between frames.\n2. Springs are closed-form step responses. A value with many targets is the sum of one spring per change, so it stays a pure function of time.\n3. Liquid glass: each glass element holds its own clone of the scene behind it, filtered with an SVG feImage displacement map (a rounded-rect distance field) through three feDisplacementMaps at slightly different scales for chromatic edges, plus a rim light. Glass letters: a canvas distance field per glyph gives the map, mask and highlights.\n4. Goo: blur + alpha threshold, then composite the source atop it so the glass stays sharp inside.\n5. Iris: 6 blades around a hexagonal aperture. Each blade is its two vertices, both edge extensions and the SHORT arc between them.\n6. Wordmark squeeze: every letter moves toward the dot by the same factor and its drawn width follows (narrow the wdth axis, scale the rest), so the letters stay touching.\n7. Footage: re-encode all-intra (ffmpeg -g 1), load it as a blob URL, await 'seeked' before drawing each frame.\n8. Sound: a downloaded SFX for every event (Mixkit), never synthesized, each placed by its measured peak. The song starts on a downbeat: the zoom lands on the drop, the wall sits in the breakdown, the wordmark returns with the beat. Loudnorm to -14 LUFS.\n9. Render with Playwright: 4 subframes per frame blended with ffmpeg tmix, 60fps. Check one frame per beat, then scan for single-frame pops (frame-difference spikes 3x their neighbours).\n</build>\n<gotchas>\nbackdrop-filter: url() misreads displacement maps in Chromium, so clone the scene instead. A flood must overscale past the corners and take about 0.3s, or half the screen changes in one frame. A child with visibility: visible shows through a hidden parent, so use inherit. Text that swaps inside a morphing shape needs its own mask. python http.server can't range-seek video, so use the blob URL.\n</gotchas>\n<start>\nAsk me for the inputs, then show me the beat map and 4 stills (open, glass, stage, wall) before you write the full film.\n</start>",
+   "text": {
+    "en": {
+     "title": "Keynote-style launch film with liquid glass",
+     "summary": "A 5,000-character direction block asks for your photos and track first, then locks one continuous take with a measured sound sync.",
+     "tags": [
+      "Product promo",
+      "Beat sync"
+     ]
+    },
+    "zh": {
+     "title": "苹果发布会风格的液态玻璃发布片",
+     "summary": "五千多字的导演稿，先向你要照片和配乐，再锁定一镜到底和按峰值对齐的音效。",
+     "tags": [
+      "产品宣传",
+      "卡点"
+     ]
+    },
+    "zh-TW": {
+     "title": "發表會風格的液態玻璃發表片",
+     "summary": "五千多字的導演稿，先向你索取照片與配樂，再鎖定一鏡到底與依峰值對齊的音效。",
+     "tags": [
+      "產品宣傳",
+      "卡點"
+     ]
+    },
+    "ko": {
+     "title": "리퀴드 글래스 키노트풍 런칭 필름",
+     "summary": "5천 자 넘는 연출서가 사진과 음악을 먼저 요청하고, 원테이크와 측정된 효과음 싱크를 고정합니다.",
+     "tags": [
+      "제품 홍보",
+      "비트 싱크"
+     ]
+    }
+   }
+  },
+  {
+   "id": "motion-graphics-05",
+   "category": "motion-graphics",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "motion-graphics-05.mp4"
+    ],
+    "poster": "motion-graphics-05.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 20,
+   "ratio": "16:9",
+   "author": {
+    "name": "twoclipping",
+    "url": "https://x.com/twoclipping"
+   },
+   "sourceUrl": "https://x.com/twoclipping/status/2102554209166000267",
+   "needsReference": false,
+   "preview": "<inputs> Ask me for: the product name and a one-line promise, 3 to 5 UI moments to show, one accent color, 10 to 20 real vertical clips I own, and a royalty-free song with a clear drop (e.g. Mixkit, free for commercial use). </inputs> <direction> High-end minimal. One idea per",
+   "complete": false,
+   "prompt": "<inputs>\nAsk me for: the product name and a one-line promise, 3 to 5 UI moments to show, one accent color, 10 to 20 real vertical clips I own, and a royalty-free song with a clear drop (e.g. Mixkit, free for commercial use).\n</inputs>\n<direction>\nHigh-end minimal. One idea per shot, lots of empty space, one accent color, one clean sans (Geist or Inter) with tight tracking. Masked type reveals, match cuts, one smooth camera language. Real footage only, never placeholder cards. No full stops in on-screen text.\nBanned: shockwave rings, particle bursts, RGB split, camera shake, lens flares, neon glows, grid floors, flashing backgrounds, bouncy easing.\n</direction>\n<structure>\n10 bars at 120 BPM, 2 seconds each.\nBar 1: the hook lands word by word on the beats.\nBar 2: one hook word morphs into the product UI. A cursor types and clicks.\nThe drop: a circle opens out of the button into a dark scene.\nThen one move per bar: a wall of real clips with a scan line and 3 winners, the key output as big type, a 3D carousel of real videos with floor reflections and a motion-blurred whip onto one hero clip, the hero in a phone next to a panel that flips into results, big stats on push cuts, a 3-word ticker, a logo reveal, a fade to black.\n</structure>\n<build>\n1. One HTML file at 1920x1080. Every style is computed from time inside window.seek(t): no CSS animations, no timers, no state between frames.\n2. Real video: extract clips to 30fps JPEG sequences with ffmpeg and swap img sources per frame. seek awaits the image decodes.\n3. Analyze the song with numpy: tempo, beat grid, energy per bar, the drop. Calibrate the grid to the real kick hits. Every cut sits on a downbeat, every UI hit on a beat.\n4. Render with Playwright: 3 subframes per frame at t minus, at, and plus 1/240s, then blend with ffmpeg tmix for real motion blur at 60fps.\n5. Place each sound effect so its measured peak, not its file start, lands on the event. Keep the effects quiet under the music. Loudnorm to -14 LUFS.\n6. Probe 20 or more frames before the full render. Fix anything cluttered, overlapping or hard to read.\n</build>\n<gotchas>\nNever set opacity or filter on a preserve-3d element, because it flattens and both faces show. Fade its wrapper instead. Measure element positions at runtime for match cuts. Only use music and sound effects whose license allows commercial use.\n</gotchas>\n<start>\nAsk me for the inputs, then show me a storyboard with every timing on the beat grid before you write any code.\n</start>",
+   "text": {
+    "en": {
+     "title": "Minimal product launch cut on the beat",
+     "summary": "One idea per shot, one accent colour, one font, and your own vertical clips scanned across a wall.",
+     "tags": [
+      "Product promo",
+      "Beat sync"
+     ]
+    },
+    "zh": {
+     "title": "踩着鼓点切的极简产品发布片",
+     "summary": "每镜一个想法、一种强调色、一款字体，再用你自己的竖屏素材刷过一面墙。",
+     "tags": [
+      "产品宣传",
+      "卡点"
+     ]
+    },
+    "zh-TW": {
+     "title": "踩著鼓點剪接的極簡產品發表片",
+     "summary": "每個鏡頭一個想法、一種強調色、一款字型，再用你自己的直式素材掃過一面牆。",
+     "tags": [
+      "產品宣傳",
+      "卡點"
+     ]
+    },
+    "ko": {
+     "title": "비트에 맞춰 자르는 미니멀 제품 런칭",
+     "summary": "샷마다 아이디어 하나, 강조색 하나, 서체 하나, 그리고 내 세로 영상이 벽을 훑습니다.",
+     "tags": [
+      "제품 홍보",
+      "비트 싱크"
+     ]
+    }
+   }
+  },
+  {
+   "id": "motion-graphics-06",
+   "category": "motion-graphics",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "motion-graphics-06.mp4"
+    ],
+    "poster": "motion-graphics-06.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 18,
+   "ratio": "16:9",
+   "author": {
+    "name": "op7418",
+    "url": "https://x.com/op7418"
+   },
+   "sourceUrl": "https://x.com/op7418/status/2104085484347818226",
+   "needsReference": false,
+   "preview": "帮我做一个原创的手游「高光时刻」动效：[主体，例如：开宝箱 / 段位晋升 / 成就解锁 / Boss 掉落 / 角色升级]。 做成一个可以直接打开的单文件网页（HTML + CSS + JS），点一下就能完整播放，效果对标商业手游的结算 / 奖励演出。 【世界观与风格】 - 原创美术，不要模仿任何现有游戏的 IP、角色或 Logo。 - 卡通手游风：高饱和配色，统一的深色描边（例如 #1A1033），圆润厚重的造型。 - 配色随等级升级：[等级阶梯，例如：普通绿 → 稀有蓝 → 史诗紫 → 传说金]。每升一级都要切换主色、光效颜色和背景色调。 -",
+   "complete": false,
+   "prompt": "帮我做一个原创的手游「高光时刻」动效：[主体，例如：开宝箱 / 段位晋升 / 成就解锁 / Boss 掉落 / 角色升级]。\n做成一个可以直接打开的单文件网页（HTML + CSS + JS），点一下就能完整播放，效果对标商业手游的结算 / 奖励演出。\n【世界观与风格】\n- 原创美术，不要模仿任何现有游戏的 IP、角色或 Logo。\n- 卡通手游风：高饱和配色，统一的深色描边（例如 #1A1033），圆润厚重的造型。\n- 配色随等级升级：[等级阶梯，例如：普通绿 → 稀有蓝 → 史诗紫 → 传说金]。每升一级都要切换主色、光效颜色和背景色调。\n- 标题用圆胖的游戏字体（如 Titan One / Lilita One），描黑边，加投影；文字逐字「砸」进画面，带回弹。\n【主体物：做成真 3D】\n- 用 Three.js 建模，不要用平面 SVG 贴图。要有厚度、倒角，以及符合主体的结构细节（木板缝、铆钉、包边、宝石切面、锁扣等）；木板缝这类细节用真实几何体拼出来，不要贴黑线条。\n- 着色用卡通分阶（MeshToonMaterial 加 3～4 阶的渐变贴图），配三种灯光：主光、天光、等级色的轮廓光。\n- 描边用后期边缘检测：渲染法线图 + 深度图，再用着色器画线。外轮廓粗、零件交界细，粗细全程一致；另外做 1.5 倍超采样和多重采样抗锯齿。\n不要用「放大一圈的黑色背面」那种描边，那样粗细不均、转角会断。\n深度判断的阈值要放宽，接缝主要靠法线判断，否则斜着看的表面会冒出细碎斜纹。\n- 活动部件要真实运动，比如箱盖绕铰链翻开、奖章绕竖轴旋转。\n- 待机时主体缓慢左右转动，让人看到侧面和厚度，同时轻微上下浮动；脚下要有随高度变化的柔和投影。\n【如果画面里有 2D 插画（卡面、奖励图标、角色）】\n- 三层卡通着色：底色、成块的阴影色、高光色，不要只用一层渐变。\n- 线条分粗细：外轮廓粗，内部结构线细。\n- 每个角色或物件要有自己的表情和姿态，不要所有东西共用同一张脸。\n- 脚下画投影，让主体「站」在画面里；背景按属性区分图案，不要全用同一套放射线。\n【演出节奏：五个阶段，缺一不可】\n1. 预备：主体待机浮动，每隔几秒抖一下提示可以点击，底部显示「点击」提示。\n2. 升级：每点一次，主体跳起、在空中转一圈、落地时压扁再回弹；同时切换到下一等级的颜色，闪一下光，冒一圈粒子，标题更新。\n3. 蓄力（约 1 秒）：主体越抖越剧烈，缝隙透出光，四周粒子往中心吸，音效音调持续上升；最后一刻猛地压扁。\n4. 爆发：从爆点向外扩散的泛光闪白、屏幕震动、镜头往前一推、多层冲击波、细长流光迸射、闪光星点、金币和宝石（带旋转）。高等级的爆发要明显更强。彩带只在最高潮用一次，不要满屏彩带。\n5. 揭晓与结算：\n- 奖励卡片从主体里沿弧线飞出，落位时带超调和晃动收尾，数字滚动计数。\n- 稀有物品带彩虹流光边框和「NEW!」角标。\n- 点击领取后，金币和宝石沿贝塞尔曲线飞进右上角的余额，每到一个余额就跳一下。\n【揭晓舞台：让主角独占画面】\n- 最高稀有度揭晓时，其他元素收起或淡出，背后换成一层干净的渐变幕布加缓慢旋转的柔光，不要让主角压在杂乱的背景上。\n- 幕布出现时，把场景里的其他 3D 物件隐藏掉，否则后期描边会把它们的轮廓线画在幕布上。\n- 主角的外发光要放在主体背后，只从边缘溢出，不能盖在主体前面把它糊成一片白。\n- 可以加一圈围绕主角盘旋的星尘拖尾，但轨道必须完整在主角轮廓外侧，不能从主体正面扫过。\n【光效：必须柔和，不能有硬边】\n- 背景光芒：用带渐变过渡的 conic-gradient，不要一刀切的色块边缘；叠 2～3 层不同密度、不同转速的光。\n- 光柱：由 5～7 道带模糊的光束呈扇形散开，亮度各自轻微闪动；根部加一团柔光核心，光里有光尘缓慢上飘。\n- 闪白：从爆点向外的径向泛光（mix-blend-mode: screen），强度不超过 0.8，不要整屏纯白过曝。\n- 粒子：每个火花都带一圈低透明度的外晕；冲击波用三层描边（宽而淡、中等、细而亮）。\n【材质与界面】\n- 边框、名牌、按钮要有材质感：金属拉丝渐变、左上亮右下暗的倒角光、内阴影；按稀有度换镶嵌件（钢铆钉 → 银框宝石 → 金框钻石加小王冠）。\n- 小卡片上不要塞小字数值；详细数值放到揭晓时的信息面板里，面板里的数字滚动上涨，并弹出「▲+数值」。\n- 画在 Canvas 上的贴图，分辨率至少是屏幕上最大显示尺寸的 1.5 倍，否则放大时会发虚。\n【动画原则】\n- 用 GSAP 时间线编排。所有动作都要有挤压拉伸、超调和弹性回弹，不要匀速。\n- 粒子系统用 Canvas 2D 自己写：重力、阻力、生命周期、叠加混合，以及「吸入」「曲线飞行」「环绕」三种运动。\n- 不要用 CSS 3D 透视去翻转大尺寸元素，放大加侧翻时会被投影成铺满屏幕的平面，3D 翻转一律放在 WebGL 里做。\n- 所有「抖动」「呼吸」类的循环补间，在状态切换时要先取消再归零，避免它比停止指令晚一帧结束，又把值设回去。\n【音效】\n- 全部用 Web Audio 实时合成，不用音频文件：跳起、落地、升级和弦、蓄力上升音、爆炸低频加噪声、弹出音、计数滴答、金币叮当、胜利号角。\n- 第一次点击时才初始化音频；右上角放静音开关。\n【界面与工程】\n- 顶部 HUD：模式切换、金币和宝石余额、静音按钮。\n- 手机宽度也要能用；遵守「减少动态效果」设置（关闭震屏，减少粒子）。\n- 动画状态机要严谨：动画播放中忽略点击，不能出现点击被吞或状态错乱。\n- 目标 60fps。第一次打开时就是完整的待机画面，不能是空白。\n【交付前自检】\n在蓄力、爆发、揭晓、结算这几个时刻各截一张图，逐张检查：\n- 主角有没有被光晕、粒子或文字挡住？\n- 有没有过曝成一片白？\n- 背景是否杂乱，有没有穿帮的描边线？\n- 小字是否能看清？\n- 结算后是否还有东西在不该动的时候继续抖动？\n最后告诉我：每个阶段的时长，以及哪些参数可以调整演出强度。",
+   "text": {
+    "en": {
+     "title": "Mobile-game reward reveal in real 3D",
+     "summary": "A fill-in template with tier colours, toon-shaded 3D and a long list of things not to do.",
+     "tags": [
+      "Game UI",
+      "Three.js"
+     ]
+    },
+    "zh": {
+     "title": "手游开箱奖励演出，真 3D 渲染",
+     "summary": "可填空的模板：等级配色、卡通着色 3D，外加一长串禁止事项。",
+     "tags": [
+      "游戏动效",
+      "Three.js"
+     ]
+    },
+    "zh-TW": {
+     "title": "手遊開寶箱獎勵演出，真 3D 算圖",
+     "summary": "可填空的範本：等級配色、卡通著色 3D，加上一長串禁止事項。",
+     "tags": [
+      "遊戲動效",
+      "Three.js"
+     ]
+    },
+    "ko": {
+     "title": "모바일 게임 보상 연출을 진짜 3D로",
+     "summary": "등급별 색, 툰 셰이딩 3D, 긴 금지 목록이 들어간 채워 쓰는 템플릿입니다.",
+     "tags": [
+      "게임 연출",
+      "Three.js"
+     ]
+    }
+   }
+  },
+  {
+   "id": "motion-graphics-07",
+   "category": "motion-graphics",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "motion-graphics-07.mp4"
+    ],
+    "poster": "motion-graphics-07.webp",
+    "width": 1080,
+    "height": 890
+   },
+   "seconds": 11,
+   "ratio": "5:4",
+   "author": {
+    "name": "majidmanzarpour",
+    "url": "https://x.com/majidmanzarpour"
+   },
+   "sourceUrl": "https://x.com/majidmanzarpour/status/2102476258948927543",
+   "needsReference": false,
+   "preview": "Create a single self-contained HTML file that renders an animated pixel art wizard casting a spell, using vanilla JavaScript and Canvas 2D. No external assets, libraries, or network requests. RENDERING - Draw everything to an offscreen canvas at a fixed logical resolution of",
+   "complete": false,
+   "prompt": "Create a single self-contained HTML file that renders an animated pixel art wizard casting a spell, using vanilla JavaScript and Canvas 2D. No external assets, libraries, or network requests.\nRENDERING\n- Draw everything to an offscreen canvas at a fixed logical resolution of 128x96, then blit to a fullscreen display canvas scaled by the largest integer factor that fits the window, centered, with imageSmoothingEnabled = false and CSS image-rendering: pixelated.\n- All drawing snaps to integer coordinates on the logical canvas. No sub-pixel positions, anti-aliasing, gradients, or shadowBlur.\n- Fixed palette of ~24 hex colors: deep blues/purples for night sky, warm robe tones, 3-4 bright magic colors. Every pixel comes from this palette.\nCHARACTER\n- Build the wizard procedurally from filled rects and pixel runs, ~24x32 logical pixels: pointed hat with a bend, long beard, two-shade robe with darker outline, staff with a gem at the tip.\n- Parameterize the pose (staff angle, arm raise, head tilt, robe sway). Animate parameters smoothly, then quantize to the pixel grid each frame so motion reads at an 8-12 fps pixel animation feel even though the loop runs at 60fps.\nANIMATION\n- Looping state machine: IDLE (2-frame bob, beard sway) -> CHARGE (staff raises, gem flickers, sparks spiral inward) -> CAST (bright burst, projectile fires across the scene, 1-2 pixel screen shake) -> RECOVER (settle back). Ease pose parameters between keyframes.\n- Pooled allocation-free particle system: preallocate and reuse. Sparks orbit the gem during CHARGE, explode outward on CAST, each particle stepping its palette index from white to magic color to dark before despawn. Snap particle positions to the grid when drawing.\n- Fixed 60hz timestep update with rAF rendering. Zero object allocation inside the loop.\nSCENE\n- Minimal background: dark sky, a few twinkling 1px stars, moon, stone floor line. Character silhouette must read clearly.\n- Subtle 1px rim light on the wizard from the gem, brightening during CHARGE and CAST.\nQUALITY BAR\n- Crisp pixels at any window size, seamless loop, stable 60fps, readable silhouette. Should look like a polished 16-bit sprite animation, not vector shapes scaled down.",
+   "text": {
+    "en": {
+     "title": "Pixel-art wizard casting a spell in pure Canvas",
+     "summary": "Pins the logical resolution, palette, state machine and particle pool so the sprite code stays tidy.",
+     "tags": [
+      "Pixel art",
+      "Canvas"
+     ]
+    },
+    "zh": {
+     "title": "纯 Canvas 像素风法师施法",
+     "summary": "固定逻辑分辨率、调色板、状态机和粒子池，让像素动画代码保持整洁。",
+     "tags": [
+      "像素风",
+      "Canvas"
+     ]
+    },
+    "zh-TW": {
+     "title": "純 Canvas 像素風法師施法",
+     "summary": "固定邏輯解析度、色盤、狀態機與粒子池，讓像素動畫程式碼保持乾淨。",
+     "tags": [
+      "像素風",
+      "Canvas"
+     ]
+    },
+    "ko": {
+     "title": "순수 Canvas로 그린 픽셀 마법사",
+     "summary": "논리 해상도, 팔레트, 상태 머신, 파티클 풀을 고정해 픽셀 애니메이션 코드를 깔끔하게 유지합니다.",
+     "tags": [
+      "픽셀 아트",
+      "Canvas"
+     ]
+    }
+   }
+  },
+  {
+   "id": "motion-graphics-08",
+   "category": "motion-graphics",
+   "kind": "method",
+   "media": {
+    "type": "video",
+    "files": [
+     "motion-graphics-08.mp4"
+    ],
+    "poster": "motion-graphics-08.webp",
+    "width": 1280,
+    "height": 1280
+   },
+   "seconds": 15,
+   "ratio": "1:1",
+   "author": {
+    "name": "__morse",
+    "url": "https://x.com/__morse"
+   },
+   "sourceUrl": "https://x.com/__morse/status/2103485566570369333",
+   "needsReference": false,
+   "preview": "",
+   "complete": true,
+   "prompt": null,
+   "text": {
+    "en": {
+     "title": "Colourful remix of the UI-morph template",
+     "summary": "The same template with a colour request; the author watched the model pick its own render pipeline.",
+     "tags": [
+      "Single HTML",
+      "FFmpeg"
+     ],
+     "note": "The author reused the UI-morph prompt and only asked for a more colourful result. Claude put everything in one index.html, drove it frame by frame in a headless Playwright window through a seek function, and had FFmpeg assemble the MP4. Without a framework named, it wrote the code with no dependencies. Starter line to adapt: \"Same brief, but make it more colourful; keep one HTML file and render it frame by frame with FFmpeg.\""
+    },
+    "zh": {
+     "title": "UI 变形模板的缤纷重混版",
+     "summary": "同一套模板只加一句要更多色彩，作者借此看到了模型自选的渲染流程。",
+     "tags": [
+      "单文件 HTML",
+      "FFmpeg"
+     ],
+     "note": "作者沿用 UI 变形的提示词，只补了一句要更丰富的色彩。Claude 把全部代码写进一个 index.html，用 seek 函数在无头 Playwright 窗口里逐帧渲染，再交给 FFmpeg 合成 MP4。没有指定框架时，它倾向于零依赖、全部从头写。可改写的起手句：「同样的要求，但色彩更丰富；保持单个 HTML 文件，逐帧渲染后用 FFmpeg 合成。」"
+    },
+    "zh-TW": {
+     "title": "UI 變形範本的繽紛改版",
+     "summary": "同一份範本只多加一句要更多色彩，作者因此看到模型自己選的算圖流程。",
+     "tags": [
+      "單檔 HTML",
+      "FFmpeg"
+     ],
+     "note": "作者沿用 UI 變形的提示詞，只補了一句要更豐富的色彩。Claude 把所有程式碼寫進單一 index.html，以 seek 函式在無頭 Playwright 視窗裡逐格算圖，再交給 FFmpeg 合成 MP4。沒有指定框架時，它傾向零相依、全部從頭寫。可改寫的起手句：「需求相同，但色彩更豐富；維持單一 HTML 檔，逐格算圖後用 FFmpeg 合成。」"
+    },
+    "ko": {
+     "title": "UI 변형 템플릿의 컬러풀 리믹스",
+     "summary": "같은 템플릿에 색을 더 달라는 한 줄만 더해, 모델이 스스로 고른 렌더링 방식이 드러났습니다.",
+     "tags": [
+      "단일 HTML",
+      "FFmpeg"
+     ],
+     "note": "작성자는 UI 변형 프롬프트를 그대로 쓰고 더 화려한 색만 요청했습니다. Claude는 코드를 index.html 하나에 담고, seek 함수로 헤드리스 Playwright 창에서 프레임을 하나씩 렌더링한 뒤 FFmpeg으로 MP4를 만들었습니다. 프레임워크를 지정하지 않으면 의존성 없이 처음부터 쓰는 편이었습니다. 바꿔 쓸 시작 문장: \"같은 조건에서 색감을 더 풍부하게. HTML 한 파일로 유지하고 프레임 단위로 렌더링해 FFmpeg으로 합쳐 줘.\""
+    }
+   }
+  },
+  {
+   "id": "product-launch-01",
+   "category": "product-launch",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "product-launch-01.mp4"
+    ],
+    "poster": "product-launch-01.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 26,
+   "ratio": "16:9",
+   "author": {
+    "name": "deedydas",
+    "url": "https://x.com/deedydas"
+   },
+   "sourceUrl": "https://x.com/deedydas/status/2102787937482252537",
+   "needsReference": false,
+   "preview": "make a modern slick and punchy video for a modern startup that works on inference",
+   "complete": true,
+   "prompt": "make a modern slick and punchy video for a modern startup that works on inference",
+   "text": {
+    "en": {
+     "title": "Punchy launch video for an inference startup",
+     "summary": "One line gives the product type and the tone; the model fills in scenes, copy and timing.",
+     "tags": [
+      "One-liner",
+      "Product promo"
+     ]
+    },
+    "zh": {
+     "title": "一句话生成推理创业公司发布片",
+     "summary": "一句话交代产品类型和语气，场景、文案和节奏交给模型。",
+     "tags": [
+      "一句话",
+      "产品宣传"
+     ]
+    },
+    "zh-TW": {
+     "title": "一句話生成推論新創的發表影片",
+     "summary": "一句話交代產品類型與語氣，場景、文案與節奏交給模型。",
+     "tags": [
+      "一句話",
+      "產品宣傳"
+     ]
+    },
+    "ko": {
+     "title": "한 줄로 만든 추론 스타트업 런칭 영상",
+     "summary": "한 문장으로 제품 유형과 톤을 알리면 장면, 문구, 속도는 모델이 채웁니다.",
+     "tags": [
+      "한 줄 프롬프트",
+      "제품 홍보"
+     ]
+    }
+   }
+  },
+  {
+   "id": "product-launch-02",
+   "category": "product-launch",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "product-launch-02.mp4"
+    ],
+    "poster": "product-launch-02.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 15,
+   "ratio": "16:9",
+   "author": {
+    "name": "thayto_dev",
+    "url": "https://x.com/thayto_dev"
+   },
+   "sourceUrl": "https://x.com/thayto_dev/status/2104200591278739735",
+   "needsReference": false,
+   "preview": "make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out.",
+   "complete": true,
+   "prompt": "make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out.",
+   "text": {
+    "en": {
+     "title": "HyperFrames recipe: skill, showreel line, your project",
+     "summary": "Reuses the showreel sentence and points the model at your project folder so it pulls real material.",
+     "tags": [
+      "HyperFrames",
+      "Skill"
+     ]
+    },
+    "zh": {
+     "title": "HyperFrames 三步做宣传片",
+     "summary": "沿用作品集那句话，再把项目目录指给模型，让它取真实素材。",
+     "tags": [
+      "HyperFrames",
+      "技能包"
+     ]
+    },
+    "zh-TW": {
+     "title": "HyperFrames 三步驟做宣傳片",
+     "summary": "沿用作品集那一句，再把專案資料夾指給模型，讓它取用真實素材。",
+     "tags": [
+      "HyperFrames",
+      "技能包"
+     ]
+    },
+    "ko": {
+     "title": "HyperFrames로 만드는 3단계 홍보 영상",
+     "summary": "쇼릴 문장을 그대로 쓰고 프로젝트 폴더를 알려 줘 실제 자료를 가져오게 합니다.",
+     "tags": [
+      "HyperFrames",
+      "스킬"
+     ]
+    }
+   }
+  },
+  {
+   "id": "product-launch-03",
+   "category": "product-launch",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "product-launch-03.mp4"
+    ],
+    "poster": "product-launch-03.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 35,
+   "ratio": "16:9",
+   "author": {
+    "name": "alex_prompter",
+    "url": "https://x.com/alex_prompter"
+   },
+   "sourceUrl": "https://x.com/alex_prompter/status/2103499977632997524",
+   "needsReference": false,
+   "preview": "Adopt the role of an expert motion designer. Build a 30-second animated explainer for my business as a single HTML page. 5 scenes. The customer's problem, what I do, how it works in 3 steps, one proof point, and my name at the end. Bold text, smooth transitions, my brand",
+   "complete": false,
+   "prompt": "Adopt the role of an expert motion designer. Build a 30-second animated explainer for my business as a single HTML page. 5 scenes. The customer's problem, what I do, how it works in 3 steps, one proof point, and my name at the end. Bold text, smooth transitions, my brand colours. My business [DESCRIBE WHAT YOU SELL, WHO IT'S FOR AND YOUR COLOURS]",
+   "text": {
+    "en": {
+     "title": "Reusable 30-second business explainer",
+     "summary": "Fixes role, length, scene list and brand colours, then leaves one bracket for your business.",
+     "tags": [
+      "Template",
+      "Explainer"
+     ]
+    },
+    "zh": {
+     "title": "可复用的 30 秒业务讲解模板",
+     "summary": "限定角色、时长、分场和品牌色，只留一处括号填你的业务。",
+     "tags": [
+      "模板",
+      "讲解"
+     ]
+    },
+    "zh-TW": {
+     "title": "可重複使用的 30 秒業務解說範本",
+     "summary": "限定角色、長度、分場與品牌色，只留一處括號填入你的業務。",
+     "tags": [
+      "範本",
+      "解說"
+     ]
+    },
+    "ko": {
+     "title": "재사용하는 30초 비즈니스 설명 템플릿",
+     "summary": "역할, 길이, 장면 구성, 브랜드 색을 정하고 내 사업을 넣을 괄호 하나만 남깁니다.",
+     "tags": [
+      "템플릿",
+      "설명 영상"
+     ]
+    }
+   }
+  },
+  {
+   "id": "product-launch-04",
+   "category": "product-launch",
+   "kind": "method",
+   "media": {
+    "type": "video",
+    "files": [
+     "product-launch-04.mp4"
+    ],
+    "poster": "product-launch-04.webp",
+    "width": 720,
+    "height": 1280
+   },
+   "seconds": 56,
+   "ratio": "9:16",
+   "author": {
+    "name": "YarHmm",
+    "url": "https://x.com/YarHmm"
+   },
+   "sourceUrl": "https://x.com/YarHmm/status/2103505435802341449",
+   "needsReference": false,
+   "preview": "",
+   "complete": true,
+   "prompt": null,
+   "text": {
+    "en": {
+     "title": "Arabic vertical promo for a coding-tutor app",
+     "summary": "A 56-second vertical promo built in Remotion with a synthetic voice.",
+     "tags": [
+      "Remotion",
+      "Vertical"
+     ],
+     "note": "The creator worked with Opus 5.5 at medium to high effort for about an hour and a half of conversation, using about a quarter of a five-hour usage window. Remotion was used for previews and the voice-over came from a Gemini text-to-speech model. The result is a 1080x1920 clip of about 56 seconds. Starter line to adapt: \"Build a 55-second vertical promo for my app in Remotion, 1080x1920, with a voice-over script I can swap.\""
+    },
+    "zh": {
+     "title": "阿拉伯语竖屏编程辅导 App 宣传片",
+     "summary": "用 Remotion 加合成配音做的 56 秒竖屏宣传片。",
+     "tags": [
+      "Remotion",
+      "竖屏"
+     ],
+     "note": "作者用 Opus 5.5 的中高档位聊了约一个半小时，用掉约五小时额度窗口的四分之一。预览用 Remotion，配音用 Gemini 的语音合成模型，成片约 56 秒、1080x1920 竖屏。可改写的起手句：「用 Remotion 给我的 App 做一支 55 秒竖屏宣传片，1080x1920，配音脚本可替换。」"
+    },
+    "zh-TW": {
+     "title": "阿拉伯語直式程式家教 App 宣傳片",
+     "summary": "以 Remotion 加合成配音完成的 56 秒直式宣傳片。",
+     "tags": [
+      "Remotion",
+      "直式"
+     ],
+     "note": "作者用 Opus 5.5 的中高檔位聊了約一個半小時，用掉約五小時額度視窗的四分之一。預覽用 Remotion，配音用 Gemini 的語音合成模型，成品約 56 秒、1080x1920 直式。可改寫的起手句：「用 Remotion 幫我的 App 做一支 55 秒的直式宣傳片，1080x1920，配音腳本可以替換。」"
+    },
+    "ko": {
+     "title": "아랍어 세로형 코딩 튜터 앱 홍보 영상",
+     "summary": "Remotion과 합성 음성으로 만든 56초 세로 홍보 영상입니다.",
+     "tags": [
+      "Remotion",
+      "세로 영상"
+     ],
+     "note": "작성자는 Opus 5.5를 중간에서 높은 단계로 설정해 약 한 시간 반 동안 대화했고, 5시간 사용 한도의 약 4분의 1을 썼다고 합니다. 미리보기는 Remotion, 내레이션은 Gemini 음성 합성 모델을 썼고 결과물은 약 56초, 1080x1920 세로 영상입니다. 바꿔 쓸 시작 문장: \"Remotion으로 내 앱의 55초 세로 홍보 영상을 만들어 줘. 1080x1920, 내레이션 대본은 교체할 수 있게.\""
+    }
+   }
+  },
+  {
+   "id": "product-launch-05",
+   "category": "product-launch",
+   "kind": "method",
+   "media": {
+    "type": "video",
+    "files": [
+     "product-launch-05.mp4"
+    ],
+    "poster": "product-launch-05.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 35,
+   "ratio": "16:9",
+   "author": {
+    "name": "JetBrains",
+    "url": "https://x.com/jetbrains"
+   },
+   "sourceUrl": "https://x.com/jetbrains/status/2102459650125754812",
+   "needsReference": false,
+   "preview": "",
+   "complete": true,
+   "prompt": null,
+   "text": {
+    "en": {
+     "title": "Kotlin promo generated from the language's website",
+     "summary": "Pointing the model at a site URL and a HyperFrames skill is enough to get a 35-second promo.",
+     "tags": [
+      "HyperFrames",
+      "Product promo"
+     ],
+     "note": "A JetBrains engineer gave Claude Opus 5.5 the HyperFrames skills and pointed it at kotlinlang.org; the model fetched its own material and produced a promo of about 35 seconds at 2560x1440. The post comes from JetBrains' own account, so treat it as a showcase rather than a benchmark. Starter line to adapt: \"Using the HyperFrames skill, make a 35-second promo video for the product at this URL, pulling copy and visuals from the site.\""
+    },
+    "zh": {
+     "title": "从官网直接生成的 Kotlin 宣传片",
+     "summary": "给模型一个网址和 HyperFrames 技能，就能出 35 秒宣传片。",
+     "tags": [
+      "HyperFrames",
+      "产品宣传"
+     ],
+     "note": "JetBrains 的工程师把 HyperFrames 技能交给 Claude Opus 5.5，再指向 kotlinlang.org，模型自己抓取素材，做出约 35 秒、2560x1440 的宣传片。这条来自 JetBrains 官方账号，宜当作展示而非评测。可改写的起手句：「用 HyperFrames 技能，为这个网址的产品做一支 35 秒宣传片，文案和画面从网站里取。」"
+    },
+    "zh-TW": {
+     "title": "從官網直接生成的 Kotlin 宣傳片",
+     "summary": "給模型一個網址與 HyperFrames 技能，就能做出 35 秒宣傳片。",
+     "tags": [
+      "HyperFrames",
+      "產品宣傳"
+     ],
+     "note": "JetBrains 的工程師把 HyperFrames 技能交給 Claude Opus 5.5，再指向 kotlinlang.org，模型自行擷取素材，做出約 35 秒、2560x1440 的宣傳片。這則來自 JetBrains 官方帳號，適合當成展示，而非評測。可改寫的起手句：「用 HyperFrames 技能，為這個網址的產品做一支 35 秒宣傳片，文案與畫面取自網站。」"
+    },
+    "ko": {
+     "title": "웹사이트만 보고 만든 Kotlin 홍보 영상",
+     "summary": "사이트 주소와 HyperFrames 스킬만 주면 35초짜리 홍보 영상이 나옵니다.",
+     "tags": [
+      "HyperFrames",
+      "제품 홍보"
+     ],
+     "note": "JetBrains 엔지니어가 Claude Opus 5.5에 HyperFrames 스킬을 주고 kotlinlang.org를 가리키자, 모델이 스스로 자료를 가져와 약 35초, 2560x1440 홍보 영상을 만들었습니다. JetBrains 공식 계정의 게시물이므로 벤치마크가 아니라 쇼케이스로 보는 편이 맞습니다. 바꿔 쓸 시작 문장: \"HyperFrames 스킬로 이 주소의 제품 홍보 영상을 35초로 만들어 줘. 문구와 화면은 사이트에서 가져와.\""
+    }
+   }
+  },
+  {
+   "id": "product-launch-06",
+   "category": "product-launch",
+   "kind": "method",
+   "media": {
+    "type": "video",
+    "files": [
+     "product-launch-06.mp4"
+    ],
+    "poster": "product-launch-06.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 10,
+   "ratio": "16:9",
+   "author": {
+    "name": "VectorCrossProd",
+    "url": "https://x.com/VectorCrossProd"
+   },
+   "sourceUrl": "https://x.com/VectorCrossProd/status/2104093497561436573",
+   "needsReference": false,
+   "preview": "",
+   "complete": true,
+   "prompt": null,
+   "text": {
+    "en": {
+     "title": "Promo animation for a 3D-printed DIN-rail enclosure",
+     "summary": "The model designed the enclosure and then animated a 10-second promo for it, all from prompts in Claude Code.",
+     "tags": [
+      "Product promo",
+      "MCP"
+     ],
+     "note": "The author first had Claude Code design a 3D-printable enclosure for an existing PCB, with printable STL files, and then asked for a promo animation of the same part. Everything came from prompting: the enclosure, the STLs and the 10-second 1920x1080 clip. Starter line to adapt: \"Now make a 10-second promo animation of this enclosure, 1920x1080, showing it assembling around the board.\""
+    },
+    "zh": {
+     "title": "为自己设计的导轨外壳做宣传动画",
+     "summary": "模型先设计外壳，再为它做 10 秒宣传动画，全在 Claude Code 里完成。",
+     "tags": [
+      "产品宣传",
+      "MCP"
+     ],
+     "note": "作者先让 Claude Code 为一块现成的 PCB 设计可 3D 打印的外壳并输出 STL，再让它给同一个零件做宣传动画。外壳、STL 和这段 10 秒、1920x1080 的片子都来自提示词。可改写的起手句：「再为这个外壳做一段 10 秒宣传动画，1920x1080，展示它如何包裹电路板。」"
+    },
+    "zh-TW": {
+     "title": "為自己設計的導軌外殼做宣傳動畫",
+     "summary": "模型先設計外殼，再替它做 10 秒宣傳動畫，全在 Claude Code 裡完成。",
+     "tags": [
+      "產品宣傳",
+      "MCP"
+     ],
+     "note": "作者先讓 Claude Code 為一塊現成的 PCB 設計可 3D 列印的外殼並輸出 STL，再請它替同一個零件做宣傳動畫。外殼、STL 與這段 10 秒、1920x1080 的影片都來自提示詞。可改寫的起手句：「再為這個外殼做一段 10 秒宣傳動畫，1920x1080，呈現它如何包住電路板。」"
+    },
+    "ko": {
+     "title": "직접 설계한 DIN 레일 케이스 홍보 애니메이션",
+     "summary": "모델이 케이스를 설계한 다음 10초 홍보 애니메이션까지 만들었습니다.",
+     "tags": [
+      "제품 홍보",
+      "MCP"
+     ],
+     "note": "작성자는 먼저 Claude Code에 기존 PCB용 3D 프린팅 케이스와 STL 파일을 설계시키고, 같은 부품의 홍보 애니메이션을 요청했습니다. 케이스, STL, 10초 1920x1080 영상이 모두 프롬프트에서 나왔습니다. 바꿔 쓸 시작 문장: \"이 케이스의 10초 홍보 애니메이션을 만들어 줘. 1920x1080, 기판을 감싸며 조립되는 모습으로.\""
+    }
+   }
+  },
+  {
+   "id": "product-launch-07",
+   "category": "product-launch",
+   "kind": "method",
+   "media": {
+    "type": "video",
+    "files": [
+     "product-launch-07.mp4"
+    ],
+    "poster": "product-launch-07.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 32,
+   "ratio": "16:9",
+   "author": {
+    "name": "wustep",
+    "url": "https://x.com/wustep"
+   },
+   "sourceUrl": "https://x.com/wustep/status/2104610435571884086",
+   "needsReference": false,
+   "preview": "",
+   "complete": true,
+   "prompt": null,
+   "text": {
+    "en": {
+     "title": "Notion column-permissions trailer in Remotion",
+     "summary": "A product trailer that took two days and 33 versions to sign off.",
+     "tags": [
+      "Remotion",
+      "Many revisions"
+     ],
+     "note": "A Notion employee built a trailer for a new feature over a weekend using Claude Opus 5.5 at xhigh effort with Remotion. The author reports 33 versions before the final cut and a large amount of API usage, and published a process document. The clip runs about 32 seconds at 1920x1080. Starter line to adapt: \"Make a 30-second Remotion trailer for this feature; I will review it version by version.\""
+    },
+    "zh": {
+     "title": "Remotion 做 Notion 功能预告片",
+     "summary": "一支预告片做了两天、改了 33 版才定稿。",
+     "tags": [
+      "Remotion",
+      "反复修改"
+     ],
+     "note": "一位 Notion 员工周末用 Claude Opus 5.5（xhigh 档）和 Remotion 为新功能做预告片，据作者说改了 33 版才通过，用掉了大量 API 额度，并公开了制作过程文档。成片约 32 秒、1920x1080。可改写的起手句：「用 Remotion 为这个功能做一支 30 秒预告片，我会逐版审阅。」"
+    },
+    "zh-TW": {
+     "title": "Remotion 做 Notion 預告片",
+     "summary": "一支預告片做了兩天、改了 33 版才定稿。",
+     "tags": [
+      "Remotion",
+      "反覆修改"
+     ],
+     "note": "一位 Notion 員工利用週末，以 Claude Opus 5.5（xhigh 檔位）搭配 Remotion 為新功能做預告片。作者表示改了 33 版才過關，用掉大量 API 額度，並公開了製作流程文件。成品約 32 秒、1920x1080。可改寫的起手句：「用 Remotion 為這個功能做一支 30 秒預告片，我會逐版審閱。」"
+    },
+    "ko": {
+     "title": "Remotion으로 만든 Notion 기능 트레일러",
+     "summary": "트레일러 하나에 이틀, 33번의 수정이 들어갔습니다.",
+     "tags": [
+      "Remotion",
+      "반복 수정"
+     ],
+     "note": "Notion 직원이 주말 동안 Claude Opus 5.5(xhigh 단계)와 Remotion으로 새 기능 트레일러를 만들었습니다. 작성자는 최종본까지 33개 버전을 거쳤고 API 사용량도 상당했다고 하며, 제작 과정 문서를 공개했습니다. 영상은 약 32초, 1920x1080입니다. 바꿔 쓸 시작 문장: \"Remotion으로 이 기능의 30초 트레일러를 만들어 줘. 버전마다 내가 검토할게.\""
+    }
+   }
+  },
+  {
+   "id": "product-launch-08",
+   "category": "product-launch",
+   "kind": "method",
+   "media": {
+    "type": "video",
+    "files": [
+     "product-launch-08.mp4"
+    ],
+    "poster": "product-launch-08.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 58,
+   "ratio": "16:9",
+   "author": {
+    "name": "Miguel07Code",
+    "url": "https://x.com/Miguel07Code"
+   },
+   "sourceUrl": "https://x.com/Miguel07Code/status/2102441708395041170",
+   "needsReference": false,
+   "preview": "",
+   "complete": true,
+   "prompt": null,
+   "text": {
+    "en": {
+     "title": "Shotbase launch video in HyperFrames in under 20 minutes",
+     "summary": "A launch video for a real app, produced in one pass with the HyperFrames skill.",
+     "tags": [
+      "HyperFrames",
+      "Product promo"
+     ],
+     "note": "The author says Claude Opus 5.5 one-shotted the launch video for the Shotbase app with the HyperFrames framework in under 20 minutes. The clip is about 58 seconds at 1920x1080. The prompt is not reproduced here. Starter line to adapt: \"Use HyperFrames to make a 55-second launch video for my app, with the feature list and tagline below.\""
+    },
+    "zh": {
+     "title": "20 分钟做出的 App 发布片",
+     "summary": "为真实 App 一次生成的发布视频，用到 HyperFrames 技能。",
+     "tags": [
+      "HyperFrames",
+      "产品宣传"
+     ],
+     "note": "作者称 Claude Opus 5.5 用 HyperFrames 框架在 20 分钟内一次做完了 Shotbase 应用的发布视频，成片约 58 秒、1920x1080。这里不收录原提示词。可改写的起手句：「用 HyperFrames 给我的 App 做一支 55 秒发布视频，功能清单和口号如下。」"
+    },
+    "zh-TW": {
+     "title": "20 分鐘做出的 App 發表影片",
+     "summary": "為真實 App 一次生成的發表影片，用到 HyperFrames 技能。",
+     "tags": [
+      "HyperFrames",
+      "產品宣傳"
+     ],
+     "note": "作者表示 Claude Opus 5.5 用 HyperFrames 框架在 20 分鐘內一次做完 Shotbase 應用的發表影片，成品約 58 秒、1920x1080。這裡不收錄原始提示詞。可改寫的起手句：「用 HyperFrames 為我的 App 做一支 55 秒發表影片，功能清單與標語如下。」"
+    },
+    "ko": {
+     "title": "20분 안에 만든 앱 런칭 영상",
+     "summary": "HyperFrames 스킬로 실제 앱의 런칭 영상을 한 번에 만들었습니다.",
+     "tags": [
+      "HyperFrames",
+      "제품 홍보"
+     ],
+     "note": "작성자는 Claude Opus 5.5가 HyperFrames로 Shotbase 앱의 런칭 영상을 20분 안에 한 번에 만들었다고 합니다. 영상은 약 58초, 1920x1080입니다. 원본 프롬프트는 여기에 싣지 않았습니다. 바꿔 쓸 시작 문장: \"HyperFrames로 내 앱의 55초 런칭 영상을 만들어 줘. 기능 목록과 슬로건은 아래와 같아.\""
+    }
+   }
+  },
+  {
+   "id": "product-launch-09",
+   "category": "product-launch",
+   "kind": "method",
+   "media": {
+    "type": "video",
+    "files": [
+     "product-launch-09.mp4"
+    ],
+    "poster": "product-launch-09.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 40,
+   "ratio": "16:9",
+   "author": {
+    "name": "kaolti",
+    "url": "https://x.com/kaolti"
+   },
+   "sourceUrl": "https://x.com/kaolti/status/2103481296018092204",
+   "needsReference": false,
+   "preview": "",
+   "complete": true,
+   "prompt": null,
+   "text": {
+    "en": {
+     "title": "Cosmos moodboard-app promo from two prompts",
+     "summary": "A 40-second promo built in HyperFrames from two prompts and no visual references.",
+     "tags": [
+      "HyperFrames",
+      "Product promo"
+     ],
+     "note": "The creator built this promo in HyperFrames with two prompts and no reference images. The clip is about 40 seconds at 1920x1080. The prompts were shared in the original thread, not here. Starter line to adapt: \"Make a 40-second promo for a moodboard app in HyperFrames; first the concept and script, then the animation.\""
+    },
+    "zh": {
+     "title": "两条提示词做出 Cosmos 宣传片",
+     "summary": "在 HyperFrames 里用两条提示词、没有任何参考做出的 40 秒宣传片。",
+     "tags": [
+      "HyperFrames",
+      "产品宣传"
+     ],
+     "note": "作者在 HyperFrames 里只用两条提示词、不带参考图做出这支宣传片，约 40 秒、1920x1080。提示词在原帖串里，这里不转载。可改写的起手句：「在 HyperFrames 里为一款灵感板 App 做 40 秒宣传片，先出概念和脚本，再做动画。」"
+    },
+    "zh-TW": {
+     "title": "兩則提示詞做出 Cosmos 宣傳片",
+     "summary": "在 HyperFrames 裡只用兩則提示詞、沒有任何參考做出的 40 秒宣傳片。",
+     "tags": [
+      "HyperFrames",
+      "產品宣傳"
+     ],
+     "note": "作者在 HyperFrames 裡只用兩則提示詞、不附參考圖就做出這支宣傳片，約 40 秒、1920x1080。提示詞在原串文中，這裡不轉載。可改寫的起手句：「在 HyperFrames 裡為一款靈感板 App 做 40 秒宣傳片，先出概念與腳本，再做動畫。」"
+    },
+    "ko": {
+     "title": "프롬프트 두 개로 만든 Cosmos 홍보 영상",
+     "summary": "HyperFrames에서 참고 자료 없이 프롬프트 두 개로 만든 40초 영상입니다.",
+     "tags": [
+      "HyperFrames",
+      "제품 홍보"
+     ],
+     "note": "작성자는 HyperFrames에서 참고 이미지 없이 프롬프트 두 개만으로 이 홍보 영상을 만들었고, 길이는 약 40초, 1920x1080입니다. 프롬프트는 원 게시물 스레드에 있고 여기에는 옮기지 않았습니다. 바꿔 쓸 시작 문장: \"HyperFrames로 무드보드 앱의 40초 홍보 영상을 만들어 줘. 먼저 콘셉트와 대본, 그다음 애니메이션.\""
+    }
+   }
+  },
+  {
+   "id": "product-launch-10",
+   "category": "product-launch",
+   "kind": "method",
+   "media": {
+    "type": "video",
+    "files": [
+     "product-launch-10.mp4"
+    ],
+    "poster": "product-launch-10.webp",
+    "width": 1280,
+    "height": 960
+   },
+   "seconds": 42,
+   "ratio": "4:3",
+   "author": {
+    "name": "moguzbulbul",
+    "url": "https://x.com/moguzbulbul"
+   },
+   "sourceUrl": "https://x.com/moguzbulbul/status/2104206095313215591",
+   "needsReference": false,
+   "preview": "",
+   "complete": true,
+   "prompt": null,
+   "text": {
+    "en": {
+     "title": "UX case-study animation explaining design decisions",
+     "summary": "A 4:3 animated walkthrough of design choices, made for job interviews.",
+     "tags": [
+      "Explainer",
+      "Skill"
+     ],
+     "note": "The creator made animated case studies to explain UX decisions in interviews. Opus 5.5 produced the animation; the author offered to share the skill they used. The clip runs about 42 seconds at 1600x1200. Starter line to adapt: \"Animate this UX case study in 4:3: the problem, three design decisions with before and after, and the result.\""
+    },
+    "zh": {
+     "title": "用动画讲清 UX 设计决策",
+     "summary": "4:3 画幅的设计案例动画，为面试讲解而做。",
+     "tags": [
+      "讲解",
+      "技能包"
+     ],
+     "note": "作者为了在面试里讲清 UX 决策，让 Opus 5.5 做成动画案例，并问大家要不要他用的技能。成片约 42 秒、1600x1200。可改写的起手句：「把这个 UX 案例做成 4:3 动画：问题、三个设计决策的前后对比，以及结果。」"
+    },
+    "zh-TW": {
+     "title": "用動畫講清楚 UX 設計決策",
+     "summary": "4:3 畫面的設計案例動畫，為面試說明而做。",
+     "tags": [
+      "解說",
+      "技能包"
+     ],
+     "note": "作者為了在面試中講清楚 UX 決策，請 Opus 5.5 做成動畫案例，並問大家想不想要他用的技能。成品約 42 秒、1600x1200。可改寫的起手句：「把這個 UX 案例做成 4:3 動畫：問題、三個設計決策的前後對照，以及結果。」"
+    },
+    "ko": {
+     "title": "UX 설계 결정을 설명하는 애니메이션",
+     "summary": "면접에서 설명하려고 만든 4:3 디자인 사례 애니메이션입니다.",
+     "tags": [
+      "설명 영상",
+      "스킬"
+     ],
+     "note": "작성자는 면접에서 UX 결정을 설명하기 어려워 Opus 5.5로 애니메이션 사례를 만들었고, 쓴 스킬을 공유할지 물었습니다. 영상은 약 42초, 1600x1200입니다. 바꿔 쓸 시작 문장: \"이 UX 사례를 4:3 애니메이션으로 만들어 줘. 문제, 설계 결정 세 가지의 전후 비교, 결과 순서로.\""
+    }
+   }
+  },
+  {
+   "id": "explainer-01",
+   "category": "explainer",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "explainer-01.mp4"
+    ],
+    "poster": "explainer-01.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 457,
+   "ratio": "16:9",
+   "author": {
+    "name": "LinearUncle",
+    "url": "https://x.com/LinearUncle"
+   },
+   "sourceUrl": "https://x.com/LinearUncle/status/2103128559174971663",
+   "needsReference": false,
+   "preview": "请用Manim给我制作一个导数概念学习的视频，要求通俗易懂，并且有例子，引人思考。配音使用edge-tts",
+   "complete": true,
+   "prompt": "请用Manim给我制作一个导数概念学习的视频，要求通俗易懂，并且有例子，引人思考。配音使用edge-tts",
+   "text": {
+    "en": {
+     "title": "Manim lesson on derivatives with spoken narration",
+     "summary": "Names the tool (Manim) and the voice (edge-tts), asks for examples; no length given, so it planned 7.6 minutes.",
+     "tags": [
+      "Manim",
+      "Voice-over"
+     ]
+    },
+    "zh": {
+     "title": "Manim 导数课，edge-tts 配音",
+     "summary": "点名工具 Manim 和配音 edge-tts，要求有例子；没给时长，它排了 7.6 分钟。",
+     "tags": [
+      "Manim",
+      "配音"
+     ]
+    },
+    "zh-TW": {
+     "title": "Manim 導數課，edge-tts 配音",
+     "summary": "點名工具 Manim 與配音 edge-tts，要求舉例；沒給長度，它排了 7.6 分鐘。",
+     "tags": [
+      "Manim",
+      "配音"
+     ]
+    },
+    "ko": {
+     "title": "Manim 미분 강의와 edge-tts 내레이션",
+     "summary": "도구(Manim)와 음성(edge-tts)을 지정하고 예시를 요구했으며, 길이를 안 줘서 7.6분으로 짰습니다.",
+     "tags": [
+      "Manim",
+      "내레이션"
+     ]
+    }
+   }
+  },
+  {
+   "id": "explainer-02",
+   "category": "explainer",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "explainer-02.mp4"
+    ],
+    "poster": "explainer-02.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 732,
+   "ratio": "16:9",
+   "author": {
+    "name": "dotey",
+    "url": "https://x.com/dotey"
+   },
+   "sourceUrl": "https://x.com/dotey/status/2103683057689522564",
+   "needsReference": false,
+   "preview": "帮我用js制作一个视频，主题是：什么是 Transformer\n要深入浅出，让高中生也能看得懂，不仅high level说的清楚，也要有细节，包括注意力机制，甚至一些数学概念\n\n你可以用任何工具或者安装工具，可以联网检索\n\n请给我惊喜",
+   "complete": true,
+   "prompt": "帮我用js制作一个视频，主题是：什么是 Transformer\n要深入浅出，让高中生也能看得懂，不仅high level说的清楚，也要有细节，包括注意力机制，甚至一些数学概念\n\n你可以用任何工具或者安装工具，可以联网检索\n\n请给我惊喜",
+   "text": {
+    "en": {
+     "title": "12-minute explainer \"What is a Transformer\"",
+     "summary": "Gives the audience (high schoolers), the depth wanted and full tool freedom, and lets the model set length and structure.",
+     "tags": [
+      "Long form",
+      "Open brief"
+     ]
+    },
+    "zh": {
+     "title": "12 分钟讲透 Transformer",
+     "summary": "说明受众是高中生、要有细节，并给足工具自由，时长和结构由模型定。",
+     "tags": [
+      "长片",
+      "放手让它做"
+     ]
+    },
+    "zh-TW": {
+     "title": "12 分鐘講透 Transformer",
+     "summary": "說明對象是高中生、要有細節，並給足工具自由，長度與結構由模型決定。",
+     "tags": [
+      "長片",
+      "放手讓它做"
+     ]
+    },
+    "ko": {
+     "title": "12분짜리 Transformer 해설 영상",
+     "summary": "대상(고등학생)과 깊이를 알리고 도구를 자유롭게 허용해 길이와 구성을 모델이 정했습니다.",
+     "tags": [
+      "장편",
+      "자율 위임"
+     ]
+    }
+   }
+  },
+  {
+   "id": "explainer-03",
+   "category": "explainer",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "explainer-03.mp4"
+    ],
+    "poster": "explainer-03.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 217,
+   "ratio": "16:9",
+   "author": {
+    "name": "dotey",
+    "url": "https://x.com/dotey"
+   },
+   "sourceUrl": "https://x.com/dotey/status/2103964025683927166",
+   "needsReference": false,
+   "preview": "做一支史诗编年片《中华文明史》，可以写代码逐帧渲染，再用 ffmpeg 合成。\n配乐当时钟：五声调式，乐器从骨笛、编钟一路演进到管弦，BPM 随年代加快，所有切点踩拍。\n宣纸白描和玄底泥金两种画风交替；每卷一个主色和一套随时代演变的纹样（彩陶纹 → 饕餮纹 → 云气纹 → 卷草纹 → 缠枝纹 → 回纹）。\n每镜一个按词组出现的书法大字关键词，配一幅线稿。全片 HUD：左上朱印卷号，右侧竖排朝代名，底部卷轴时间尺和年份计数。\n卷交界用朱印盖下、鼓钟重击的冲击转场。先定拍点网格和分镜表，再渲染。\n地图只画示意，不画近现代真实人物，年代核对后再交付。",
+   "complete": true,
+   "prompt": "做一支史诗编年片《中华文明史》，可以写代码逐帧渲染，再用 ffmpeg 合成。\n配乐当时钟：五声调式，乐器从骨笛、编钟一路演进到管弦，BPM 随年代加快，所有切点踩拍。\n宣纸白描和玄底泥金两种画风交替；每卷一个主色和一套随时代演变的纹样（彩陶纹 → 饕餮纹 → 云气纹 → 卷草纹 → 缠枝纹 → 回纹）。\n每镜一个按词组出现的书法大字关键词，配一幅线稿。全片 HUD：左上朱印卷号，右侧竖排朝代名，底部卷轴时间尺和年份计数。\n卷交界用朱印盖下、鼓钟重击的冲击转场。先定拍点网格和分镜表，再渲染。\n地图只画示意，不画近现代真实人物，年代核对后再交付。",
+   "text": {
+    "en": {
+     "title": "Epic chronicle of Chinese civilization, frame-rendered",
+     "summary": "A director's brief: score as clock, beat grid and shot table before rendering, dated facts checked.",
+     "tags": [
+      "History",
+      "Beat sync"
+     ]
+    },
+    "zh": {
+     "title": "逐帧渲染的中华文明史诗编年片",
+     "summary": "导演式简报：配乐当时钟，先定拍点和分镜表再渲染，年代先核对。",
+     "tags": [
+      "历史",
+      "卡点"
+     ]
+    },
+    "zh-TW": {
+     "title": "逐格算圖的中華文明史詩編年片",
+     "summary": "導演式需求：配樂當時鐘，先定節拍與分鏡表再算圖，年代先核對。",
+     "tags": [
+      "歷史",
+      "卡點"
+     ]
+    },
+    "ko": {
+     "title": "프레임 렌더링으로 만든 중국 문명사 대서사",
+     "summary": "감독 브리프식 요청: 음악이 시계, 박자 격자와 샷 표를 먼저, 연대는 검증 후 납품.",
+     "tags": [
+      "역사",
+      "비트 싱크"
+     ]
+    }
+   }
+  },
+  {
+   "id": "explainer-04",
+   "category": "explainer",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "explainer-04.mp4"
+    ],
+    "poster": "explainer-04.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 75,
+   "ratio": "16:9",
+   "author": {
+    "name": "emollick",
+    "url": "https://x.com/emollick"
+   },
+   "sourceUrl": "https://x.com/emollick/status/2103688362960019567",
+   "needsReference": false,
+   "preview": "A video explaining recursion, where every explanation about recursion has a radically different video style, make this self-referential & clever & fast moving.",
+   "complete": true,
+   "prompt": "A video explaining recursion, where every explanation about recursion has a radically different video style, make this self-referential & clever & fast moving.",
+   "text": {
+    "en": {
+     "title": "Explaining recursion in nine different video styles",
+     "summary": "A concept plus one structural rule: every section changes style.",
+     "tags": [
+      "Explainer",
+      "Open brief"
+     ]
+    },
+    "zh": {
+     "title": "用九种迥异画风讲递归",
+     "summary": "一个概念加一条结构规则：每一段换一种画风。",
+     "tags": [
+      "讲解",
+      "放手让它做"
+     ]
+    },
+    "zh-TW": {
+     "title": "用九種截然不同的畫風講遞迴",
+     "summary": "一個概念加一條結構規則：每一段換一種畫風。",
+     "tags": [
+      "解說",
+      "放手讓它做"
+     ]
+    },
+    "ko": {
+     "title": "서로 다른 아홉 화풍으로 설명하는 재귀",
+     "summary": "개념 하나와 구조 규칙 하나: 구간마다 화풍을 바꿉니다.",
+     "tags": [
+      "설명 영상",
+      "자율 위임"
+     ]
+    }
+   }
+  },
+  {
+   "id": "explainer-05",
+   "category": "explainer",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "explainer-05.mp4"
+    ],
+    "poster": "explainer-05.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   "seconds": 30,
+   "ratio": "1:1",
+   "author": {
+    "name": "Ror_Fly",
+    "url": "https://x.com/Ror_Fly"
+   },
+   "sourceUrl": "https://x.com/Ror_Fly/status/2102853258582880547",
+   "needsReference": false,
+   "preview": "We're going to try a little test. Do you think you could render a recipe motion graphic animation using javascript or html (w/e you think will produce the best) to show the full recipe from start to finish (empty glass to completed cocktail) - Explainer video style - Showing the",
+   "complete": false,
+   "prompt": "We're going to try a little test. Do you think you could render a recipe motion graphic animation using javascript or html (w/e you think will produce the best) to show the full recipe from start to finish (empty glass to completed cocktail) - Explainer video style - Showing the recipe ingreidents + measurements as they're going into the cup. Should be a 30s video.",
+   "text": {
+    "en": {
+     "title": "Negroni recipe motion graphic from one photo",
+     "summary": "Plain request: one photo in, a 30-second recipe animation in HTML out.",
+     "tags": [
+      "Recipe",
+      "Single HTML"
+     ]
+    },
+    "zh": {
+     "title": "一张照片生成内格罗尼食谱动画",
+     "summary": "直白的请求：输入一张照片，输出 30 秒 HTML 食谱动画。",
+     "tags": [
+      "食谱",
+      "单文件 HTML"
+     ]
+    },
+    "zh-TW": {
+     "title": "一張照片生成內格羅尼食譜動畫",
+     "summary": "直白的請求：輸入一張照片，輸出 30 秒 HTML 食譜動畫。",
+     "tags": [
+      "食譜",
+      "單檔 HTML"
+     ]
+    },
+    "ko": {
+     "title": "사진 한 장으로 만든 네그로니 레시피 영상",
+     "summary": "사진 한 장을 주고 30초짜리 HTML 레시피 애니메이션을 받는 평이한 요청입니다.",
+     "tags": [
+      "레시피",
+      "단일 HTML"
+     ]
+    }
+   }
+  },
+  {
+   "id": "explainer-06",
+   "category": "explainer",
+   "kind": "method",
+   "media": {
+    "type": "video",
+    "files": [
+     "explainer-06.mp4"
+    ],
+    "poster": "explainer-06.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 35,
+   "ratio": "16:9",
+   "author": {
+    "name": "konstantinsaifo",
+    "url": "https://x.com/konstantinsaifo"
+   },
+   "sourceUrl": "https://x.com/konstantinsaifo/status/2104094723887501736",
+   "needsReference": false,
+   "preview": "",
+   "complete": true,
+   "prompt": null,
+   "text": {
+    "en": {
+     "title": "Interactive Raptor 3 engine you can take apart",
+     "summary": "A browser page with a cutaway, flow paths and throttle, screen-recorded as a 35-second explainer.",
+     "tags": [
+      "Science",
+      "Screen recording"
+     ],
+     "note": "The author asked Claude Opus 5.5 to explain how a rocket engine works by building an interactive model of the Raptor 3 in the browser. Viewers can cut it open, follow the two propellants through the turbopumps and throttle it to watch the exhaust shock diamonds move; the video is a screen recording of that page, about 35 seconds. Starter line to adapt: \"Explain how this machine works by building an interactive browser model I can take apart.\""
+    },
+    "zh": {
+     "title": "可拆解的 Raptor 3 火箭发动机",
+     "summary": "浏览器里能剖开、追踪流路、调节推力的页面，录屏成 35 秒讲解。",
+     "tags": [
+      "科普",
+      "录屏"
+     ],
+     "note": "作者让 Claude Opus 5.5 做一个可交互的猛禽 3 发动机模型来讲原理：能剖开、跟随两种推进剂穿过涡轮泵、调推力看激波菱形移动。视频是这个页面的录屏，约 35 秒。可改写的起手句：「请做一个可以拆开的浏览器交互模型，来讲清这台机器的原理。」"
+    },
+    "zh-TW": {
+     "title": "可拆解的 Raptor 3 火箭引擎",
+     "summary": "在瀏覽器裡能剖開、追蹤流向、調整推力的頁面，錄成 35 秒解說。",
+     "tags": [
+      "科普",
+      "螢幕錄影"
+     ],
+     "note": "作者請 Claude Opus 5.5 做一個可互動的猛禽 3 引擎模型來解釋原理：能剖開、跟著兩種推進劑穿過渦輪泵、調推力看震波菱形移動。影片是這個頁面的螢幕錄影，約 35 秒。可改寫的起手句：「請做一個能拆開的瀏覽器互動模型，來說明這台機器的運作原理。」"
+    },
+    "ko": {
+     "title": "분해해 볼 수 있는 래프터 3 로켓 엔진",
+     "summary": "단면을 열고 흐름을 따라가고 추력을 조절하는 웹 페이지를 35초로 화면 녹화했습니다.",
+     "tags": [
+      "과학",
+      "화면 녹화"
+     ],
+     "note": "작성자는 Claude Opus 5.5에게 로켓 엔진의 원리를 설명하는 인터랙티브 래프터 3 모델을 브라우저에서 만들게 했습니다. 단면을 열고, 두 추진제가 터보펌프를 지나는 길을 따라가고, 추력을 올려 충격 다이아몬드가 움직이는 모습을 볼 수 있습니다. 영상은 이 페이지의 화면 녹화로 약 35초입니다. 바꿔 쓸 시작 문장: \"이 기계의 원리를 설명하는, 분해해 볼 수 있는 브라우저 인터랙티브 모델을 만들어 줘.\""
+    }
+   }
+  },
+  {
+   "id": "explainer-07",
+   "category": "explainer",
+   "kind": "method",
+   "media": {
+    "type": "video",
+    "files": [
+     "explainer-07.mp4"
+    ],
+    "poster": "explainer-07.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   "seconds": 47,
+   "ratio": "1:1",
+   "author": {
+    "name": "masahirochaen",
+    "url": "https://x.com/masahirochaen"
+   },
+   "sourceUrl": "https://x.com/masahirochaen/status/2102722719502704941",
+   "needsReference": false,
+   "preview": "",
+   "complete": true,
+   "prompt": null,
+   "text": {
+    "en": {
+     "title": "Twin paradox in paper-cutout style, 1,395 Canvas frames",
+     "summary": "A Japanese-language relativity explainer drawn entirely in Canvas and rendered to MP4 in about two minutes.",
+     "tags": [
+      "Canvas",
+      "Explainer"
+     ],
+     "note": "The prompt was a link to a popular example plus a short instruction; Claude Code with Opus 5.5 drew all 1,395 frames in Canvas in a cut-paper look, generated music and sound effects in JavaScript, and converted the frames to MP4. Rendering took about two minutes for a 46-second 1080x1080 clip. Starter line to adapt: \"Explain special relativity in 45 seconds, paper-cutout style, every frame drawn in Canvas, with generated sound.\""
+    },
+    "zh": {
+     "title": "剪纸风双生子佯谬，1395 帧 Canvas",
+     "summary": "全程 Canvas 绘制、约两分钟渲染完的日语相对论讲解。",
+     "tags": [
+      "Canvas",
+      "讲解"
+     ],
+     "note": "提示词只有一个热门案例的链接加简短说明。Claude Code 配 Opus 5.5 用 Canvas 画出 1395 帧剪纸风画面，用 JavaScript 生成音乐和音效，再转成 MP4；渲染约两分钟，成片 46 秒、1080x1080。可改写的起手句：「用 45 秒讲清狭义相对论，剪纸风，每一帧用 Canvas 绘制，声音也由代码生成。」"
+    },
+    "zh-TW": {
+     "title": "剪紙風雙生子悖論，1395 格 Canvas",
+     "summary": "全程用 Canvas 繪製、約兩分鐘算完的日語相對論解說。",
+     "tags": [
+      "Canvas",
+      "解說"
+     ],
+     "note": "提示詞只有一個熱門案例的連結加簡短說明。Claude Code 搭配 Opus 5.5 用 Canvas 畫出 1395 格剪紙風畫面，以 JavaScript 產生音樂與音效，再轉成 MP4；算圖約兩分鐘，成品 46 秒、1080x1080。可改寫的起手句：「用 45 秒說明狹義相對論，剪紙風，每一格都用 Canvas 繪製，聲音也由程式產生。」"
+    },
+    "ko": {
+     "title": "종이 오리기풍 쌍둥이 역설, Canvas 1395프레임",
+     "summary": "전부 Canvas로 그려 약 2분 만에 렌더링한 일본어 상대성이론 해설입니다.",
+     "tags": [
+      "Canvas",
+      "설명 영상"
+     ],
+     "note": "프롬프트는 인기 예시 링크와 짧은 지시뿐이었습니다. Claude Code와 Opus 5.5가 Canvas로 종이 오리기풍 프레임 1395장을 그리고, JavaScript로 음악과 효과음을 만든 뒤 MP4로 변환했습니다. 렌더링은 약 2분, 영상은 46초, 1080x1080입니다. 바꿔 쓸 시작 문장: \"특수상대성이론을 45초로 설명해 줘. 종이 오리기 스타일, 모든 프레임은 Canvas로, 소리도 코드로 만들어.\""
+    }
+   }
+  },
+  {
+   "id": "explainer-08",
+   "category": "explainer",
+   "kind": "method",
+   "media": {
+    "type": "video",
+    "files": [
+     "explainer-08.mp4"
+    ],
+    "poster": "explainer-08.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 335,
+   "ratio": "16:9",
+   "author": {
+    "name": "ng169onX",
+    "url": "https://x.com/ng169onX"
+   },
+   "sourceUrl": "https://x.com/ng169onX/status/2103183904563998809",
+   "needsReference": false,
+   "preview": "",
+   "complete": true,
+   "prompt": null,
+   "text": {
+    "en": {
+     "title": "3Blue1Brown-style explainer on autoencoders",
+     "summary": "Manim animations, a model really trained on MNIST and cloned narration in a roughly five-minute video.",
+     "tags": [
+      "Manim",
+      "Voice-over"
+     ],
+     "note": "The author gave one short prompt and reports a video of about five and a half minutes with Manim animations, digits from models actually trained on MNIST, narration from a cloned voice using a local text-to-speech model, and original music. The post has low reach, so there is little public detail. Starter line to adapt: \"Make a 3Blue1Brown-style explainer on this paper with Manim, real trained examples and narration.\""
+    },
+    "zh": {
+     "title": "3Blue1Brown 风格的自编码器讲解",
+     "summary": "Manim 动画、真训练的 MNIST 模型和克隆旁白，约五分半钟。",
+     "tags": [
+      "Manim",
+      "配音"
+     ],
+     "note": "作者只给了一条短提示词，称得到约 5.5 分钟的视频：Manim 动画、真实在 MNIST 上训练出的数字、用本地语音模型克隆的旁白和原创配乐。该帖曝光很低，公开细节有限。可改写的起手句：「用 Manim 做一支 3Blue1Brown 风格的论文讲解，含真实训练的例子和旁白。」"
+    },
+    "zh-TW": {
+     "title": "3Blue1Brown 風格的自編碼器解說",
+     "summary": "Manim 動畫、真的訓練過的 MNIST 模型與複製聲音旁白，約五分半鐘。",
+     "tags": [
+      "Manim",
+      "配音"
+     ],
+     "note": "作者只給了一則簡短提示詞，表示得到約 5.5 分鐘的影片：Manim 動畫、出自真實在 MNIST 上訓練的數字、以本機語音模型複製的旁白，以及原創配樂。該貼文觸及很低，公開細節有限。可改寫的起手句：「用 Manim 做一支 3Blue1Brown 風格的論文解說，含真實訓練的範例與旁白。」"
+    },
+    "ko": {
+     "title": "3Blue1Brown 스타일 오토인코더 해설",
+     "summary": "Manim 애니메이션, 실제로 학습시킨 MNIST 모델, 복제한 내레이션이 든 약 5분 반짜리 영상입니다.",
+     "tags": [
+      "Manim",
+      "내레이션"
+     ],
+     "note": "작성자는 짧은 프롬프트 하나만 주었고, Manim 애니메이션과 MNIST로 실제 학습한 모델의 숫자, 로컬 음성 모델로 복제한 내레이션, 자체 음악이 들어간 약 5.5분 영상을 얻었다고 합니다. 게시물 도달 수가 낮아 공개된 세부 정보는 적습니다. 바꿔 쓸 시작 문장: \"이 논문을 Manim으로 3Blue1Brown 스타일로 설명해 줘. 실제 학습한 예시와 내레이션 포함.\""
+    }
+   }
+  },
+  {
+   "id": "explainer-09",
+   "category": "explainer",
+   "kind": "method",
+   "media": {
+    "type": "video",
+    "files": [
+     "explainer-09.mp4"
+    ],
+    "poster": "explainer-09.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 180,
+   "ratio": "16:9",
+   "author": {
+    "name": "kimmonismus",
+    "url": "https://x.com/kimmonismus"
+   },
+   "sourceUrl": "https://x.com/kimmonismus/status/2102844654169575547",
+   "needsReference": false,
+   "preview": "",
+   "complete": true,
+   "prompt": null,
+   "text": {
+    "en": {
+     "title": "Three-minute history of AI, all in Remotion code",
+     "summary": "About 7,400 lines of React and TypeScript, drawn in SVG and Canvas, with a synthetic voice.",
+     "tags": [
+      "Remotion",
+      "History"
+     ],
+     "note": "Claude Code wrote the whole film in Remotion: roughly 7,400 lines of React and TypeScript, every image drawn in SVG and Canvas, an open-source voice for narration and a score synthesised in Python. The author says it took about an hour and 7% of a weekly allowance, for a 3-minute 1920x1080 film. Starter line to adapt: \"Make a 3-minute Remotion film on the history of AI; no stock footage and no image generators, everything drawn in code.\""
+    },
+    "zh": {
+     "title": "全用代码做的 3 分钟 AI 简史",
+     "summary": "约 7400 行 React/TypeScript，图像全部用 SVG 与 Canvas 绘制，配开源语音。",
+     "tags": [
+      "Remotion",
+      "历史"
+     ],
+     "note": "整部片子由 Claude Code 用 Remotion 写成：约 7400 行 React 和 TypeScript，每张图都用 SVG 与 Canvas 画，旁白用开源语音，配乐用 Python 合成。作者称约一小时、用掉 7% 的周额度，成片 3 分钟、1920x1080。可改写的起手句：「用 Remotion 做一支 3 分钟的 AI 简史，不用素材库和图像生成，全部用代码绘制。」"
+    },
+    "zh-TW": {
+     "title": "全用程式碼做的 3 分鐘 AI 簡史",
+     "summary": "約 7400 行 React/TypeScript，圖像全以 SVG 與 Canvas 繪製，搭配開源語音。",
+     "tags": [
+      "Remotion",
+      "歷史"
+     ],
+     "note": "整部片由 Claude Code 以 Remotion 寫成：約 7400 行 React 與 TypeScript，每張圖都用 SVG 與 Canvas 畫，旁白用開源語音，配樂用 Python 合成。作者說約花一小時、用掉 7% 的週額度，成品 3 分鐘、1920x1080。可改寫的起手句：「用 Remotion 做一支 3 分鐘的 AI 簡史，不用素材庫與圖像生成，全部用程式碼繪製。」"
+    },
+    "ko": {
+     "title": "코드만으로 만든 3분짜리 AI 역사",
+     "summary": "React/TypeScript 약 7,400줄, 이미지는 모두 SVG와 Canvas, 오픈소스 음성을 썼습니다.",
+     "tags": [
+      "Remotion",
+      "역사"
+     ],
+     "note": "영상 전체를 Claude Code가 Remotion으로 작성했습니다. React와 TypeScript 약 7,400줄, 모든 이미지는 SVG와 Canvas로 그렸고 내레이션은 오픈소스 음성, 음악은 Python으로 합성했습니다. 작성자는 약 한 시간, 주간 한도의 7%를 썼다고 하며 결과는 3분, 1920x1080입니다. 바꿔 쓸 시작 문장: \"Remotion으로 AI 역사 3분 영상을 만들어 줘. 스톡 영상과 이미지 생성 없이 전부 코드로 그려.\""
+    }
+   }
+  },
+  {
+   "id": "explainer-10",
+   "category": "explainer",
+   "kind": "method",
+   "media": {
+    "type": "video",
+    "files": [
+     "explainer-10.mp4"
+    ],
+    "poster": "explainer-10.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 22,
+   "ratio": "16:9",
+   "author": {
+    "name": "Voxyz_ai",
+    "url": "https://x.com/Voxyz_ai"
+   },
+   "sourceUrl": "https://x.com/Voxyz_ai/status/2103117246860345550",
+   "needsReference": false,
+   "preview": "",
+   "complete": true,
+   "prompt": null,
+   "text": {
+    "en": {
+     "title": "Black-hole lensing lab polished overnight by agents",
+     "summary": "Three review-and-fix rounds ran while the author slept, with reviewers ranking issues and a fixer applying them.",
+     "tags": [
+      "Agent loop",
+      "Science"
+     ],
+     "note": "One prompt produced the first version of an interactive black-hole page; then a workflow of three rounds, each with two reviewers ranking issues P0 to P2 and one agent fixing them, polished it. The whole run took about five and a half hours, and the clip is a 22-second 4K recording of the result. Starter line to adapt: \"Build this as an interactive page, then run three review rounds where two reviewers list ranked issues and a third fixes the P0s.\""
+    },
+    "zh": {
+     "title": "智能体通宵打磨的黑洞透镜实验室",
+     "summary": "三轮评审加修复在作者睡觉时跑完：评审排优先级，修复者动手。",
+     "tags": [
+      "多智能体",
+      "科普"
+     ],
+     "note": "一条提示词生成交互式黑洞页面的初版，之后的工作流跑三轮，每轮两名评审按 P0 到 P2 排问题，另一名负责修复。整个过程约五个半小时，视频是 22 秒的 4K 录屏。可改写的起手句：「先做成交互页面，再跑三轮评审：两名评审列出分级问题，第三位修掉所有 P0。」"
+    },
+    "zh-TW": {
+     "title": "代理人通宵打磨的黑洞透鏡實驗室",
+     "summary": "三輪審查加修正在作者睡覺時跑完：審查者排優先順序，修正者動手。",
+     "tags": [
+      "多代理",
+      "科普"
+     ],
+     "note": "一則提示詞產出互動式黑洞頁面的初版，之後的工作流程跑三輪，每輪兩位審查者依 P0 到 P2 排列問題，另一位負責修正。整個過程約五個半小時，影片是 22 秒的 4K 錄影。可改寫的起手句：「先做成互動頁面，再跑三輪審查：兩位審查者列出分級問題，第三位修掉所有 P0。」"
+    },
+    "ko": {
+     "title": "에이전트가 밤새 다듬은 블랙홀 렌즈 실험실",
+     "summary": "작성자가 자는 동안 세 번의 검토와 수정이 돌았고, 검토자가 우선순위를 매기고 수정자가 고쳤습니다.",
+     "tags": [
+      "에이전트 루프",
+      "과학"
+     ],
+     "note": "프롬프트 하나로 인터랙티브 블랙홀 페이지 초판을 만든 뒤, 매 라운드마다 검토자 둘이 문제를 P0~P2로 매기고 한 에이전트가 고치는 워크플로를 세 번 돌렸습니다. 전체 과정은 약 5시간 반이고, 영상은 결과물을 22초, 4K로 녹화한 것입니다. 바꿔 쓸 시작 문장: \"인터랙티브 페이지로 만들고, 검토자 둘이 등급별 문제를 적고 세 번째가 P0를 고치는 라운드를 세 번 돌려 줘.\""
+    }
+   }
+  },
+  {
+   "id": "storyboard-to-video-01",
+   "category": "storyboard-to-video",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "storyboard-to-video-01.mp4"
+    ],
+    "poster": "storyboard-to-video-01.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 20,
+   "ratio": "16:9",
+   "author": {
+    "name": "koldo2k",
+    "url": "https://x.com/koldo2k"
+   },
+   "sourceUrl": "https://x.com/koldo2k/status/2103129343253778767",
+   "needsReference": false,
+   "preview": "Build a looping \"infinite zoom\" animation, After Effects style: the camera travels from landscape to landscape by flying through vintage objects. LOOK: vintage collage realistic photo landscapes + black & white newspaper cutout objects (halftone, white paper border, soft",
+   "complete": false,
+   "prompt": "Build a looping \"infinite zoom\" animation, After Effects style: the camera\ntravels from landscape to landscape by flying through vintage objects.\nLOOK: vintage collage realistic photo landscapes + black & white newspaper\ncutout objects (halftone, white paper border, soft shadow). Film grain,\nvignette, light flicker.\nWORLDS (loop): snowy mountains → pocket watch (swinging on its chain) →\nsea cliffs → box camera lens → desert dunes → magnifying glass →\nmisty lake → hand mirror → back to start.\nExtras: floating hat, phone, umbrella, gramophone, key; a 1950s man walking\ntoward the watch; a whale swimming across the cliffs sky.\nHOW:\n- Generate everything via the Magnific MCP (Seedream 5 Pro landscapes,\nGPT 2.5 transparent cutouts, depth maps, Kling 2.5 animation, Lyria 3\nmusic). List the generations + credit cost and wait for my OK first.\n- Split each landscape into 3 depth layers from its depth map and fill the\nhidden areas. Parallax: layer scale = camera^Z, Z between 0.45 and 1.22.\n- Each portal's glass holds the next world; cut seamlessly when it fills\nthe frame.\n- Constant speed: exponential zoom to a fixed point, each segment's duration\nproportional to log(zoom). Verify the cuts frame by frame.\n- Man & whale: generate on pure green (#00B140), animate in place with\nKling, key out every frame, build a seamless loop (ping-pong if needed).\n- Cutouts animate at 15 fps (on twos).\n- 20 s loop, 1920×1080, 30 fps. Music: 96 BPM, cut to exactly 8 bars = 20 s.\nDELIVER: an interactive artifact (viewer, AE-style timeline, music +\nMP4 download) and a rendered MP4 with music under 30 MB.\nShow me screenshots before each expensive step.",
+   "text": {
+    "en": {
+     "title": "Infinite zoom through vintage collage worlds",
+     "summary": "Generated images and clips composited in code, with a cost gate: list generations and wait for approval.",
+     "tags": [
+      "Generated assets",
+      "Collage"
+     ]
+    },
+    "zh": {
+     "title": "穿过复古拼贴世界的无限缩放",
+     "summary": "生成的图片和片段在代码里合成，并设有费用关卡：先列清单等你确认。",
+     "tags": [
+      "生成素材",
+      "拼贴"
+     ]
+    },
+    "zh-TW": {
+     "title": "穿越復古拼貼世界的無限縮放",
+     "summary": "生成的圖片與片段在程式碼中合成，並設有費用關卡：先列清單等你同意。",
+     "tags": [
+      "生成素材",
+      "拼貼"
+     ]
+    },
+    "ko": {
+     "title": "빈티지 콜라주 세계를 통과하는 무한 줌",
+     "summary": "생성한 이미지와 클립을 코드로 합성하고, 비용 관문(목록 제시 후 승인 대기)을 둡니다.",
+     "tags": [
+      "생성 에셋",
+      "콜라주"
+     ]
+    }
+   }
+  },
+  {
+   "id": "storyboard-to-video-02",
+   "category": "storyboard-to-video",
+   "kind": "method",
+   "media": {
+    "type": "video",
+    "files": [
+     "storyboard-to-video-02.mp4"
+    ],
+    "poster": "storyboard-to-video-02.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 30,
+   "ratio": "16:9",
+   "author": {
+    "name": "angrypenguinPNG",
+    "url": "https://x.com/angrypenguinPNG"
+   },
+   "sourceUrl": "https://x.com/angrypenguinPNG/status/2102829318875537683",
+   "needsReference": false,
+   "preview": "",
+   "complete": true,
+   "prompt": null,
+   "text": {
+    "en": {
+     "title": "Short film through the Krea MCP in 10 minutes",
+     "summary": "The model drove an image and video MCP to make a 30-second film in one pass.",
+     "tags": [
+      "MCP",
+      "Generated assets"
+     ],
+     "note": "The author connected the Krea MCP to Claude and says Opus 5.5 produced the 30-second 1280x720 film in one pass in about ten minutes. The generation cost was small and is reported in the post. Starter line to adapt: \"Using the connected MCP, write a 30-second short film script, generate the shots and assemble them, and show me the plan first.\""
+    },
+    "zh": {
+     "title": "10 分钟用 Krea MCP 拍出的短片",
+     "summary": "模型驱动图像与视频 MCP，一次做出 30 秒短片。",
+     "tags": [
+      "MCP",
+      "生成素材"
+     ],
+     "note": "作者把 Krea MCP 接给 Claude，称 Opus 5.5 约十分钟一次做完这支 30 秒、1280x720 的短片，生成费用在帖子里。可改写的起手句：「用已连接的 MCP 写一个 30 秒短片脚本，生成镜头并剪成片，先把方案给我看。」"
+    },
+    "zh-TW": {
+     "title": "10 分鐘用 Krea MCP 拍出的短片",
+     "summary": "模型驅動圖像與影片 MCP，一次做出 30 秒短片。",
+     "tags": [
+      "MCP",
+      "生成素材"
+     ],
+     "note": "作者把 Krea MCP 接給 Claude，表示 Opus 5.5 約十分鐘一次做完這支 30 秒、1280x720 的短片，生成費用寫在貼文裡。可改寫的起手句：「用已連接的 MCP 寫一個 30 秒短片腳本，生成鏡頭並剪成片，先把方案給我看。」"
+    },
+    "ko": {
+     "title": "Krea MCP로 10분 만에 만든 단편",
+     "summary": "모델이 이미지와 영상 MCP를 직접 다뤄 30초 영상을 한 번에 만들었습니다.",
+     "tags": [
+      "MCP",
+      "생성 에셋"
+     ],
+     "note": "작성자는 Krea MCP를 Claude에 연결했고, Opus 5.5가 약 10분 만에 30초, 1280x720 단편을 한 번에 만들었다고 합니다. 생성 비용은 게시물에 적혀 있습니다. 바꿔 쓸 시작 문장: \"연결된 MCP로 30초 단편 대본을 쓰고 샷을 생성해 이어 붙여 줘. 먼저 계획부터 보여 줘.\""
+    }
+   }
+  },
+  {
+   "id": "storyboard-to-video-03",
+   "category": "storyboard-to-video",
+   "kind": "method",
+   "media": {
+    "type": "video",
+    "files": [
+     "storyboard-to-video-03.mp4"
+    ],
+    "poster": "storyboard-to-video-03.webp",
+    "width": 720,
+    "height": 1280
+   },
+   "seconds": 57,
+   "ratio": "9:16",
+   "author": {
+    "name": "masahirochaen",
+    "url": "https://x.com/masahirochaen"
+   },
+   "sourceUrl": "https://x.com/masahirochaen/status/2103872865770836012",
+   "needsReference": false,
+   "preview": "",
+   "complete": true,
+   "prompt": null,
+   "text": {
+    "en": {
+     "title": "Vertical review short: diagrams, TTS voice, Seedance opening",
+     "summary": "Three tools split the work: Opus for the diagram animation, a TTS model for the voice, Seedance for the face.",
+     "tags": [
+      "Voice-over",
+      "Vertical"
+     ],
+     "note": "The creator used Claude Opus 5.5 for the diagram animation, Gemini 3.8 Flash TTS for a cloned voice and Seedance 2.5 for the opening face and voice. The result is a 57-second 1080x1920 short. Starter line to adapt: \"Animate this script as clean diagrams in 9:16, with space at the start for a presenter clip and timing I can match to a voice track.\""
+    },
+    "zh": {
+     "title": "日语竖屏评测短视频：图解、配音、开场",
+     "summary": "三个工具分工：Opus 做图解动画，语音模型配音，Seedance 做开场人脸。",
+     "tags": [
+      "配音",
+      "竖屏"
+     ],
+     "note": "创作者用 Claude Opus 5.5 做图解动画，用 Gemini 3.8 Flash TTS 克隆自己的声音，开场的脸和声音来自 Seedance 2.5。成片 57 秒、1080x1920。可改写的起手句：「把这份脚本做成 9:16 的清爽图解动画，开头留出主持人片段的位置，时间轴方便对配音。」"
+    },
+    "zh-TW": {
+     "title": "日語直式評測短片：圖解、配音、開場",
+     "summary": "三個工具分工：Opus 做圖解動畫，語音模型配音，Seedance 做開場人臉。",
+     "tags": [
+      "配音",
+      "直式"
+     ],
+     "note": "創作者用 Claude Opus 5.5 做圖解動畫，用 Gemini 3.8 Flash TTS 複製自己的聲音，開場的臉與聲音來自 Seedance 2.5。成品 57 秒、1080x1920。可改寫的起手句：「把這份腳本做成 9:16 的簡潔圖解動畫，開頭留出主持人片段的位置，時間軸方便對上配音。」"
+    },
+    "ko": {
+     "title": "일본어 세로 리뷰 쇼츠: 도해, 음성, 오프닝",
+     "summary": "세 도구의 분업: Opus는 도해 애니메이션, TTS는 음성, Seedance는 얼굴.",
+     "tags": [
+      "내레이션",
+      "세로 영상"
+     ],
+     "note": "작성자는 도해 애니메이션에 Claude Opus 5.5, 복제한 목소리에 Gemini 3.8 Flash TTS, 오프닝의 얼굴과 목소리에 Seedance 2.5를 썼습니다. 결과는 57초, 1080x1920 쇼츠입니다. 바꿔 쓸 시작 문장: \"이 대본을 9:16 깔끔한 도해 애니메이션으로 만들어 줘. 앞부분에 진행자 클립 자리를 비우고 음성에 맞추기 쉬운 타이밍으로.\""
+    }
+   }
+  },
+  {
+   "id": "storyboard-to-video-04",
+   "category": "storyboard-to-video",
+   "kind": "method",
+   "media": {
+    "type": "video",
+    "files": [
+     "storyboard-to-video-04.mp4"
+    ],
+    "poster": "storyboard-to-video-04.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 60,
+   "ratio": "16:9",
+   "author": {
+    "name": "KanaWorks_AI",
+    "url": "https://x.com/KanaWorks_AI"
+   },
+   "sourceUrl": "https://x.com/KanaWorks_AI/status/2102684116525437206",
+   "needsReference": false,
+   "preview": "",
+   "complete": true,
+   "prompt": null,
+   "text": {
+    "en": {
+     "title": "Eight-stage siege game, then a 60-second trailer",
+     "summary": "Opus built the game; video models made the trailer shots.",
+     "tags": [
+      "Game",
+      "Generated assets"
+     ],
+     "note": "The author had Opus 5.5 build a website and an eight-stage side-scrolling siege game in about two hours, then recorded gameplay and cut a 60-second trailer, using Seedance 2.5 and another video model for footage. The code is Claude's; the video generation is not. Starter line to adapt: \"Build a short side-scrolling game I can record, then write a shot list for a 60-second trailer.\""
+    },
+    "zh": {
+     "title": "两小时八关攻城游戏和 60 秒预告片",
+     "summary": "Opus 写游戏，视频模型生成预告片镜头。",
+     "tags": [
+      "游戏",
+      "生成素材"
+     ],
+     "note": "作者让 Opus 5.5 约两小时做出网站和八关横版攻城游戏，再录屏剪成 60 秒预告片，素材用到 Seedance 2.5 和另一款视频模型。代码是 Claude 写的，视频生成不是。可改写的起手句：「做一个可以录屏的横版小游戏，再写一份 60 秒预告片的分镜表。」"
+    },
+    "zh-TW": {
+     "title": "兩小時八關攻城遊戲與 60 秒預告",
+     "summary": "Opus 寫遊戲，影片模型生成預告片鏡頭。",
+     "tags": [
+      "遊戲",
+      "生成素材"
+     ],
+     "note": "作者請 Opus 5.5 約兩小時做出網站與八關橫向捲軸攻城遊戲，再錄影剪成 60 秒預告片，素材用到 Seedance 2.5 與另一款影片模型。程式碼出自 Claude，影片生成則不是。可改寫的起手句：「做一個可以錄影的橫向小遊戲，再寫一份 60 秒預告片的分鏡表。」"
+    },
+    "ko": {
+     "title": "두 시간 만에 만든 8스테이지 공성 게임과 예고편",
+     "summary": "게임은 Opus가 만들고 예고편 샷은 영상 모델이 만들었습니다.",
+     "tags": [
+      "게임",
+      "생성 에셋"
+     ],
+     "note": "작성자는 Opus 5.5로 웹사이트와 8스테이지 횡스크롤 공성 게임을 약 두 시간에 만들고, 플레이를 녹화해 60초 예고편으로 편집했으며 영상 소스에는 Seedance 2.5와 다른 영상 모델을 썼습니다. 코드는 Claude가, 영상 생성은 다른 모델이 맡았습니다. 바꿔 쓸 시작 문장: \"녹화할 수 있는 짧은 횡스크롤 게임을 만들고, 60초 예고편 샷 리스트를 써 줘.\""
+    }
+   }
+  },
+  {
+   "id": "music-video-01",
+   "category": "music-video",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "music-video-01.mp4"
+    ],
+    "poster": "music-video-01.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 142,
+   "ratio": "16:9",
+   "author": {
+    "name": "donaldjewkes",
+    "url": "https://x.com/donaldjewkes"
+   },
+   "sourceUrl": "https://x.com/donaldjewkes/status/2102801274173587569",
+   "needsReference": false,
+   "preview": "I've included an MP4 file and an original link to a video that is called \"Claude Pop.\" It's a pop song that is about increasing rate of progress and the experience of the singularity approaching. I want you to independently do an end-to-end complete pass on making an updated",
+   "complete": false,
+   "prompt": "I've included an MP4 file and an original link to a video that is called \"Claude Pop.\" It's a pop song that is about increasing rate of progress and the experience of the singularity approaching.\nI want you to independently do an end-to-end complete pass on making an updated version of this video. Use the exact same audio track and think and feel very deeply about what is the best way to visually represent all of the lyrics on screen. You do not need to anchor to the current style, you can do truly anything that you think might best let you visually express yourself, including abstract motion graphics.\n……\nI think after that, what might be fun is if you use your visual reasoning skills and your ability to build animations in JavaScript, and then reconstruct the video from scratch as sort of an overlay, so that the visual continuity of the base is really there. It's like that animation technique where you shoot first in traditional film and then draw over top of it.\n……\nYou're going to want to watch the entire video multiple times, take screenshots at individual parts, and think about if something is really up to the bar of quality that we need here.\n……\nmake no mistakes.",
+   "text": {
+    "en": {
+     "title": "\"Claude Pop\" music video from a 12-hour autonomous run",
+     "summary": "A long dictated brief plus a full environment: reference files, image API, video models and a spending cap.",
+     "tags": [
+      "Agent loop",
+      "Generated assets"
+     ]
+    },
+    "zh": {
+     "title": "《Claude Pop》MV：12 小时自主运行",
+     "summary": "口述的长简报加完整环境：参考资料、图像接口、视频模型和花费上限。",
+     "tags": [
+      "多智能体",
+      "生成素材"
+     ]
+    },
+    "zh-TW": {
+     "title": "《Claude Pop》MV：12 小時自主執行",
+     "summary": "口述的長需求加完整環境：參考資料、圖像介面、影片模型與花費上限。",
+     "tags": [
+      "多代理",
+      "生成素材"
+     ]
+    },
+    "ko": {
+     "title": "\"Claude Pop\" 뮤직비디오: 12시간 자율 실행",
+     "summary": "구술한 긴 브리프에 참고 파일, 이미지 API, 영상 모델, 지출 상한까지 갖춘 환경이 더해졌습니다.",
+     "tags": [
+      "에이전트 루프",
+      "생성 에셋"
+     ]
+    }
+   }
+  },
+  {
+   "id": "music-video-02",
+   "category": "music-video",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "music-video-02.mp4"
+    ],
+    "poster": "music-video-02.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 383,
+   "ratio": "16:9",
+   "author": {
+    "name": "gandamu_ml",
+    "url": "https://x.com/gandamu_ml"
+   },
+   "sourceUrl": "https://x.com/gandamu_ml/status/2102919394775220530",
+   "needsReference": false,
+   "preview": "I would like you to create a kickass, impressive 1990s style demoscene demo using this S3M track as the music. Prior to getting to work, please see how to best play and analyze the S3M track. This will be important since synchronization of effects and appropriateness of scenes",
+   "complete": false,
+   "prompt": "I would like you to create a kickass, impressive 1990s style demoscene demo using this S3M track as the music. Prior to getting to work, please see how to best play and analyze the S3M track. This will be important since synchronization of effects and appropriateness of scenes to the musical vibe (and this song does have a variety of sections with different attitude) is essential to a great demoscene demo. Also prior to getting started, please research what kinds of effects, physics, etc. would be good to use in combination. Please use C/C++ -- with appropriate demoscene/embedded/console gamedev sensibilities to avoid needlessly bloating compile times -- with OpenGL. In some cases, blitting to surfaces in realtime may be appropriate.. while in others, using OpenGL or even shaders is appropriate as well. It should be planned and polished to be spectacular and shocking. This is Claude's way of really showing off to the world that it kicks ass.",
+   "text": {
+    "en": {
+     "title": "1990s demoscene demo in C/C++ and OpenGL",
+     "summary": "Asks for research and music analysis first, then a native OpenGL demo synced to an S3M track.",
+     "tags": [
+      "Demoscene",
+      "Beat sync"
+     ]
+    },
+    "zh": {
+     "title": "90 年代风 OpenGL 演示作品",
+     "summary": "先要求调研和分析音乐，再写出与 S3M 曲目同步的原生 OpenGL 演示。",
+     "tags": [
+      "Demoscene",
+      "卡点"
+     ]
+    },
+    "zh-TW": {
+     "title": "90 年代風 OpenGL 展示作品",
+     "summary": "先要求研究與分析音樂，再寫出與 S3M 曲目同步的原生 OpenGL 展示。",
+     "tags": [
+      "Demoscene",
+      "卡點"
+     ]
+    },
+    "ko": {
+     "title": "C/C++와 OpenGL로 만든 90년대 데모씬",
+     "summary": "조사와 음악 분석을 먼저 시키고, S3M 곡에 맞춘 네이티브 OpenGL 데모를 요청합니다.",
+     "tags": [
+      "데모씬",
+      "비트 싱크"
+     ]
+    }
+   }
+  },
+  {
+   "id": "music-video-03",
+   "category": "music-video",
+   "kind": "method",
+   "media": {
+    "type": "video",
+    "files": [
+     "music-video-03.mp4"
+    ],
+    "poster": "music-video-03.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 157,
+   "ratio": "16:9",
+   "author": {
+    "name": "other__reality",
+    "url": "https://x.com/other__reality"
+   },
+   "sourceUrl": "https://x.com/other__reality/status/2102514581684052169",
+   "needsReference": false,
+   "preview": "",
+   "complete": true,
+   "prompt": null,
+   "text": {
+    "en": {
+     "title": "Music video painted with p5.brush and parallel agents",
+     "summary": "A storyboard file, an animation guide, nine chapters in nine files and a headless Chrome render.",
+     "tags": [
+      "p5.brush",
+      "Agent loop"
+     ],
+     "note": "Claude wrote an animation guide for parallel subagents and a storyboard, split the video into nine chapter files, drew with p5.js and p5.brush, and rendered frames in headless Chrome with FFmpeg. All animation took about 45 minutes; the song comes from elsewhere and is not the creator's. The film is about 157 seconds at 1920x1080. Starter line to adapt: \"Write a storyboard and an animation guide, then have parallel agents draw one chapter each in p5.brush and render with headless Chrome and FFmpeg.\""
+    },
+    "zh": {
+     "title": "p5.brush 手绘、多智能体并行的 MV",
+     "summary": "一份分镜文件、一份动画指南、九章九个文件，再用无头 Chrome 渲染。",
+     "tags": [
+      "p5.brush",
+      "多智能体"
+     ],
+     "note": "Claude 先写出给并行子智能体的动画指南和分镜，把整支 MV 拆成九章，各自一个文件，用 p5.js 和 p5.brush 绘制，再用无头 Chrome 逐帧渲染并交给 FFmpeg。全部动画约 45 分钟；歌曲来自别处，不是作者自己的。成片约 157 秒、1920x1080。可改写的起手句：「先写分镜和动画指南，再让并行智能体各画一章，用 p5.brush 绘制，无头 Chrome 加 FFmpeg 渲染。」"
+    },
+    "zh-TW": {
+     "title": "p5.brush 手繪、多代理並行的 MV",
+     "summary": "一份分鏡檔、一份動畫指南、九章九個檔案，再以無頭 Chrome 算圖。",
+     "tags": [
+      "p5.brush",
+      "多代理"
+     ],
+     "note": "Claude 先寫出給並行子代理的動畫指南與分鏡，把整支 MV 拆成九章、各一個檔案，以 p5.js 與 p5.brush 繪製，再用無頭 Chrome 逐格算圖並交給 FFmpeg。全部動畫約 45 分鐘；歌曲來自他處，並非作者自己的。成品約 157 秒、1920x1080。可改寫的起手句：「先寫分鏡與動畫指南，再讓並行代理各畫一章，用 p5.brush 繪製，無頭 Chrome 加 FFmpeg 算圖。」"
+    },
+    "ko": {
+     "title": "p5.brush와 병렬 에이전트로 그린 뮤직비디오",
+     "summary": "스토리보드 파일, 애니메이션 가이드, 챕터 아홉 개를 파일 아홉 개로 나눠 헤드리스 Chrome으로 렌더링.",
+     "tags": [
+      "p5.brush",
+      "에이전트 루프"
+     ],
+     "note": "Claude는 병렬 서브에이전트용 애니메이션 가이드와 스토리보드를 쓰고, 영상을 챕터 아홉 개로 나눠 각각 파일 하나로 만들었습니다. p5.js와 p5.brush로 그린 프레임을 헤드리스 Chrome으로 렌더링해 FFmpeg으로 인코딩했습니다. 전체 애니메이션에 약 45분이 걸렸고 곡은 작성자의 것이 아닙니다. 영상은 약 157초, 1920x1080입니다. 바꿔 쓸 시작 문장: \"스토리보드와 애니메이션 가이드를 먼저 쓰고, 병렬 에이전트가 챕터 하나씩 p5.brush로 그리게 한 뒤 헤드리스 Chrome과 FFmpeg으로 렌더링해 줘.\""
+    }
+   }
+  },
+  {
+   "id": "music-video-04",
+   "category": "music-video",
+   "kind": "method",
+   "media": {
+    "type": "video",
+    "files": [
+     "music-video-04.mp4"
+    ],
+    "poster": "music-video-04.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 307,
+   "ratio": "16:9",
+   "author": {
+    "name": "anabology",
+    "url": "https://x.com/anabology"
+   },
+   "sourceUrl": "https://x.com/anabology/status/2103534482930491441",
+   "needsReference": false,
+   "preview": "",
+   "complete": true,
+   "prompt": null,
+   "text": {
+    "en": {
+     "title": "The same brief re-run with Midjourney and a moodboard",
+     "summary": "Same long brief, new reference material, a completely different 5-minute film.",
+     "tags": [
+      "Generated assets",
+      "Long form"
+     ],
+     "note": "The creator gave Opus 5.5 an existing popular brief, access to Midjourney and a moodboard, and let it run overnight; the author says the film was ready 12 hours later. It is about 306 seconds at 1920x1080 and became the most viewed case in this library. Starter line to adapt: \"Follow this brief, use Midjourney for the look, and match the moodboard I attach.\""
+    },
+    "zh": {
+     "title": "同一份简报换成 Midjourney 与情绪板",
+     "summary": "简报不变，参考素材一换，出来完全不同的 5 分钟片子。",
+     "tags": [
+      "生成素材",
+      "长片"
+     ],
+     "note": "作者把一份已流行的简报、Midjourney 权限和一块情绪板交给 Opus 5.5，让它跑了一整夜，称 12 小时后成片。片长约 306 秒、1920x1080，是本库中播放量最高的一条。可改写的起手句：「按这份简报来，用 Midjourney 定画面风格，并对齐我附上的情绪板。」"
+    },
+    "zh-TW": {
+     "title": "同一份需求換成 Midjourney 與情緒板",
+     "summary": "需求不變、參考素材一換，出來是完全不同的 5 分鐘影片。",
+     "tags": [
+      "生成素材",
+      "長片"
+     ],
+     "note": "作者把一份已流行的需求、Midjourney 權限與一塊情緒板交給 Opus 5.5，讓它跑了一整晚，表示 12 小時後成片。片長約 306 秒、1920x1080，是本資料庫中觀看數最高的一則。可改寫的起手句：「照這份需求做，用 Midjourney 決定畫面風格，並對齊我附上的情緒板。」"
+    },
+    "ko": {
+     "title": "같은 브리프를 Midjourney와 무드보드로 다시",
+     "summary": "브리프는 같고 참고 자료만 바꿨는데 완전히 다른 5분짜리 영상이 나왔습니다.",
+     "tags": [
+      "생성 에셋",
+      "장편"
+     ],
+     "note": "작성자는 이미 유명한 브리프와 Midjourney 접근, 무드보드를 Opus 5.5에게 주고 밤새 돌렸으며 12시간 뒤 완성본이 나왔다고 합니다. 길이는 약 306초, 1920x1080이고 이 라이브러리에서 조회수가 가장 높은 사례입니다. 바꿔 쓸 시작 문장: \"이 브리프대로 진행하되, Midjourney로 화면 룩을 잡고 첨부한 무드보드에 맞춰 줘.\""
+    }
+   }
+  },
+  {
+   "id": "music-video-05",
+   "category": "music-video",
+   "kind": "method",
+   "media": {
+    "type": "video",
+    "files": [
+     "music-video-05.mp4"
+    ],
+    "poster": "music-video-05.webp",
+    "width": 720,
+    "height": 1280
+   },
+   "seconds": 203,
+   "ratio": "9:16",
+   "author": {
+    "name": "bradmillscan",
+    "url": "https://x.com/bradmillscan"
+   },
+   "sourceUrl": "https://x.com/bradmillscan/status/2103108967194833310",
+   "needsReference": false,
+   "preview": "",
+   "complete": true,
+   "prompt": null,
+   "text": {
+    "en": {
+     "title": "\"Stroke of a Pen\": a vertical music video by an agent swarm",
+     "summary": "About 75 shots cut on the beat, with two revisions to fix stick-figure characters.",
+     "tags": [
+      "Agent loop",
+      "Vertical"
+     ],
+     "note": "The author had Opus 5.5 read their Bitcoin and monetary-history notes, generated the song with a voice tool, then let a group of agents storyboard and code about 75 shots for a 3:23 vertical film. The first round needed two revisions, one of which rewrote the character rigs. Starter line to adapt: \"Read these notes, write a song brief, storyboard 70 shots and code them in 9:16, cut on the beat.\""
+    },
+    "zh": {
+     "title": "《一笔之间》：智能体群做的竖屏 MV",
+     "summary": "约 75 个踩点镜头，返工两次才把火柴人修成像样的角色。",
+     "tags": [
+      "多智能体",
+      "竖屏"
+     ],
+     "note": "作者让 Opus 5.5 读自己整理的比特币与货币史笔记，用语音工具生成歌曲，再由一组智能体做分镜并写代码，得到约 75 个镜头、3 分 23 秒的竖屏片。第一轮改了两次，其中一次重写了角色骨骼。可改写的起手句：「读这些笔记，写歌曲简报，做 70 个镜头的分镜，用代码做成 9:16 并踩点剪辑。」"
+    },
+    "zh-TW": {
+     "title": "《一筆之間》：代理人群做的直式 MV",
+     "summary": "約 75 個踩拍鏡頭，修改兩次才把火柴人改成像樣的角色。",
+     "tags": [
+      "多代理",
+      "直式"
+     ],
+     "note": "作者請 Opus 5.5 讀自己整理的比特幣與貨幣史筆記，用語音工具生成歌曲，再由一群代理人做分鏡並寫程式，得到約 75 個鏡頭、3 分 23 秒的直式影片。第一輪改了兩次，其中一次重寫了角色骨架。可改寫的起手句：「讀這些筆記，寫歌曲需求，做 70 個鏡頭的分鏡，用程式做成 9:16 並踩拍剪接。」"
+    },
+    "ko": {
+     "title": "\"Stroke of a Pen\" 에이전트 세로 MV",
+     "summary": "비트에 맞춘 약 75개 샷, 막대 인간을 고치느라 두 번 수정했습니다.",
+     "tags": [
+      "에이전트 루프",
+      "세로 영상"
+     ],
+     "note": "작성자는 Opus 5.5에게 자신의 비트코인과 화폐사 위키를 읽게 하고 음성 도구로 곡을 만든 뒤, 에이전트 무리가 스토리보드를 짜고 약 75개 샷을 코딩해 3분 23초 세로 영상을 만들었습니다. 첫 라운드에서 두 번 수정이 필요했고 그중 한 번은 캐릭터 리그를 다시 짠 것이었습니다. 바꿔 쓸 시작 문장: \"이 노트를 읽고 곡 브리프를 쓰고, 70개 샷 스토리보드를 짜서 9:16 코드 영상으로 비트에 맞춰 편집해 줘.\""
+    }
+   }
+  },
+  {
+   "id": "music-video-06",
+   "category": "music-video",
+   "kind": "method",
+   "media": {
+    "type": "video",
+    "files": [
+     "music-video-06.mp4"
+    ],
+    "poster": "music-video-06.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 40,
+   "ratio": "16:9",
+   "author": {
+    "name": "ring_hyacinth",
+    "url": "https://x.com/ring_hyacinth"
+   },
+   "sourceUrl": "https://x.com/ring_hyacinth/status/2102986085328716066",
+   "needsReference": false,
+   "preview": "",
+   "complete": true,
+   "prompt": null,
+   "text": {
+    "en": {
+     "title": "Mid-Autumn paper-collage short in p5.brush",
+     "summary": "The person supplied script and music; the model drew every frame in JavaScript.",
+     "tags": [
+      "p5.brush",
+      "Collage"
+     ],
+     "note": "The creator provided the script and music; Opus 5.5 drew the animation frame by frame in JavaScript with p5.js and p5.brush for hand-painted texture, over backdrops made with an image model, and synthesised the sound effects with Node.js. The film runs about 40 seconds at 1920x1080. Starter line to adapt: \"Animate this script in a paper-collage style with p5.brush, frame by frame, with synthesised sound effects.\""
+    },
+    "zh": {
+     "title": "p5.brush 画的中秋拼贴动画",
+     "summary": "脚本和音乐由人提供，每一帧由模型用 JavaScript 画出。",
+     "tags": [
+      "p5.brush",
+      "拼贴"
+     ],
+     "note": "脚本和音乐是作者给的；Opus 5.5 用 JavaScript 逐帧画出动画，手绘质感来自 p5.js 加 p5.brush，底图由图像模型生成，音效由 Node.js 程序合成。成片约 40 秒、1920x1080。可改写的起手句：「把这份脚本做成纸张拼贴风动画，用 p5.brush 逐帧绘制，音效用代码合成。」"
+    },
+    "zh-TW": {
+     "title": "用 p5.brush 畫的中秋拼貼動畫",
+     "summary": "腳本與音樂由人提供，每一格畫面由模型用 JavaScript 畫出。",
+     "tags": [
+      "p5.brush",
+      "拼貼"
+     ],
+     "note": "腳本與音樂由作者提供；Opus 5.5 以 JavaScript 逐格畫出動畫，手繪質感來自 p5.js 加 p5.brush，底圖由圖像模型生成，音效由 Node.js 程式合成。成品約 40 秒、1920x1080。可改寫的起手句：「把這份腳本做成紙張拼貼風動畫，用 p5.brush 逐格繪製，音效用程式合成。」"
+    },
+    "ko": {
+     "title": "p5.brush로 그린 추석 종이 콜라주 애니메이션",
+     "summary": "대본과 음악은 사람이, 모든 프레임은 모델이 JavaScript로 그렸습니다.",
+     "tags": [
+      "p5.brush",
+      "콜라주"
+     ],
+     "note": "대본과 음악은 작성자가 제공했고, Opus 5.5가 JavaScript로 프레임을 하나씩 그렸습니다. 손그림 질감은 p5.js와 p5.brush, 배경은 이미지 모델, 효과음은 Node.js 프로그램으로 합성했습니다. 영상은 약 40초, 1920x1080입니다. 바꿔 쓸 시작 문장: \"이 대본을 종이 콜라주 스타일로 p5.brush로 프레임별로 그려 애니메이션으로 만들고, 효과음은 코드로 합성해 줘.\""
+    }
+   }
+  },
+  {
+   "id": "short-film-01",
+   "category": "short-film",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "short-film-01.mp4"
+    ],
+    "poster": "short-film-01.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 120,
+   "ratio": "16:9",
+   "author": {
+    "name": "Michaelzsguo",
+    "url": "https://x.com/Michaelzsguo"
+   },
+   "sourceUrl": "https://x.com/Michaelzsguo/status/2102592355165782312",
+   "needsReference": false,
+   "preview": "Make a 2-minute sand animation that tells the story of 250 years of U.S. history. Keep it lively, engaging, and tasteful. Add appropriate background music and sound design.",
+   "complete": true,
+   "prompt": "Make a 2-minute sand animation that tells the story of 250 years of U.S. history. Keep it lively, engaging, and tasteful. Add appropriate background music and sound design.",
+   "text": {
+    "en": {
+     "title": "Two-minute sand animation of 250 years of US history",
+     "summary": "One sentence with the length, the story and the sound; neither Blender nor Three.js was used.",
+     "tags": [
+      "Sand animation",
+      "One-liner"
+     ]
+    },
+    "zh": {
+     "title": "两分钟沙画讲美国 250 年",
+     "summary": "一句话交代时长、故事和声音；没有用 Blender 或 Three.js。",
+     "tags": [
+      "沙画动画",
+      "一句话"
+     ]
+    },
+    "zh-TW": {
+     "title": "兩分鐘沙畫講美國 250 年",
+     "summary": "一句話交代長度、故事與聲音；沒有用 Blender 或 Three.js。",
+     "tags": [
+      "沙畫動畫",
+      "一句話"
+     ]
+    },
+    "ko": {
+     "title": "미국 250년을 담은 2분짜리 샌드 애니메이션",
+     "summary": "한 문장에 길이, 이야기, 소리를 담았고 Blender와 Three.js는 쓰지 않았습니다.",
+     "tags": [
+      "샌드 애니메이션",
+      "한 줄 프롬프트"
+     ]
+    }
+   }
+  },
+  {
+   "id": "short-film-02",
+   "category": "short-film",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "short-film-02.mp4"
+    ],
+    "poster": "short-film-02.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 38,
+   "ratio": "16:9",
+   "author": {
+    "name": "AxtonLiu",
+    "url": "https://x.com/AxtonLiu"
+   },
+   "sourceUrl": "https://x.com/AxtonLiu/status/2103119648271290566",
+   "needsReference": false,
+   "preview": "每次一个新的模型出来呢，大家都让它去画 \"鹈鹕骑自行车\" 来判断这个模型的空间能力，基本上都是用 HTML、SVG 来画动画。当我实在看得都有审美疲劳了，我希望你能画一个最复杂、最精细、最精美的 \"鹈鹕骑自行车\"的动画视频，你可以用任何的技术，不用着急，画一天都可以。",
+   "complete": true,
+   "prompt": "每次一个新的模型出来呢，大家都让它去画 \"鹈鹕骑自行车\" 来判断这个模型的空间能力，基本上都是用 HTML、SVG 来画动画。当我实在看得都有审美疲劳了，我希望你能画一个最复杂、最精细、最精美的 \"鹈鹕骑自行车\"的动画视频，你可以用任何的技术，不用着急，画一天都可以。",
+   "text": {
+    "en": {
+     "title": "Pelican on a bicycle with a custom GPU ray-marcher",
+     "summary": "Asks for the most refined version with any technique and unlimited time.",
+     "tags": [
+      "Shader",
+      "Open brief"
+     ]
+    },
+    "zh": {
+     "title": "自研 GPU 光线步进的鹈鹕骑车影片",
+     "summary": "要求最精细的版本、不限技术、时间随便用。",
+     "tags": [
+      "着色器",
+      "放手让它做"
+     ]
+    },
+    "zh-TW": {
+     "title": "自製 GPU 光線步進的鵜鶘騎車影片",
+     "summary": "要求最精緻的版本、不限技術、時間隨便用。",
+     "tags": [
+      "著色器",
+      "放手讓它做"
+     ]
+    },
+    "ko": {
+     "title": "직접 만든 GPU 레이마처의 자전거 타는 펠리컨",
+     "summary": "어떤 기술이든 좋고 시간 제한 없이 가장 정교한 결과를 요구합니다.",
+     "tags": [
+      "셰이더",
+      "자율 위임"
+     ]
+    }
+   }
+  },
+  {
+   "id": "short-film-03",
+   "category": "short-film",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "short-film-03.mp4"
+    ],
+    "poster": "short-film-03.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 30,
+   "ratio": "16:9",
+   "author": {
+    "name": "DemitiyaGeekzen",
+    "url": "https://x.com/DemitiyaGeekzen"
+   },
+   "sourceUrl": "https://x.com/DemitiyaGeekzen/status/2103517910274818523",
+   "needsReference": false,
+   "preview": "用你最强的思维和能力，根据对我的了解，自行寻找我可能喜欢的主题，制作一个30s的视频还有互动html，尽可能的展示你的前端能力！",
+   "complete": true,
+   "prompt": "用你最强的思维和能力，根据对我的了解，自行寻找我可能喜欢的主题，制作一个30s的视频还有互动html，尽可能的展示你的前端能力！",
+   "text": {
+    "en": {
+     "title": "Tengwang Pavilion at Mid-Autumn, one WebGL2 shader",
+     "summary": "The model chose the topic; every pixel comes from one shader, the sound from Web Audio.",
+     "tags": [
+      "Shader",
+      "Open brief"
+     ]
+    },
+    "zh": {
+     "title": "滕王阁中秋夜，单个 WebGL2 着色器",
+     "summary": "题材由模型自选，每个像素出自一个着色器，声音来自 Web Audio。",
+     "tags": [
+      "着色器",
+      "放手让它做"
+     ]
+    },
+    "zh-TW": {
+     "title": "滕王閣中秋夜，單一 WebGL2 著色器",
+     "summary": "主題由模型自選，每個像素出自同一個著色器，聲音來自 Web Audio。",
+     "tags": [
+      "著色器",
+      "放手讓它做"
+     ]
+    },
+    "ko": {
+     "title": "추석 밤의 등왕각, 셰이더 하나로 그린 영상",
+     "summary": "주제는 모델이 직접 골랐고 모든 픽셀은 셰이더 하나, 소리는 Web Audio에서 나옵니다.",
+     "tags": [
+      "셰이더",
+      "자율 위임"
+     ]
+    }
+   }
+  },
+  {
+   "id": "short-film-04",
+   "category": "short-film",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "short-film-04.mp4"
+    ],
+    "poster": "short-film-04.webp",
+    "width": 640,
+    "height": 360
+   },
+   "seconds": 14,
+   "ratio": "16:9",
+   "author": {
+    "name": "NFT_Chen",
+    "url": "https://x.com/NFT_Chen"
+   },
+   "sourceUrl": "https://x.com/NFT_Chen/status/2103401780117938683",
+   "needsReference": false,
+   "preview": "用 web3D 复刻宫崎骏《红猪》日落海面上的经典空战：白绿红涂装战斗机、紫色积云、海面反光、吉卜力运镜，画面写 just breathe.",
+   "complete": true,
+   "prompt": "用 web3D 复刻宫崎骏《红猪》日落海面上的经典空战：白绿红涂装战斗机、紫色积云、海面反光、吉卜力运镜，画面写 just breathe.",
+   "text": {
+    "en": {
+     "title": "Porco Rosso-style sunset dogfight in Three.js",
+     "summary": "One line names the scene, the aircraft livery, the sky and the mood; a fan tribute.",
+     "tags": [
+      "Three.js",
+      "Fan tribute"
+     ]
+    },
+    "zh": {
+     "title": "Three.js 复刻《红猪》日落空战",
+     "summary": "一句话写清场景、战机涂装、天空和气氛，属于同人致敬。",
+     "tags": [
+      "Three.js",
+      "致敬同人"
+     ]
+    },
+    "zh-TW": {
+     "title": "用 Three.js 重現《紅豬》夕陽空戰",
+     "summary": "一句話寫清場景、戰機塗裝、天空與氛圍，屬於同人致敬。",
+     "tags": [
+      "Three.js",
+      "致敬同人"
+     ]
+    },
+    "ko": {
+     "title": "Three.js로 재현한 붉은 돼지풍 석양 공중전",
+     "summary": "한 줄에 장면, 기체 도색, 하늘, 분위기를 담은 팬 오마주입니다.",
+     "tags": [
+      "Three.js",
+      "팬 오마주"
+     ]
+    }
+   }
+  },
+  {
+   "id": "short-film-05",
+   "category": "short-film",
+   "kind": "method",
+   "media": {
+    "type": "video",
+    "files": [
+     "short-film-05.mp4"
+    ],
+    "poster": "short-film-05.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 301,
+   "ratio": "16:9",
+   "author": {
+    "name": "WinterArc2125",
+    "url": "https://x.com/WinterArc2125"
+   },
+   "sourceUrl": "https://x.com/WinterArc2125/status/2103116235009347650",
+   "needsReference": false,
+   "preview": "",
+   "complete": true,
+   "prompt": null,
+   "text": {
+    "en": {
+     "title": "Austerlitz, 2 December 1805: a five-minute film in code",
+     "summary": "Real terrain and sun position, a written engine, score and voice.",
+     "tags": [
+      "Long form",
+      "History"
+     ],
+     "note": "The author had Opus 5.5 write the engine, soldiers, score and narration for a five-minute film, using satellite height data for the hills and the true sunrise position for that date. Setup took about 90 minutes and rendering about 4 hours; the code is public. Starter line to adapt: \"Make a 5-minute film of this battle in code: real terrain, correct sun position, an original score and narration.\""
+    },
+    "zh": {
+     "title": "奥斯特里茨 1805：全代码 5 分钟片",
+     "summary": "真实地形和太阳位置，自写引擎、配乐与旁白。",
+     "tags": [
+      "长片",
+      "历史"
+     ],
+     "note": "作者让 Opus 5.5 自己写引擎、士兵、配乐和旁白，做出 5 分钟影片：山丘用卫星高程数据，日出位置按当天实际计算。准备约 90 分钟，渲染约 4 小时，代码已公开。可改写的起手句：「用代码做一支这场战役的 5 分钟影片：真实地形、正确的太阳位置、原创配乐和旁白。」"
+    },
+    "zh-TW": {
+     "title": "奧斯特利茨 1805：全程式碼 5 分鐘片",
+     "summary": "真實地形與太陽位置，自寫引擎、配樂與旁白。",
+     "tags": [
+      "長片",
+      "歷史"
+     ],
+     "note": "作者請 Opus 5.5 自己寫引擎、士兵、配樂與旁白，做出 5 分鐘影片：山丘用衛星高程資料，日出位置依當天實際計算。準備約 90 分鐘，算圖約 4 小時，程式碼已公開。可改寫的起手句：「用程式碼做一支這場戰役的 5 分鐘影片：真實地形、正確的太陽位置、原創配樂與旁白。」"
+    },
+    "ko": {
+     "title": "아우스터리츠 1805: 코드로 만든 5분 영화",
+     "summary": "실제 지형과 태양 위치, 직접 쓴 엔진과 음악, 내레이션.",
+     "tags": [
+      "장편",
+      "역사"
+     ],
+     "note": "작성자는 Opus 5.5에게 엔진, 병사, 음악, 내레이션을 직접 쓰게 해 5분 영화를 만들었습니다. 언덕은 위성 고도 데이터, 일출 위치는 그날의 실제 값을 썼습니다. 준비에 약 90분, 렌더링에 약 4시간이 걸렸고 코드는 공개되어 있습니다. 바꿔 쓸 시작 문장: \"이 전투를 코드로 5분 영화로 만들어 줘. 실제 지형, 정확한 태양 위치, 오리지널 음악과 내레이션으로.\""
+    }
+   }
+  },
+  {
+   "id": "short-film-06",
+   "category": "short-film",
+   "kind": "method",
+   "media": {
+    "type": "video",
+    "files": [
+     "short-film-06.mp4"
+    ],
+    "poster": "short-film-06.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 359,
+   "ratio": "16:9",
+   "author": {
+    "name": "wshuyi",
+    "url": "https://x.com/wshuyi"
+   },
+   "sourceUrl": "https://x.com/wshuyi/status/2103308292613345504",
+   "needsReference": false,
+   "preview": "",
+   "complete": true,
+   "prompt": null,
+   "text": {
+    "en": {
+     "title": "Low-poly 3D retelling of \"The Taoist of Laoshan\"",
+     "summary": "No storyboard and no ready-made video skill; only a cloned voice was supplied.",
+     "tags": [
+      "Three.js",
+      "Voice-over"
+     ],
+     "note": "The author ran Claude Code with Opus 5.5 and supplied only their cloned voice, with no storyboard or ready-made video skill, to test whether the model can shoot a story end to end. The result is a 3D retelling of about six minutes at 1920x1080. Starter line to adapt: \"Retell this short story as a low-poly 3D film with my narration track, planning the shots yourself.\""
+    },
+    "zh": {
+     "title": "低多边形 3D 版《崂山道士》",
+     "summary": "不写分镜，不套现成视频技能，只提供克隆声音。",
+     "tags": [
+      "Three.js",
+      "配音"
+     ],
+     "note": "作者用 Claude Code 挂 Opus 5.5，只提供自己的声音克隆，不写分镜、不用现成视频技能，想测试模型能否端到端把故事拍出来。成片是约六分钟的 3D 讲述，1920x1080。可改写的起手句：「把这个短篇故事做成低多边形 3D 影片，配我的旁白，镜头自己规划。」"
+    },
+    "zh-TW": {
+     "title": "低多邊形 3D 版《嶗山道士》",
+     "summary": "不寫分鏡、不套現成影片技能，只提供複製的聲音。",
+     "tags": [
+      "Three.js",
+      "配音"
+     ],
+     "note": "作者用 Claude Code 搭配 Opus 5.5，只提供自己的聲音複製，不寫分鏡、也不用現成影片技能，想測試模型能否端到端把故事「拍」出來。成品是約六分鐘的 3D 敘事，1920x1080。可改寫的起手句：「把這篇短篇故事做成低多邊形 3D 影片，配上我的旁白，鏡頭自己規劃。」"
+    },
+    "ko": {
+     "title": "로우폴리 3D로 다시 쓴 \"노산도사\"",
+     "summary": "콘티도 기존 영상 스킬도 없이, 복제한 목소리만 제공했습니다.",
+     "tags": [
+      "Three.js",
+      "내레이션"
+     ],
+     "note": "작성자는 Claude Code에서 Opus 5.5를 쓰며 콘티나 기존 영상 스킬 없이 자신의 복제 음성만 제공해, 모델이 이야기를 끝까지 스스로 \"촬영\"하는지 시험했습니다. 결과는 약 6분의 3D 재구성이고 1920x1080입니다. 바꿔 쓸 시작 문장: \"이 단편 소설을 로우폴리 3D 영상으로 만들어 줘. 내 내레이션을 쓰고 샷은 네가 계획해.\""
+    }
+   }
+  },
+  {
+   "id": "3d-blender-01",
+   "category": "3d-blender",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "3d-blender-01.mp4"
+    ],
+    "poster": "3d-blender-01.webp",
+    "width": 960,
+    "height": 680
+   },
+   "seconds": 8,
+   "ratio": "4:3",
+   "author": {
+    "name": "alexalbert__",
+    "url": "https://x.com/alexalbert__"
+   },
+   "sourceUrl": "https://x.com/alexalbert__/status/2102466523164274839",
+   "needsReference": false,
+   "preview": "Recreate Market Street, San Francisco as it stood on April 17, 1906, the afternoon before the earthquake, in Blender. Scope: the Ferry Building up Market to Fifth Street, including the Palace Hotel, the Call Building, the Chronicle Building, Lotta's Fountain and the Emporium.",
+   "complete": false,
+   "prompt": "Recreate Market Street, San Francisco as it stood on April 17, 1906, the afternoon before the earthquake, in Blender.\nScope: the Ferry Building up Market to Fifth Street, including the Palace Hotel, the Call Building, the Chronicle Building, Lotta's Fountain and the Emporium.\nBefore modeling anything, build a source file from: the 1899-1905 Sanborn fire insurance maps (footprints, heights, materials, occupants), the Miles Brothers film \"A Trip Down Market Street\" (April 1906), period photographs from OpenSFHistory, the Library of Congress and the David Rumsey collection, and USGS topography. Record every building with footprint, height, facade material, occupant, and the source for each fact with a confidence level.\nBuild everything in Blender Python. No downloaded meshes, textures or HDRIs. Write reusable generators (Victorian commercial facade, mansard roof, bay windows, awnings, painted signage, gas and electric street lamps, cable car, horse-drawn wagon, early automobile) and assemble the street from the source file, so every building traces back to data.\nProvide a 10 second video up the street.",
+   "text": {
+    "en": {
+     "title": "Market Street, San Francisco, the day before 1906",
+     "summary": "Builds a sourced data file first, then Blender generators, so every building traces to a source.",
+     "tags": [
+      "Blender",
+      "History"
+     ]
+    },
+    "zh": {
+     "title": "1906 年地震前一天的旧金山市场街",
+     "summary": "先建带出处的数据文件，再写 Blender 生成器，每栋楼都能追溯到来源。",
+     "tags": [
+      "Blender",
+      "历史"
+     ]
+    },
+    "zh-TW": {
+     "title": "1906 年地震前一天的舊金山市場街",
+     "summary": "先建立附出處的資料檔，再寫 Blender 生成器，每棟樓都能追溯到來源。",
+     "tags": [
+      "Blender",
+      "歷史"
+     ]
+    },
+    "ko": {
+     "title": "1906년 지진 전날의 샌프란시스코 마켓 스트리트",
+     "summary": "출처가 붙은 데이터 파일을 먼저 만들고 Blender 생성기를 짜서 모든 건물이 출처로 이어집니다.",
+     "tags": [
+      "Blender",
+      "역사"
+     ]
+    }
+   }
+  },
+  {
+   "id": "3d-blender-02",
+   "category": "3d-blender",
+   "kind": "method",
+   "media": {
+    "type": "video",
+    "files": [
+     "3d-blender-02.mp4"
+    ],
+    "poster": "3d-blender-02.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 46,
+   "ratio": "16:9",
+   "author": {
+    "name": "Stefan_3D_AI",
+    "url": "https://x.com/Stefan_3D_AI"
+   },
+   "sourceUrl": "https://x.com/Stefan_3D_AI/status/2102471841046786153",
+   "needsReference": false,
+   "preview": "",
+   "complete": true,
+   "prompt": null,
+   "text": {
+    "en": {
+     "title": "Same procedural Blender shot: Opus 5.5 vs GPT-6 Astra",
+     "summary": "One prompt, Blender only, a 10-second render plus a build timelapse.",
+     "tags": [
+      "Blender",
+      "How-to"
+     ],
+     "note": "The author gave two models the same prompt: build everything procedurally in Blender, render a 10-second shot and record a build timelapse. Opus 5.5 took 35 minutes and wrote far more output tokens than its rival. The clip runs 46 seconds at 1920x1080. Starter line to adapt: \"Build a scene procedurally in Blender Python only, render a 10-second shot, and record a timelapse of the build.\""
+    },
+    "zh": {
+     "title": "同题程序化 Blender 对比测试",
+     "summary": "一条提示词，只用 Blender，渲染 10 秒镜头并录建模延时。",
+     "tags": [
+      "Blender",
+      "教程"
+     ],
+     "note": "作者给两个模型同一条提示词：全部程序化建模、渲染 10 秒镜头并录制建模延时。Opus 5.5 用了 35 分钟，输出 token 比对手多得多。片长 46 秒、1920x1080。可改写的起手句：「只用 Blender Python 程序化搭一个场景，渲染 10 秒镜头，并录下搭建过程的延时。」"
+    },
+    "zh-TW": {
+     "title": "同題程序化 Blender 對比測試",
+     "summary": "一則提示詞，只用 Blender，算圖 10 秒鏡頭並錄下建模縮時。",
+     "tags": [
+      "Blender",
+      "教學"
+     ],
+     "note": "作者給兩個模型同一則提示詞：全部程序化建模、算圖 10 秒鏡頭，並錄製建模縮時。Opus 5.5 花了 35 分鐘，輸出的 token 比對手多很多。片長 46 秒、1920x1080。可改寫的起手句：「只用 Blender Python 程序化搭一個場景，算圖 10 秒鏡頭，並錄下搭建過程的縮時。」"
+    },
+    "ko": {
+     "title": "같은 절차적 Blender 장면 비교 테스트",
+     "summary": "프롬프트 하나, Blender만, 10초 샷 렌더와 제작 타임랩스.",
+     "tags": [
+      "Blender",
+      "사용법"
+     ],
+     "note": "작성자는 두 모델에게 같은 프롬프트를 주었습니다. 전부 절차적으로 Blender에서 만들고, 10초 샷을 렌더하고, 제작 타임랩스를 녹화하라는 내용입니다. Opus 5.5는 35분이 걸렸고 상대보다 출력 토큰이 훨씬 많았습니다. 영상은 46초, 1920x1080입니다. 바꿔 쓸 시작 문장: \"Blender Python만으로 장면을 절차적으로 만들고 10초 샷을 렌더한 뒤, 제작 과정 타임랩스를 녹화해 줘.\""
+    }
+   }
+  },
+  {
+   "id": "3d-blender-04",
+   "category": "3d-blender",
+   "kind": "method",
+   "media": {
+    "type": "video",
+    "files": [
+     "3d-blender-04.mp4"
+    ],
+    "poster": "3d-blender-04.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 38,
+   "ratio": "16:9",
+   "author": {
+    "name": "NathanWilbanks_",
+    "url": "https://x.com/NathanWilbanks_"
+   },
+   "sourceUrl": "https://x.com/NathanWilbanks_/status/2103881538592981110",
+   "needsReference": false,
+   "preview": "",
+   "complete": true,
+   "prompt": null,
+   "text": {
+    "en": {
+     "title": "GPU fluid-simulated campfire, self-critiqued 40 times",
+     "summary": "A real fire simulation in JavaScript with a render-and-critique loop.",
+     "tags": [
+      "Simulation",
+      "Shader"
+     ],
+     "note": "The author asked for the most realistic fire possible using only JavaScript. Claude wrote a GPU fluid simulation with blackbody flame colour, rendered frames offline, had a vision model critique them about 40 times, and drove the sound from flame brightness. The result is a 38-second 1080p film from one HTML file. Starter line to adapt: \"Build the most realistic campfire you can in JavaScript, render a frame, critique it like a VFX supervisor, fix it and repeat.\""
+    },
+    "zh": {
+     "title": "GPU 流体模拟篝火，自我评审约 40 次",
+     "summary": "用 JavaScript 写真实火焰模拟，带渲染、评审的循环。",
+     "tags": [
+      "模拟",
+      "着色器"
+     ],
+     "note": "作者要求只用 JavaScript 做出最逼真的火。Claude 写了 GPU 流体模拟，火焰颜色按黑体辐射，离线渲染帧，让视觉模型像特效总监一样评审约 40 次，声音由火焰亮度驱动。成果是一个 HTML 文件做出的 38 秒 1080p 短片。可改写的起手句：「用 JavaScript 做最逼真的篝火，渲染一帧，像特效总监一样挑毛病、修好，再重复。」"
+    },
+    "zh-TW": {
+     "title": "GPU 流體模擬營火，自我審查約 40 次",
+     "summary": "用 JavaScript 寫出真實火焰模擬，附帶算圖與審查的循環。",
+     "tags": [
+      "模擬",
+      "著色器"
+     ],
+     "note": "作者要求只用 JavaScript 做出最逼真的火。Claude 寫了 GPU 流體模擬，火焰顏色依黑體輻射，離線算圖，並讓視覺模型像特效總監一樣審查約 40 次，聲音由火焰亮度驅動。成果是一個 HTML 檔做出的 38 秒 1080p 短片。可改寫的起手句：「用 JavaScript 做最逼真的營火，算一格畫面，像特效總監一樣挑毛病、修好，再重複。」"
+    },
+    "ko": {
+     "title": "GPU 유체 시뮬레이션 모닥불, 40번의 자기 검토",
+     "summary": "JavaScript로 만든 진짜 불 시뮬레이션과 렌더, 비평 루프.",
+     "tags": [
+      "시뮬레이션",
+      "셰이더"
+     ],
+     "note": "작성자는 JavaScript만으로 가장 사실적인 불을 요청했습니다. Claude는 흑체 복사 기반의 불꽃 색을 갖춘 GPU 유체 시뮬레이션을 쓰고, 프레임을 오프라인 렌더링해 비전 모델이 VFX 슈퍼바이저처럼 약 40번 비평하게 했으며, 소리는 불꽃 밝기로 구동했습니다. 결과는 HTML 파일 하나로 만든 38초 1080p 영상입니다. 바꿔 쓸 시작 문장: \"JavaScript로 가장 사실적인 모닥불을 만들어 줘. 한 프레임 렌더, VFX 슈퍼바이저처럼 지적, 수정, 반복.\""
+    }
+   }
+  },
+  {
+   "id": "3d-blender-06",
+   "category": "3d-blender",
+   "kind": "method",
+   "media": {
+    "type": "video",
+    "files": [
+     "3d-blender-06.mp4"
+    ],
+    "poster": "3d-blender-06.webp",
+    "width": 720,
+    "height": 1280
+   },
+   "seconds": 21,
+   "ratio": "9:16",
+   "author": {
+    "name": "Higgsfield",
+    "url": "https://x.com/higgsfield_ai"
+   },
+   "sourceUrl": "https://x.com/higgsfield_ai/status/2102453658889953717",
+   "needsReference": false,
+   "preview": "",
+   "complete": true,
+   "prompt": null,
+   "text": {
+    "en": {
+     "title": "Windmill modelled, rigged and animated in 15 minutes",
+     "summary": "Blender driven over an MCP connection for a short vertical clip.",
+     "tags": [
+      "Blender",
+      "MCP"
+     ],
+     "note": "The vendor says Claude Opus 5.5 modelled, rigged, textured and animated a windmill in Blender in 15 minutes through an MCP connection. The clip is a 21-second 1080x1920 vertical video; a longer tutorial is linked from the post. Starter line to adapt: \"In Blender over MCP, model a windmill, rig its blades, texture it and animate it turning.\""
+    },
+    "zh": {
+     "title": "15 分钟做好的风车：建模、绑定、动画",
+     "summary": "通过 MCP 连接驱动 Blender，做出竖屏短片。",
+     "tags": [
+      "Blender",
+      "MCP"
+     ],
+     "note": "厂商称 Claude Opus 5.5 通过 MCP 连接在 Blender 里 15 分钟完成风车的建模、绑定、贴图和动画。成片 21 秒、1080x1920 竖屏，帖子里还链接了更长的教程。可改写的起手句：「通过 MCP 在 Blender 里建一座风车，绑定叶片、贴图，并做出转动动画。」"
+    },
+    "zh-TW": {
+     "title": "15 分鐘做好的風車：建模、綁定、動畫",
+     "summary": "透過 MCP 連線驅動 Blender，做出直式短片。",
+     "tags": [
+      "Blender",
+      "MCP"
+     ],
+     "note": "廠商表示 Claude Opus 5.5 透過 MCP 連線在 Blender 裡 15 分鐘完成風車的建模、綁定、貼圖與動畫。成品 21 秒、1080x1920 直式，貼文中也連到較長的教學。可改寫的起手句：「透過 MCP 在 Blender 裡建一座風車，綁定葉片、貼圖，並做出轉動動畫。」"
+    },
+    "ko": {
+     "title": "15분 만에 만든 풍차: 모델링, 리깅, 애니메이션",
+     "summary": "MCP 연결로 Blender를 조작해 만든 세로형 클립입니다.",
+     "tags": [
+      "Blender",
+      "MCP"
+     ],
+     "note": "벤더 측은 Claude Opus 5.5가 MCP 연결로 Blender에서 풍차의 모델링, 리깅, 텍스처, 애니메이션을 15분에 끝냈다고 밝힙니다. 영상은 21초, 1080x1920 세로형이고 게시물에 더 긴 튜토리얼 링크가 있습니다. 바꿔 쓸 시작 문장: \"MCP로 Blender에서 풍차를 만들어 줘. 날개를 리깅하고 텍스처를 입혀 돌아가는 애니메이션을 넣어.\""
+    }
+   }
+  },
+  {
+   "id": "video-editing-01",
+   "category": "video-editing",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "video-editing-01.mp4"
+    ],
+    "poster": "video-editing-01.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 37,
+   "ratio": "16:9",
+   "author": {
+    "name": "sab8a",
+    "url": "https://x.com/sab8a"
+   },
+   "sourceUrl": "https://x.com/sab8a/status/2103144778481475686",
+   "needsReference": false,
+   "preview": "Cut a raw talking-head clip into a punchy, fun edit with subtitles, graphics and music",
+   "complete": true,
+   "prompt": "Cut a raw talking-head clip into a punchy, fun edit with subtitles, graphics and music",
+   "text": {
+    "en": {
+     "title": "Raw talking-head clip cut into a punchy edit",
+     "summary": "A one-line editing brief: subtitles, graphics and music.",
+     "tags": [
+      "Editing",
+      "One-liner"
+     ]
+    },
+    "zh": {
+     "title": "把原始口播素材剪成有节奏的成片",
+     "summary": "一句话的剪辑简报：字幕、图形和配乐。",
+     "tags": [
+      "剪辑",
+      "一句话"
+     ]
+    },
+    "zh-TW": {
+     "title": "把原始口播素材剪成有節奏的成品",
+     "summary": "一句話的剪輯需求：字幕、圖形與配樂。",
+     "tags": [
+      "剪輯",
+      "一句話"
+     ]
+    },
+    "ko": {
+     "title": "원본 토킹헤드 영상을 경쾌하게 편집",
+     "summary": "자막, 그래픽, 음악을 요청한 한 줄짜리 편집 브리프입니다.",
+     "tags": [
+      "편집",
+      "한 줄 프롬프트"
+     ]
+    }
+   }
+  },
+  {
+   "id": "video-editing-02",
+   "category": "video-editing",
+   "kind": "method",
+   "media": {
+    "type": "video",
+    "files": [
+     "video-editing-02.mp4"
+    ],
+    "poster": "video-editing-02.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 32,
+   "ratio": "16:9",
+   "author": {
+    "name": "aicreataro",
+    "url": "https://x.com/aicreataro"
+   },
+   "sourceUrl": "https://x.com/aicreataro/status/2103757144789221819",
+   "needsReference": false,
+   "preview": "",
+   "complete": true,
+   "prompt": null,
+   "text": {
+    "en": {
+     "title": "Opus 5.5 driving After Effects on generated clips",
+     "summary": "Skeleton data from the dance video moves text, light and camera in After Effects.",
+     "tags": [
+      "After Effects",
+      "Editing"
+     ],
+     "note": "The author generated a song and two 15-second dance clips, then had Opus 5.5 operate After Effects: extract the dancer's skeleton frame by frame and use it to move text, light and the camera. The output is an .aep project that a person can still edit. Starter line to adapt: \"Extract a skeleton from this clip and use it to attach lyrics and light to the dancer in After Effects, with a different effect per chapter.\""
+    },
+    "zh": {
+     "title": "让 Opus 操作 After Effects 后期",
+     "summary": "用舞蹈视频的骨骼数据驱动文字、光线和镜头。",
+     "tags": [
+      "After Effects",
+      "剪辑"
+     ],
+     "note": "作者生成了歌曲和两段 15 秒舞蹈片，让 Opus 5.5 操作 After Effects：逐帧提取舞者骨骼，用它驱动文字、光线和镜头。输出是人还能继续编辑的 .aep 工程。可改写的起手句：「从这段视频里提取骨骼，在 After Effects 里把歌词和光效挂到舞者身上，每章用不同的效果。」"
+    },
+    "zh-TW": {
+     "title": "讓 Opus 操作 AE 做後製",
+     "summary": "用舞蹈影片的骨架資料驅動文字、光線與鏡頭。",
+     "tags": [
+      "After Effects",
+      "剪輯"
+     ],
+     "note": "作者生成了歌曲與兩段 15 秒舞蹈片，請 Opus 5.5 操作 After Effects：逐格擷取舞者骨架，用它驅動文字、光線與鏡頭。輸出是人還能繼續編輯的 .aep 專案。可改寫的起手句：「從這段影片擷取骨架，在 After Effects 裡把歌詞與光效掛到舞者身上，每一章用不同的效果。」"
+    },
+    "ko": {
+     "title": "Opus가 After Effects를 조작한 후반 작업",
+     "summary": "댄스 영상의 스켈레톤 데이터로 글자, 빛, 카메라를 움직였습니다.",
+     "tags": [
+      "After Effects",
+      "편집"
+     ],
+     "note": "작성자는 노래와 15초 댄스 영상 두 편을 생성한 뒤 Opus 5.5에게 After Effects를 조작하게 했습니다. 프레임별로 댄서의 스켈레톤을 뽑아 글자, 빛, 카메라를 움직였고, 결과는 사람이 이어서 고칠 수 있는 .aep 프로젝트입니다. 바꿔 쓸 시작 문장: \"이 영상에서 스켈레톤을 추출해 After Effects에서 가사와 빛을 댄서에게 붙이고 챕터마다 다른 효과를 써 줘.\""
+    }
+   }
+  },
+  {
+   "id": "video-editing-03",
+   "category": "video-editing",
+   "kind": "method",
+   "media": {
+    "type": "video",
+    "files": [
+     "video-editing-03.mp4"
+    ],
+    "poster": "video-editing-03.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 539,
+   "ratio": "16:9",
+   "author": {
+    "name": "NickSpisak_",
+    "url": "https://x.com/NickSpisak_"
+   },
+   "sourceUrl": "https://x.com/NickSpisak_/status/2103511092043628807",
+   "needsReference": false,
+   "preview": "",
+   "complete": true,
+   "prompt": null,
+   "text": {
+    "en": {
+     "title": "A full YouTube video edited through DaVinci Resolve",
+     "summary": "Claude as the editor, Resolve driven over MCP, HyperFrames for B-roll.",
+     "tags": [
+      "DaVinci Resolve",
+      "MCP"
+     ],
+     "note": "The creator used raw clips from a recorder, DaVinci Resolve controlled over MCP, HyperFrames for B-roll and animation, and Claude Opus 5.5 as the editor. The result is a 9-minute 4K video; the prompt is in the linked video and article. Starter line to adapt: \"Edit these raw clips into a 9-minute video in Resolve, cut the pauses, add B-roll cards and captions.\""
+    },
+    "zh": {
+     "title": "整支 YouTube 视频交给它剪",
+     "summary": "Claude 当剪辑师，Resolve 经 MCP 驱动，HyperFrames 做转场素材。",
+     "tags": [
+      "DaVinci Resolve",
+      "MCP"
+     ],
+     "note": "创作者用录制软件的原始素材、经 MCP 控制的 DaVinci Resolve、做 B-roll 的 HyperFrames，再让 Claude Opus 5.5 当剪辑师。成片 9 分钟、4K；提示词在帖中的视频与文章里。可改写的起手句：「在 Resolve 里把这些原始素材剪成 9 分钟视频，剪掉停顿，加 B-roll 卡片和字幕。」"
+    },
+    "zh-TW": {
+     "title": "整支 YouTube 影片交給它剪",
+     "summary": "Claude 當剪輯師，Resolve 經 MCP 驅動，HyperFrames 做 B-roll。",
+     "tags": [
+      "DaVinci Resolve",
+      "MCP"
+     ],
+     "note": "創作者用錄製工具的原始素材、經 MCP 控制的 DaVinci Resolve、負責 B-roll 的 HyperFrames，再由 Claude Opus 5.5 擔任剪輯師。成品 9 分鐘、4K；提示詞在貼文的影片與文章裡。可改寫的起手句：「在 Resolve 裡把這些原始素材剪成 9 分鐘影片，剪掉停頓，加 B-roll 卡片與字幕。」"
+    },
+    "ko": {
+     "title": "유튜브 영상 한 편을 통째로 편집",
+     "summary": "Claude가 편집자, Resolve는 MCP로 조작, B-roll은 HyperFrames.",
+     "tags": [
+      "DaVinci Resolve",
+      "MCP"
+     ],
+     "note": "작성자는 녹화 도구의 원본 클립, MCP로 제어한 DaVinci Resolve, B-roll과 애니메이션용 HyperFrames, 편집자 역할의 Claude Opus 5.5를 조합했습니다. 결과는 9분, 4K 영상이고 프롬프트는 게시물의 영상과 글에 있습니다. 바꿔 쓸 시작 문장: \"Resolve에서 이 원본 클립을 9분 영상으로 편집해 줘. 공백은 자르고 B-roll 카드와 자막을 넣어.\""
+    }
+   }
+  },
+  {
+   "id": "video-editing-04",
+   "category": "video-editing",
+   "kind": "method",
+   "media": {
+    "type": "video",
+    "files": [
+     "video-editing-04.mp4"
+    ],
+    "poster": "video-editing-04.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 15,
+   "ratio": "16:9",
+   "author": {
+    "name": "Gorden_Sun",
+    "url": "https://x.com/Gorden_Sun"
+   },
+   "sourceUrl": "https://x.com/Gorden_Sun/status/2104009748874141941",
+   "needsReference": false,
+   "preview": "",
+   "complete": true,
+   "prompt": null,
+   "text": {
+    "en": {
+     "title": "Grok-generated dance clip recut by Opus 5.5",
+     "summary": "The raw generated clip is shown next to the edited version.",
+     "tags": [
+      "Editing",
+      "One-liner"
+     ],
+     "note": "The author posted a raw video generated by a video model next to the version recut and packaged by Opus 5.5 and wrote that the editing app may now be threatened. Both clips are about 15 seconds. Starter line to adapt: \"Recut this clip with beat-matched cuts, captions and a title card, and keep the original audio.\""
+    },
+    "zh": {
+     "title": "Opus 5.5 重剪 Grok 生成的舞蹈片",
+     "summary": "原始生成片与重剪版并排对比。",
+     "tags": [
+      "剪辑",
+      "一句话"
+     ],
+     "note": "作者把视频模型生成的原片和 Opus 5.5 重剪包装后的版本放在一起，并感叹剪辑软件可能被取代。两段都约 15 秒。可改写的起手句：「重剪这段视频：按节拍卡点，加字幕和标题卡，保留原声。」"
+    },
+    "zh-TW": {
+     "title": "Opus 5.5 重剪 Grok 生成的舞蹈片",
+     "summary": "原始生成片與重剪版並排對照。",
+     "tags": [
+      "剪輯",
+      "一句話"
+     ],
+     "note": "作者把影片模型生成的原片，與 Opus 5.5 重剪包裝後的版本放在一起，並感嘆剪輯軟體可能被取代。兩段都約 15 秒。可改寫的起手句：「重剪這段影片：依節拍卡點，加字幕與標題卡，保留原聲。」"
+    },
+    "ko": {
+     "title": "Opus 5.5가 다시 편집한 Grok 댄스 영상",
+     "summary": "생성 원본과 재편집본을 나란히 보여 줍니다.",
+     "tags": [
+      "편집",
+      "한 줄 프롬프트"
+     ],
+     "note": "작성자는 영상 모델이 만든 원본과 Opus 5.5가 다시 편집해 패키징한 버전을 나란히 올리며 편집 앱이 위협받을 수 있다고 적었습니다. 두 영상 모두 약 15초입니다. 바꿔 쓸 시작 문장: \"이 클립을 비트에 맞춘 컷, 자막, 타이틀 카드로 다시 편집하고 원래 소리는 그대로 둬 줘.\""
+    }
+   }
+  },
+  {
+   "id": "video-editing-05",
+   "category": "video-editing",
+   "kind": "method",
+   "media": {
+    "type": "video",
+    "files": [
+     "video-editing-05.mp4"
+    ],
+    "poster": "video-editing-05.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 30,
+   "ratio": "16:9",
+   "author": {
+    "name": "rehan_shei",
+    "url": "https://x.com/rehan_shei"
+   },
+   "sourceUrl": "https://x.com/rehan_shei/status/2103755997533839416",
+   "needsReference": false,
+   "preview": "",
+   "complete": true,
+   "prompt": null,
+   "text": {
+    "en": {
+     "title": "Opus played its own game and cut the best moments",
+     "summary": "A Unity game, a playthrough and a 30-second demo reel, all by the model.",
+     "tags": [
+      "Game",
+      "Editing"
+     ],
+     "note": "The author built a game with a Unity command-line setup and Opus 5.5, then had the model play it with several characters and splice the best moments into a demo video. The game is playable in the browser, and the clip is about 30 seconds at 1920x1080. Starter line to adapt: \"Play this game with each character, record it, and cut a 30-second demo reel of the best moments.\""
+    },
+    "zh": {
+     "title": "Opus 自己玩游戏并剪出精彩集锦",
+     "summary": "Unity 游戏、通关录像和 30 秒集锦，全由模型完成。",
+     "tags": [
+      "游戏",
+      "剪辑"
+     ],
+     "note": "作者用 Unity 命令行加 Opus 5.5 做了一款游戏，又让模型用多个角色玩一遍，把精彩片段拼成演示视频。游戏可在浏览器试玩，片长约 30 秒、1920x1080。可改写的起手句：「用每个角色玩一遍这个游戏并录屏，剪出一支 30 秒的精彩集锦。」"
+    },
+    "zh-TW": {
+     "title": "Opus 自己玩遊戲並剪出精華集錦",
+     "summary": "Unity 遊戲、通關錄影與 30 秒集錦，全由模型完成。",
+     "tags": [
+      "遊戲",
+      "剪輯"
+     ],
+     "note": "作者用 Unity 命令列加 Opus 5.5 做了一款遊戲，又讓模型用多個角色玩過一遍，把精彩片段拼成展示影片。遊戲可在瀏覽器試玩，片長約 30 秒、1920x1080。可改寫的起手句：「用每個角色玩過這款遊戲並錄影，剪出一支 30 秒的精華集錦。」"
+    },
+    "ko": {
+     "title": "Opus가 직접 게임을 하고 하이라이트를 편집",
+     "summary": "Unity 게임, 플레이 영상, 30초 데모 릴을 모델이 모두 처리했습니다.",
+     "tags": [
+      "게임",
+      "편집"
+     ],
+     "note": "작성자는 Unity 명령줄과 Opus 5.5로 게임을 만든 다음, 모델이 여러 캐릭터로 플레이하며 가장 좋은 장면을 이어 붙여 데모 영상을 만들게 했습니다. 게임은 브라우저에서 해 볼 수 있고 영상은 약 30초, 1920x1080입니다. 바꿔 쓸 시작 문장: \"캐릭터마다 이 게임을 플레이하고 녹화해, 가장 좋은 장면으로 30초 데모 릴을 편집해 줘.\""
+    }
+   }
+  },
+  {
+   "id": "video-editing-06",
+   "category": "video-editing",
+   "kind": "method",
+   "media": {
+    "type": "video",
+    "files": [
+     "video-editing-06.mp4"
+    ],
+    "poster": "video-editing-06.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 26,
+   "ratio": "16:9",
+   "author": {
+    "name": "nybobs",
+    "url": "https://x.com/nybobs"
+   },
+   "sourceUrl": "https://x.com/nybobs/status/2103385835328680050",
+   "needsReference": false,
+   "preview": "",
+   "complete": true,
+   "prompt": null,
+   "text": {
+    "en": {
+     "title": "Demo reel for a 110K-body WebGPU physics solver",
+     "summary": "The model built the solver and put the demo reel together from one prompt.",
+     "tags": [
+      "Physics",
+      "Three.js"
+     ],
+     "note": "The author implemented a published physics solver in WebGPU with Three.js using Opus 5.5, and says the model also assembled this 26-second demo reel from a single prompt in Claude Code. The code is public under the MIT licence. Starter line to adapt: \"Make a 25-second demo reel of this project: camera moves, a title card and captions.\""
+    },
+    "zh": {
+     "title": "11 万刚体 WebGPU 物理求解器的演示片",
+     "summary": "求解器和演示片都由模型从一条提示词做出。",
+     "tags": [
+      "物理模拟",
+      "Three.js"
+     ],
+     "note": "作者用 Opus 5.5 在 WebGPU 和 Three.js 里实现了一篇已发表的物理求解器，并称模型在 Claude Code 里也是从一条提示词拼出了这支 26 秒演示片。代码以 MIT 协议公开。可改写的起手句：「为这个项目做一支 25 秒的演示片：镜头运动、标题卡和字幕。」"
+    },
+    "zh-TW": {
+     "title": "11 萬剛體 WebGPU 物理求解器展示片",
+     "summary": "求解器與展示片都由模型從一則提示詞做出。",
+     "tags": [
+      "物理模擬",
+      "Three.js"
+     ],
+     "note": "作者用 Opus 5.5 在 WebGPU 與 Three.js 中實作了一篇已發表的物理求解器，並表示模型在 Claude Code 裡同樣由一則提示詞拼出這支 26 秒展示片。程式碼以 MIT 授權公開。可改寫的起手句：「為這個專案做一支 25 秒的展示片：鏡頭運動、標題卡與字幕。」"
+    },
+    "ko": {
+     "title": "강체 11만 개 WebGPU 물리 솔버 데모 릴",
+     "summary": "솔버도 데모 릴도 모델이 프롬프트 하나로 만들었습니다.",
+     "tags": [
+      "물리 시뮬레이션",
+      "Three.js"
+     ],
+     "note": "작성자는 Opus 5.5로 발표된 물리 솔버를 WebGPU와 Three.js로 구현했고, 모델이 Claude Code에서 프롬프트 하나로 이 26초 데모 릴까지 조립했다고 합니다. 코드는 MIT 라이선스로 공개되어 있습니다. 바꿔 쓸 시작 문장: \"이 프로젝트의 25초 데모 릴을 만들어 줘. 카메라 움직임, 타이틀 카드, 자막 포함.\""
+    }
+   }
+  }
+ ]
+}
